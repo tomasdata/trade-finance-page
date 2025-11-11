@@ -3,7 +3,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Cell, ReferenceLine } from 'recharts'
 import { TrendingDown } from "lucide-react"
-import eximSMB from '@/data/global/exim_small_business_share.json'
+import eximSMB from '@/public/data/global/exim_small_business_share.json'
 
 const COLORS: Record<string, string> = {
   'Mexico': '#16a34a',

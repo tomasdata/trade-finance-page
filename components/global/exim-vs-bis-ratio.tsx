@@ -3,10 +3,10 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Progress } from "@/components/ui/progress"
 import { Info } from "lucide-react"
-import eximSummary from '@/data/global/exim_latam_summary.json'
-import bisConc from '@/data/global/bis_concentration_latest.json'
+import eximSummary from '@/public/data/global/exim_latam_summary.json'
+import bisConc from '@/public/data/global/bis_concentration_latest.json'
 
-export function EXIMvsBISRatio() {
+export function EximVsBisRatio() {
   const ratios = eximSummary.data.map((exim: any) => {
     const bisCountry = bisConc.data.find((b: any) => b.country === exim.country_group)
     const ratio = (exim.disbursed_usd_billion / bisCountry.total_usd_billions) * 100

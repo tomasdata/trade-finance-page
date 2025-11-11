@@ -3,7 +3,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ResponsiveContainer, LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ReferenceArea } from 'recharts'
 import { AlertCircle } from "lucide-react"
-import bisData from '@/data/global/bis_exposure_total_by_quarter.json'
+import bisData from '@/public/data/global/bis_exposure_total_by_quarter.json'
 
 const CRISIS_BANDS = [
   { start: '1982-Q2', end: '1983-Q4', name: 'Debt Crisis', color: '#fecaca' },

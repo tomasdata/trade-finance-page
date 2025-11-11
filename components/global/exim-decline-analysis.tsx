@@ -3,7 +3,7 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ResponsiveContainer, ComposedChart, Line, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend } from 'recharts'
 import { AlertTriangle } from "lucide-react"
-import eximAuth from '@/data/global/exim_authorizations_by_country.json'
+import eximAuth from '@/public/data/global/exim_authorizations_by_country.json'
 
 export function EXIMDeclineAnalysis() {
   const brazilData = eximAuth.data

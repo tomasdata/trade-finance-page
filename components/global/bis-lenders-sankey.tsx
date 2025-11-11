@@ -2,7 +2,7 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Cell } from 'recharts'
-import bisLenders from '@/data/global/bis_exposure_by_reporting_country_latest.json'
+import bisLenders from '@/public/data/global/bis_exposure_by_reporting_country_latest.json'
 
 const COUNTRY_COLORS: Record<string, string> = {
   'Brazil': '#16a34a',
