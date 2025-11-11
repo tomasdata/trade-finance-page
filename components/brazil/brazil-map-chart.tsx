@@ -1,25 +1,32 @@
 "use client"
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { MapPin } from "lucide-react"
-import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
 import stateData from "@/data/brazil/03_tf_by_state_data.json"
 import coordinatesData from "@/data/brazil/10_states_coordinates.json"
 
 export function BrazilMapChart() {
   const mapContainer = useRef<HTMLDivElement>(null)
-  const mapInstance = useRef<L.Map | null>(null)
+  const mapInstance = useRef<any>(null)
+  const [isClient, setIsClient] = useState(false)
 
   useEffect(() => {
-    if (!mapContainer.current || mapInstance.current) return
+    setIsClient(true)
+  }, [])
 
-    try {
-      // Crear mapa
-      const map = L.map(mapContainer.current).setView([-14.2350, -51.9253], 4)
+  useEffect(() => {
+    if (!isClient || !mapContainer.current || mapInstance.current) return
+
+    // Importar Leaflet solo en el cliente
+    import('leaflet').then((L) => {
+      import('leaflet/dist/leaflet.css')
       
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      try {
+        // Crear mapa
+        const map = L.default.map(mapContainer.current!).setView([-14.2350, -51.9253], 4)
+      
+      L.default.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '© OpenStreetMap contributors',
         maxZoom: 19,
       }).addTo(map)
@@ -50,7 +57,7 @@ export function BrazilMapChart() {
         const radius = Math.sqrt(state_info.records) * 30
 
         // Crear círculo
-        const circle = L.circle([state.lat, state.lng], {
+        const circle = L.default.circle([state.lat, state.lng], {
           radius: radius,
           color: color,
           weight: 2,
@@ -76,8 +83,8 @@ export function BrazilMapChart() {
         circle.addTo(map)
 
         // Agregar etiqueta de estado
-        L.marker([state.lat, state.lng], {
-          icon: L.divIcon({
+        L.default.marker([state.lat, state.lng], {
+          icon: L.default.divIcon({
             className: 'leaflet-state-label',
             html: `<div style="
               background: rgba(255, 255, 255, 0.95);
@@ -98,9 +105,10 @@ export function BrazilMapChart() {
       })
 
       mapInstance.current = map
-    } catch (error) {
-      console.error('Error inicializando mapa:', error)
-    }
+      } catch (error) {
+        console.error('Error inicializando mapa:', error)
+      }
+    })
 
     return () => {
       if (mapInstance.current) {
@@ -108,7 +116,7 @@ export function BrazilMapChart() {
         mapInstance.current = null
       }
     }
-  }, [])
+  }, [isClient])
 
   return (
     <Card>

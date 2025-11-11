@@ -11,7 +11,7 @@ import { Separator } from "@/components/ui/separator"
 import { BISCrisisTimeline } from "@/components/global/bis-crisis-timeline"
 import { BISLendersSankey } from "@/components/global/bis-lenders-sankey"
 import { EXIMDeclineAnalysis } from "@/components/global/exim-decline-analysis"
-import { EXIMvsBISRatio } from "@/components/global/exim-vs-bis-ratio"
+import { EximVsBisRatio } from "@/components/global/exim-vs-bis-ratio"
 import { EXIMPymeAccess } from "@/components/global/exim-pyme-access"
 
 export default function DatosPage() {
@@ -164,7 +164,7 @@ export default function DatosPage() {
                 </p>
               </div>
 
-              <EXIMvsBISRatio />
+              <EximVsBisRatio />
 
               <Card className="bg-gradient-to-br from-blue-50/50 to-indigo-50/50 dark:from-blue-950/10 dark:to-indigo-950/10 border-blue-200 dark:border-blue-900">
                 <CardHeader>
