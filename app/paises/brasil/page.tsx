@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { useRouter } from "next/navigation"
 import dynamic from "next/dynamic"
 import { ArrowLeft, Database, TrendingUp, Building2, MapPin, Calendar, Download, BarChart3, Shield } from "lucide-react"
@@ -12,18 +12,34 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
 
 // Dynamic imports with SSR disabled for all chart components
-const FirmSizeChart = dynamic(() => import("@/components/brazil/firm-size-chart").then(mod => ({ default: mod.FirmSizeChart })), { ssr: false })
-const TemporalEvolutionChart = dynamic(() => import("@/components/brazil/temporal-evolution-chart").then(mod => ({ default: mod.TemporalEvolutionChart })), { ssr: false })
-const SectorChart = dynamic(() => import("@/components/brazil/sector-chart").then(mod => ({ default: mod.SectorChart })), { ssr: false })
-const BrazilMapChart = dynamic(() => import("@/components/brazil/brazil-map-chart").then(mod => ({ default: mod.BrazilMapChart })), { ssr: false })
-const MaturityStructureChart = dynamic(() => import("@/components/brazil/maturity-structure-chart").then(mod => ({ default: mod.MaturityStructureChart })), { ssr: false })
-const NPLAnalysisChart = dynamic(() => import("@/components/brazil/npl-analysis-chart").then(mod => ({ default: mod.NPLAnalysisChart })), { ssr: false })
-const IndexerDistributionChart = dynamic(() => import("@/components/brazil/indexer-distribution-chart").then(mod => ({ default: mod.IndexerDistributionChart })), { ssr: false })
-const CurrencyDistributionChart = dynamic(() => import("@/components/brazil/currency-distribution-chart").then(mod => ({ default: mod.CurrencyDistributionChart })), { ssr: false })
+const FirmSizeChart = dynamic(() => import("@/components/brazil/firm-size-chart").then(mod => ({ default: mod.FirmSizeChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const TemporalEvolutionChart = dynamic(() => import("@/components/brazil/temporal-evolution-chart").then(mod => ({ default: mod.TemporalEvolutionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const SectorChart = dynamic(() => import("@/components/brazil/sector-chart").then(mod => ({ default: mod.SectorChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const BrazilMapChart = dynamic(() => import("@/components/brazil/brazil-map-chart").then(mod => ({ default: mod.BrazilMapChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const MaturityStructureChart = dynamic(() => import("@/components/brazil/maturity-structure-chart").then(mod => ({ default: mod.MaturityStructureChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const NPLAnalysisChart = dynamic(() => import("@/components/brazil/npl-analysis-chart").then(mod => ({ default: mod.NPLAnalysisChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const IndexerDistributionChart = dynamic(() => import("@/components/brazil/indexer-distribution-chart").then(mod => ({ default: mod.IndexerDistributionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const CurrencyDistributionChart = dynamic(() => import("@/components/brazil/currency-distribution-chart").then(mod => ({ default: mod.CurrencyDistributionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 
 export default function BrasilPage() {
   const [activeTab, setActiveTab] = useState("overview")
+  const [mounted, setMounted] = useState(false)
   const router = useRouter()
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return (
+      <div className="min-h-screen">
+        <Navbar />
+        <div className="container mx-auto py-20 text-center">
+          <p className="text-muted-foreground">Cargando...</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="min-h-screen">

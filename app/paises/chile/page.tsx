@@ -1,6 +1,6 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import dynamic from "next/dynamic"
 import { ArrowLeft, Database, TrendingUp, Building2, Calendar, Download, BarChart3 } from "lucide-react"
 import { Navbar } from "@/components/navbar"
@@ -11,12 +11,28 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
 
 // Dynamic imports with SSR disabled
-const BankConcentrationChart = dynamic(() => import("@/components/chile/bank-concentration-chart").then(mod => ({ default: mod.BankConcentrationChart })), { ssr: false })
-const CurrencyCompositionChart = dynamic(() => import("@/components/chile/currency-composition-chart").then(mod => ({ default: mod.CurrencyCompositionChart })), { ssr: false })
-const AnnualEvolutionChart = dynamic(() => import("@/components/chile/annual-evolution-chart").then(mod => ({ default: mod.AnnualEvolutionChart })), { ssr: false })
+const BankConcentrationChart = dynamic(() => import("@/components/chile/bank-concentration-chart").then(mod => ({ default: mod.BankConcentrationChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const CurrencyCompositionChart = dynamic(() => import("@/components/chile/currency-composition-chart").then(mod => ({ default: mod.CurrencyCompositionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const AnnualEvolutionChart = dynamic(() => import("@/components/chile/annual-evolution-chart").then(mod => ({ default: mod.AnnualEvolutionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 
 export default function ChilePage() {
   const [activeTab, setActiveTab] = useState("overview")
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return (
+      <div className="min-h-screen">
+        <Navbar />
+        <div className="container mx-auto py-20 text-center">
+          <p className="text-muted-foreground">Cargando...</p>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="min-h-screen">
