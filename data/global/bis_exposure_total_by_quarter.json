@@ -1,0 +1,2684 @@
+{
+  "metadata": {
+    "source": "Bank for International Settlements (BIS)",
+    "source_url": "https://www.bis.org/statistics/consstats.htm",
+    "dataset": "bis_exposure_total_by_quarter",
+    "description": "Serie histórica de exposición bancaria internacional total por país",
+    "unit": "USD billions",
+    "frequency": "Quarterly",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "1983-Q4 to 2024-Q4",
+    "methodology": "Consolidated Banking Statistics (CBS)",
+    "interpretation": "Incluye Trade Finance + préstamos corporativos + exposición soberana + interbancario",
+    "generated_at": "2025-11-11T09:41:02.845448",
+    "total_records": 532,
+    "limitations": [
+      "CBS consolida subsidiarias (puede sobre-estimar exposición real)",
+      "NO desglosa Trade Finance específico vs. otros créditos",
+      "Gaps temporales: ~36 trimestres faltantes en serie 1983-2024",
+      "Reporting lag: datos Q4-2024 publicados en Q1-2025"
+    ]
+  },
+  "data": [
+    {
+      "country": "Brazil",
+      "quarter": "1983-Q4",
+      "total_usd_billions": 860.126
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1984-Q2",
+      "total_usd_billions": 911.765
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1984-Q4",
+      "total_usd_billions": 1025.346
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1985-Q2",
+      "total_usd_billions": 1275.168
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1985-Q4",
+      "total_usd_billions": 1301.425
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1986-Q2",
+      "total_usd_billions": 1337.126
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1986-Q4",
+      "total_usd_billions": 1393.6
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1987-Q2",
+      "total_usd_billions": 1390.339
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1987-Q4",
+      "total_usd_billions": 1404.963
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1988-Q2",
+      "total_usd_billions": 1332.371
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1988-Q4",
+      "total_usd_billions": 1294.315
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1989-Q2",
+      "total_usd_billions": 1314.131
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1989-Q4",
+      "total_usd_billions": 1247.613
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1990-Q2",
+      "total_usd_billions": 1160.149
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1990-Q4",
+      "total_usd_billions": 1135.041
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1991-Q2",
+      "total_usd_billions": 998.005
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1991-Q4",
+      "total_usd_billions": 1008.522
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1992-Q2",
+      "total_usd_billions": 1018.881
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1992-Q4",
+      "total_usd_billions": 1027.711
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1993-Q2",
+      "total_usd_billions": 1086.152
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1993-Q4",
+      "total_usd_billions": 1144.688
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1994-Q2",
+      "total_usd_billions": 1175.985
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1994-Q4",
+      "total_usd_billions": 1086.905
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1995-Q2",
+      "total_usd_billions": 1144.176
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1995-Q4",
+      "total_usd_billions": 1362.291
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1996-Q2",
+      "total_usd_billions": 1500.922
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1996-Q4",
+      "total_usd_billions": 1731.034
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1997-Q2",
+      "total_usd_billions": 1954.655
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1997-Q4",
+      "total_usd_billions": 2164.87
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1998-Q2",
+      "total_usd_billions": 2449.472
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1998-Q4",
+      "total_usd_billions": 2211.979
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1999-Q2",
+      "total_usd_billions": 1957.265
+    },
+    {
+      "country": "Brazil",
+      "quarter": "1999-Q4",
+      "total_usd_billions": 2014.835
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2000-Q1",
+      "total_usd_billions": 2079.731
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2000-Q2",
+      "total_usd_billions": 2175.552
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2000-Q3",
+      "total_usd_billions": 2087.191
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2000-Q4",
+      "total_usd_billions": 2378.768
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2001-Q1",
+      "total_usd_billions": 2329.995
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2001-Q2",
+      "total_usd_billions": 2390.598
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2001-Q3",
+      "total_usd_billions": 2373.369
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2001-Q4",
+      "total_usd_billions": 2357.1
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2002-Q1",
+      "total_usd_billions": 2222.199
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2002-Q2",
+      "total_usd_billions": 2059.665
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2002-Q3",
+      "total_usd_billions": 1760.567
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2002-Q4",
+      "total_usd_billions": 1747.298
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2003-Q1",
+      "total_usd_billions": 1651.066
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2003-Q2",
+      "total_usd_billions": 1702.897
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2003-Q3",
+      "total_usd_billions": 1749.887
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2003-Q4",
+      "total_usd_billions": 1798.498
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2004-Q1",
+      "total_usd_billions": 1814.489
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2004-Q2",
+      "total_usd_billions": 1818.891
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2004-Q3",
+      "total_usd_billions": 1898.95
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2004-Q4",
+      "total_usd_billions": 1999.743
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2005-Q1",
+      "total_usd_billions": 3032.554
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2005-Q2",
+      "total_usd_billions": 3787.964
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2005-Q3",
+      "total_usd_billions": 4150.532
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2005-Q4",
+      "total_usd_billions": 4076.551
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2006-Q1",
+      "total_usd_billions": 4653.115
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2006-Q2",
+      "total_usd_billions": 4666.858
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2006-Q3",
+      "total_usd_billions": 4687.899
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2006-Q4",
+      "total_usd_billions": 5601.235000000001
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2007-Q1",
+      "total_usd_billions": 5950.968
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2007-Q2",
+      "total_usd_billions": 6711.566
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2007-Q3",
+      "total_usd_billions": 7263.864
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2007-Q4",
+      "total_usd_billions": 8046.755999999999
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2008-Q1",
+      "total_usd_billions": 8627.573
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2008-Q2",
+      "total_usd_billions": 10005.82
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2008-Q3",
+      "total_usd_billions": 9793.925
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2008-Q4",
+      "total_usd_billions": 7777.741
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2009-Q1",
+      "total_usd_billions": 8413.297
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2009-Q2",
+      "total_usd_billions": 9503.474
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2009-Q3",
+      "total_usd_billions": 10728.335
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2009-Q4",
+      "total_usd_billions": 11133.727
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2010-Q1",
+      "total_usd_billions": 11608.747
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2010-Q2",
+      "total_usd_billions": 12167.234
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2010-Q3",
+      "total_usd_billions": 13703.346
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2010-Q4",
+      "total_usd_billions": 14622.43
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2011-Q1",
+      "total_usd_billions": 15170.85
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2011-Q2",
+      "total_usd_billions": 16528.8
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2011-Q3",
+      "total_usd_billions": 14945.651
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2011-Q4",
+      "total_usd_billions": 15103.745
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2012-Q1",
+      "total_usd_billions": 15197.509
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2012-Q2",
+      "total_usd_billions": 14237.180405
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2012-Q3",
+      "total_usd_billions": 14510.307813
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2012-Q4",
+      "total_usd_billions": 14826.530278
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2013-Q1",
+      "total_usd_billions": 15570.798552
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2013-Q2",
+      "total_usd_billions": 13889.976297
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2013-Q3",
+      "total_usd_billions": 13909.859569
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2013-Q4",
+      "total_usd_billions": 13904.217462
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2014-Q1",
+      "total_usd_billions": 14736.03331
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2014-Q2",
+      "total_usd_billions": 14933.886231
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2014-Q3",
+      "total_usd_billions": 14237.741816
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2014-Q4",
+      "total_usd_billions": 14304.603283
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2015-Q1",
+      "total_usd_billions": 13350.511306
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2015-Q2",
+      "total_usd_billions": 13566.545634
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2015-Q3",
+      "total_usd_billions": 12084.839091
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2015-Q4",
+      "total_usd_billions": 11487.154932
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2016-Q1",
+      "total_usd_billions": 12523.356128
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2016-Q2",
+      "total_usd_billions": 13167.746182
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2016-Q3",
+      "total_usd_billions": 12028.980889
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2016-Q4",
+      "total_usd_billions": 11842.649306
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2017-Q1",
+      "total_usd_billions": 12331.281508
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2017-Q2",
+      "total_usd_billions": 11694.25177
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2017-Q3",
+      "total_usd_billions": 12271.563893
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2017-Q4",
+      "total_usd_billions": 11623.584355
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2018-Q1",
+      "total_usd_billions": 12670.989419
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2018-Q2",
+      "total_usd_billions": 11115.857986
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2018-Q3",
+      "total_usd_billions": 11129.866559
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2018-Q4",
+      "total_usd_billions": 11626.669464
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2019-Q1",
+      "total_usd_billions": 12167.084837
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2019-Q2",
+      "total_usd_billions": 12597.825144
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2019-Q3",
+      "total_usd_billions": 12296.232922
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2019-Q4",
+      "total_usd_billions": 12593.784158
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2020-Q1",
+      "total_usd_billions": 11088.937966
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2020-Q2",
+      "total_usd_billions": 10752.45613
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2020-Q3",
+      "total_usd_billions": 10801.542916
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2020-Q4",
+      "total_usd_billions": 11802.812199
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2021-Q1",
+      "total_usd_billions": 11364.990056
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2021-Q2",
+      "total_usd_billions": 12140.236771
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2021-Q3",
+      "total_usd_billions": 11624.146732
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2021-Q4",
+      "total_usd_billions": 11970.537611
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2022-Q1",
+      "total_usd_billions": 27095.381257
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2022-Q2",
+      "total_usd_billions": 20494.347565
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2022-Q3",
+      "total_usd_billions": 21395.034016
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2022-Q4",
+      "total_usd_billions": 22000.900192
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2023-Q1",
+      "total_usd_billions": 23326.567341
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2023-Q2",
+      "total_usd_billions": 24950.792631
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2023-Q3",
+      "total_usd_billions": 24303.87286
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2023-Q4",
+      "total_usd_billions": 25710.34066
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2024-Q1",
+      "total_usd_billions": 25721.883841
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2024-Q2",
+      "total_usd_billions": 24528.913829
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2024-Q3",
+      "total_usd_billions": 25723.626244
+    },
+    {
+      "country": "Brazil",
+      "quarter": "2024-Q4",
+      "total_usd_billions": 23079.355588
+    },
+    {
+      "country": "Chile",
+      "quarter": "1983-Q4",
+      "total_usd_billions": 184.738
+    },
+    {
+      "country": "Chile",
+      "quarter": "1984-Q2",
+      "total_usd_billions": 195.771
+    },
+    {
+      "country": "Chile",
+      "quarter": "1984-Q4",
+      "total_usd_billions": 209.744
+    },
+    {
+      "country": "Chile",
+      "quarter": "1985-Q2",
+      "total_usd_billions": 258.752
+    },
+    {
+      "country": "Chile",
+      "quarter": "1985-Q4",
+      "total_usd_billions": 310.078
+    },
+    {
+      "country": "Chile",
+      "quarter": "1986-Q2",
+      "total_usd_billions": 301.611
+    },
+    {
+      "country": "Chile",
+      "quarter": "1986-Q4",
+      "total_usd_billions": 302.167
+    },
+    {
+      "country": "Chile",
+      "quarter": "1987-Q2",
+      "total_usd_billions": 295.57
+    },
+    {
+      "country": "Chile",
+      "quarter": "1987-Q4",
+      "total_usd_billions": 285.534
+    },
+    {
+      "country": "Chile",
+      "quarter": "1988-Q2",
+      "total_usd_billions": 267.984
+    },
+    {
+      "country": "Chile",
+      "quarter": "1988-Q4",
+      "total_usd_billions": 254.341
+    },
+    {
+      "country": "Chile",
+      "quarter": "1989-Q2",
+      "total_usd_billions": 240.916
+    },
+    {
+      "country": "Chile",
+      "quarter": "1989-Q4",
+      "total_usd_billions": 221.616
+    },
+    {
+      "country": "Chile",
+      "quarter": "1990-Q2",
+      "total_usd_billions": 211.26
+    },
+    {
+      "country": "Chile",
+      "quarter": "1990-Q4",
+      "total_usd_billions": 221.241
+    },
+    {
+      "country": "Chile",
+      "quarter": "1991-Q2",
+      "total_usd_billions": 214.179
+    },
+    {
+      "country": "Chile",
+      "quarter": "1991-Q4",
+      "total_usd_billions": 217.817
+    },
+    {
+      "country": "Chile",
+      "quarter": "1992-Q2",
+      "total_usd_billions": 237.038
+    },
+    {
+      "country": "Chile",
+      "quarter": "1992-Q4",
+      "total_usd_billions": 261.941
+    },
+    {
+      "country": "Chile",
+      "quarter": "1993-Q2",
+      "total_usd_billions": 270.132
+    },
+    {
+      "country": "Chile",
+      "quarter": "1993-Q4",
+      "total_usd_billions": 267.099
+    },
+    {
+      "country": "Chile",
+      "quarter": "1994-Q2",
+      "total_usd_billions": 284.574
+    },
+    {
+      "country": "Chile",
+      "quarter": "1994-Q4",
+      "total_usd_billions": 344.846
+    },
+    {
+      "country": "Chile",
+      "quarter": "1995-Q2",
+      "total_usd_billions": 354.548
+    },
+    {
+      "country": "Chile",
+      "quarter": "1995-Q4",
+      "total_usd_billions": 387.128
+    },
+    {
+      "country": "Chile",
+      "quarter": "1996-Q2",
+      "total_usd_billions": 393.877
+    },
+    {
+      "country": "Chile",
+      "quarter": "1996-Q4",
+      "total_usd_billions": 479.325
+    },
+    {
+      "country": "Chile",
+      "quarter": "1997-Q2",
+      "total_usd_billions": 516.731
+    },
+    {
+      "country": "Chile",
+      "quarter": "1997-Q4",
+      "total_usd_billions": 600.117
+    },
+    {
+      "country": "Chile",
+      "quarter": "1998-Q2",
+      "total_usd_billions": 619.928
+    },
+    {
+      "country": "Chile",
+      "quarter": "1998-Q4",
+      "total_usd_billions": 705.212
+    },
+    {
+      "country": "Chile",
+      "quarter": "1999-Q2",
+      "total_usd_billions": 827.8000000000001
+    },
+    {
+      "country": "Chile",
+      "quarter": "1999-Q4",
+      "total_usd_billions": 796.92
+    },
+    {
+      "country": "Chile",
+      "quarter": "2000-Q1",
+      "total_usd_billions": 859.764
+    },
+    {
+      "country": "Chile",
+      "quarter": "2000-Q2",
+      "total_usd_billions": 829.3149999999999
+    },
+    {
+      "country": "Chile",
+      "quarter": "2000-Q3",
+      "total_usd_billions": 834.391
+    },
+    {
+      "country": "Chile",
+      "quarter": "2000-Q4",
+      "total_usd_billions": 897.057
+    },
+    {
+      "country": "Chile",
+      "quarter": "2001-Q1",
+      "total_usd_billions": 830.6370000000001
+    },
+    {
+      "country": "Chile",
+      "quarter": "2001-Q2",
+      "total_usd_billions": 810.545
+    },
+    {
+      "country": "Chile",
+      "quarter": "2001-Q3",
+      "total_usd_billions": 759.301
+    },
+    {
+      "country": "Chile",
+      "quarter": "2001-Q4",
+      "total_usd_billions": 781.598
+    },
+    {
+      "country": "Chile",
+      "quarter": "2002-Q1",
+      "total_usd_billions": 791.9010000000001
+    },
+    {
+      "country": "Chile",
+      "quarter": "2002-Q2",
+      "total_usd_billions": 767.521
+    },
+    {
+      "country": "Chile",
+      "quarter": "2002-Q3",
+      "total_usd_billions": 756.752
+    },
+    {
+      "country": "Chile",
+      "quarter": "2002-Q4",
+      "total_usd_billions": 775.592
+    },
+    {
+      "country": "Chile",
+      "quarter": "2003-Q1",
+      "total_usd_billions": 784.025
+    },
+    {
+      "country": "Chile",
+      "quarter": "2003-Q2",
+      "total_usd_billions": 772.331
+    },
+    {
+      "country": "Chile",
+      "quarter": "2003-Q3",
+      "total_usd_billions": 786.577
+    },
+    {
+      "country": "Chile",
+      "quarter": "2003-Q4",
+      "total_usd_billions": 848.1419999999999
+    },
+    {
+      "country": "Chile",
+      "quarter": "2004-Q1",
+      "total_usd_billions": 847.008
+    },
+    {
+      "country": "Chile",
+      "quarter": "2004-Q2",
+      "total_usd_billions": 807.627
+    },
+    {
+      "country": "Chile",
+      "quarter": "2004-Q3",
+      "total_usd_billions": 842.565
+    },
+    {
+      "country": "Chile",
+      "quarter": "2004-Q4",
+      "total_usd_billions": 908.522
+    },
+    {
+      "country": "Chile",
+      "quarter": "2005-Q1",
+      "total_usd_billions": 1105.518
+    },
+    {
+      "country": "Chile",
+      "quarter": "2005-Q2",
+      "total_usd_billions": 1496.735
+    },
+    {
+      "country": "Chile",
+      "quarter": "2005-Q3",
+      "total_usd_billions": 1502.006
+    },
+    {
+      "country": "Chile",
+      "quarter": "2005-Q4",
+      "total_usd_billions": 1566.926
+    },
+    {
+      "country": "Chile",
+      "quarter": "2006-Q1",
+      "total_usd_billions": 1603.688
+    },
+    {
+      "country": "Chile",
+      "quarter": "2006-Q2",
+      "total_usd_billions": 1750.061
+    },
+    {
+      "country": "Chile",
+      "quarter": "2006-Q3",
+      "total_usd_billions": 1710.581
+    },
+    {
+      "country": "Chile",
+      "quarter": "2006-Q4",
+      "total_usd_billions": 1799.6
+    },
+    {
+      "country": "Chile",
+      "quarter": "2007-Q1",
+      "total_usd_billions": 1749.608
+    },
+    {
+      "country": "Chile",
+      "quarter": "2007-Q2",
+      "total_usd_billions": 1878.777
+    },
+    {
+      "country": "Chile",
+      "quarter": "2007-Q3",
+      "total_usd_billions": 2043.043
+    },
+    {
+      "country": "Chile",
+      "quarter": "2007-Q4",
+      "total_usd_billions": 2262.971
+    },
+    {
+      "country": "Chile",
+      "quarter": "2008-Q1",
+      "total_usd_billions": 2693.34
+    },
+    {
+      "country": "Chile",
+      "quarter": "2008-Q2",
+      "total_usd_billions": 2555.808
+    },
+    {
+      "country": "Chile",
+      "quarter": "2008-Q3",
+      "total_usd_billions": 2597.673
+    },
+    {
+      "country": "Chile",
+      "quarter": "2008-Q4",
+      "total_usd_billions": 2363.506
+    },
+    {
+      "country": "Chile",
+      "quarter": "2009-Q1",
+      "total_usd_billions": 2506.368
+    },
+    {
+      "country": "Chile",
+      "quarter": "2009-Q2",
+      "total_usd_billions": 2624.819
+    },
+    {
+      "country": "Chile",
+      "quarter": "2009-Q3",
+      "total_usd_billions": 2635.448
+    },
+    {
+      "country": "Chile",
+      "quarter": "2009-Q4",
+      "total_usd_billions": 2821.76
+    },
+    {
+      "country": "Chile",
+      "quarter": "2010-Q1",
+      "total_usd_billions": 2926.303
+    },
+    {
+      "country": "Chile",
+      "quarter": "2010-Q2",
+      "total_usd_billions": 2884.208
+    },
+    {
+      "country": "Chile",
+      "quarter": "2010-Q3",
+      "total_usd_billions": 3246.423
+    },
+    {
+      "country": "Chile",
+      "quarter": "2010-Q4",
+      "total_usd_billions": 3194.072
+    },
+    {
+      "country": "Chile",
+      "quarter": "2011-Q1",
+      "total_usd_billions": 3329.3
+    },
+    {
+      "country": "Chile",
+      "quarter": "2011-Q2",
+      "total_usd_billions": 3544.582
+    },
+    {
+      "country": "Chile",
+      "quarter": "2011-Q3",
+      "total_usd_billions": 3361.341
+    },
+    {
+      "country": "Chile",
+      "quarter": "2011-Q4",
+      "total_usd_billions": 3469.374
+    },
+    {
+      "country": "Chile",
+      "quarter": "2012-Q1",
+      "total_usd_billions": 3663.85
+    },
+    {
+      "country": "Chile",
+      "quarter": "2012-Q2",
+      "total_usd_billions": 3683.324715
+    },
+    {
+      "country": "Chile",
+      "quarter": "2012-Q3",
+      "total_usd_billions": 3714.06827
+    },
+    {
+      "country": "Chile",
+      "quarter": "2012-Q4",
+      "total_usd_billions": 3768.441932
+    },
+    {
+      "country": "Chile",
+      "quarter": "2013-Q1",
+      "total_usd_billions": 3728.291544
+    },
+    {
+      "country": "Chile",
+      "quarter": "2013-Q2",
+      "total_usd_billions": 3606.86935
+    },
+    {
+      "country": "Chile",
+      "quarter": "2013-Q3",
+      "total_usd_billions": 3765.3429
+    },
+    {
+      "country": "Chile",
+      "quarter": "2013-Q4",
+      "total_usd_billions": 3748.916988
+    },
+    {
+      "country": "Chile",
+      "quarter": "2014-Q1",
+      "total_usd_billions": 6359.386746
+    },
+    {
+      "country": "Chile",
+      "quarter": "2014-Q2",
+      "total_usd_billions": 5436.6841
+    },
+    {
+      "country": "Chile",
+      "quarter": "2014-Q3",
+      "total_usd_billions": 5157.541109
+    },
+    {
+      "country": "Chile",
+      "quarter": "2014-Q4",
+      "total_usd_billions": 5050.828233
+    },
+    {
+      "country": "Chile",
+      "quarter": "2015-Q1",
+      "total_usd_billions": 4815.026763
+    },
+    {
+      "country": "Chile",
+      "quarter": "2015-Q2",
+      "total_usd_billions": 4871.106119
+    },
+    {
+      "country": "Chile",
+      "quarter": "2015-Q3",
+      "total_usd_billions": 4693.835607
+    },
+    {
+      "country": "Chile",
+      "quarter": "2015-Q4",
+      "total_usd_billions": 4745.100092
+    },
+    {
+      "country": "Chile",
+      "quarter": "2016-Q1",
+      "total_usd_billions": 4969.977744
+    },
+    {
+      "country": "Chile",
+      "quarter": "2016-Q2",
+      "total_usd_billions": 5160.09365
+    },
+    {
+      "country": "Chile",
+      "quarter": "2016-Q3",
+      "total_usd_billions": 5205.047584
+    },
+    {
+      "country": "Chile",
+      "quarter": "2016-Q4",
+      "total_usd_billions": 5237.650472
+    },
+    {
+      "country": "Chile",
+      "quarter": "2017-Q1",
+      "total_usd_billions": 6475.521354
+    },
+    {
+      "country": "Chile",
+      "quarter": "2017-Q2",
+      "total_usd_billions": 6192.874887
+    },
+    {
+      "country": "Chile",
+      "quarter": "2017-Q3",
+      "total_usd_billions": 6481.6423429999995
+    },
+    {
+      "country": "Chile",
+      "quarter": "2017-Q4",
+      "total_usd_billions": 6793.750962
+    },
+    {
+      "country": "Chile",
+      "quarter": "2018-Q1",
+      "total_usd_billions": 6809.599618
+    },
+    {
+      "country": "Chile",
+      "quarter": "2018-Q2",
+      "total_usd_billions": 6506.254265
+    },
+    {
+      "country": "Chile",
+      "quarter": "2018-Q3",
+      "total_usd_billions": 6620.904421
+    },
+    {
+      "country": "Chile",
+      "quarter": "2018-Q4",
+      "total_usd_billions": 6206.958395
+    },
+    {
+      "country": "Chile",
+      "quarter": "2019-Q1",
+      "total_usd_billions": 6367.899781
+    },
+    {
+      "country": "Chile",
+      "quarter": "2019-Q2",
+      "total_usd_billions": 6748.613537
+    },
+    {
+      "country": "Chile",
+      "quarter": "2019-Q3",
+      "total_usd_billions": 6558.687075
+    },
+    {
+      "country": "Chile",
+      "quarter": "2019-Q4",
+      "total_usd_billions": 6777.022752
+    },
+    {
+      "country": "Chile",
+      "quarter": "2020-Q1",
+      "total_usd_billions": 6509.308538
+    },
+    {
+      "country": "Chile",
+      "quarter": "2020-Q2",
+      "total_usd_billions": 6815.591926
+    },
+    {
+      "country": "Chile",
+      "quarter": "2020-Q3",
+      "total_usd_billions": 6817.598188
+    },
+    {
+      "country": "Chile",
+      "quarter": "2020-Q4",
+      "total_usd_billions": 7332.513782
+    },
+    {
+      "country": "Chile",
+      "quarter": "2021-Q1",
+      "total_usd_billions": 7077.794259
+    },
+    {
+      "country": "Chile",
+      "quarter": "2021-Q2",
+      "total_usd_billions": 7338.365442
+    },
+    {
+      "country": "Chile",
+      "quarter": "2021-Q3",
+      "total_usd_billions": 7185.640076
+    },
+    {
+      "country": "Chile",
+      "quarter": "2021-Q4",
+      "total_usd_billions": 6983.674735
+    },
+    {
+      "country": "Chile",
+      "quarter": "2022-Q1",
+      "total_usd_billions": 7503.622303
+    },
+    {
+      "country": "Chile",
+      "quarter": "2022-Q2",
+      "total_usd_billions": 6973.660366
+    },
+    {
+      "country": "Chile",
+      "quarter": "2022-Q3",
+      "total_usd_billions": 6939.501136
+    },
+    {
+      "country": "Chile",
+      "quarter": "2022-Q4",
+      "total_usd_billions": 7658.984711
+    },
+    {
+      "country": "Chile",
+      "quarter": "2023-Q1",
+      "total_usd_billions": 8251.668731
+    },
+    {
+      "country": "Chile",
+      "quarter": "2023-Q2",
+      "total_usd_billions": 8119.804039
+    },
+    {
+      "country": "Chile",
+      "quarter": "2023-Q3",
+      "total_usd_billions": 7515.682671
+    },
+    {
+      "country": "Chile",
+      "quarter": "2023-Q4",
+      "total_usd_billions": 7755.270159
+    },
+    {
+      "country": "Chile",
+      "quarter": "2024-Q1",
+      "total_usd_billions": 7278.824165
+    },
+    {
+      "country": "Chile",
+      "quarter": "2024-Q2",
+      "total_usd_billions": 7320.037115
+    },
+    {
+      "country": "Chile",
+      "quarter": "2024-Q3",
+      "total_usd_billions": 7508.808523
+    },
+    {
+      "country": "Chile",
+      "quarter": "2024-Q4",
+      "total_usd_billions": 6974.920203
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1983-Q4",
+      "total_usd_billions": 948.241
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1984-Q2",
+      "total_usd_billions": 943.892
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1984-Q4",
+      "total_usd_billions": 1068.087
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1985-Q2",
+      "total_usd_billions": 1308.862
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1985-Q4",
+      "total_usd_billions": 1365.571
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1986-Q2",
+      "total_usd_billions": 1343.221
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1986-Q4",
+      "total_usd_billions": 1337.572
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1987-Q2",
+      "total_usd_billions": 1347.717
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1987-Q4",
+      "total_usd_billions": 1322.719
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1988-Q2",
+      "total_usd_billions": 1237.843
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1988-Q4",
+      "total_usd_billions": 1179.988
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1989-Q2",
+      "total_usd_billions": 1154.059
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1989-Q4",
+      "total_usd_billions": 1113.015
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1990-Q2",
+      "total_usd_billions": 859.316
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1990-Q4",
+      "total_usd_billions": 911.922
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1991-Q2",
+      "total_usd_billions": 932.223
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1991-Q4",
+      "total_usd_billions": 997.58
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1992-Q2",
+      "total_usd_billions": 1009.982
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1992-Q4",
+      "total_usd_billions": 1007.861
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1993-Q2",
+      "total_usd_billions": 1062.31
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1993-Q4",
+      "total_usd_billions": 1155.112
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1994-Q2",
+      "total_usd_billions": 1159.269
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1994-Q4",
+      "total_usd_billions": 1241.864
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1995-Q2",
+      "total_usd_billions": 1140.897
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1995-Q4",
+      "total_usd_billions": 1160.972
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1996-Q2",
+      "total_usd_billions": 1165.312
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1996-Q4",
+      "total_usd_billions": 1274.323
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1997-Q2",
+      "total_usd_billions": 1462.503
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1997-Q4",
+      "total_usd_billions": 1537.255
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1998-Q2",
+      "total_usd_billions": 1483.567
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1998-Q4",
+      "total_usd_billions": 1558.23
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1999-Q2",
+      "total_usd_billions": 1611.682
+    },
+    {
+      "country": "Mexico",
+      "quarter": "1999-Q4",
+      "total_usd_billions": 1628.29
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2000-Q1",
+      "total_usd_billions": 1608.185
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2000-Q2",
+      "total_usd_billions": 1874.316
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2000-Q3",
+      "total_usd_billions": 2659.951
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2000-Q4",
+      "total_usd_billions": 2664.1800000000003
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2001-Q1",
+      "total_usd_billions": 2876.564
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2001-Q2",
+      "total_usd_billions": 2922.914
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2001-Q3",
+      "total_usd_billions": 3678.358
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2001-Q4",
+      "total_usd_billions": 3751.171
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2002-Q1",
+      "total_usd_billions": 3769.533
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2002-Q2",
+      "total_usd_billions": 3550.151
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2002-Q3",
+      "total_usd_billions": 3282.339
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2002-Q4",
+      "total_usd_billions": 3727.423
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2003-Q1",
+      "total_usd_billions": 3540.19
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2003-Q2",
+      "total_usd_billions": 3665.67
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2003-Q3",
+      "total_usd_billions": 3648.654
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2003-Q4",
+      "total_usd_billions": 3758.423
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2004-Q1",
+      "total_usd_billions": 3795.218
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2004-Q2",
+      "total_usd_billions": 3674.987
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2004-Q3",
+      "total_usd_billions": 3712.24
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2004-Q4",
+      "total_usd_billions": 4003.951
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2005-Q1",
+      "total_usd_billions": 5137.337
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2005-Q2",
+      "total_usd_billions": 6712.408
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2005-Q3",
+      "total_usd_billions": 6638.894
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2005-Q4",
+      "total_usd_billions": 7014.388
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2006-Q1",
+      "total_usd_billions": 7132.919
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2006-Q2",
+      "total_usd_billions": 7327.193
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2006-Q3",
+      "total_usd_billions": 7587.238
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2006-Q4",
+      "total_usd_billions": 8271.202
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2007-Q1",
+      "total_usd_billions": 8057.719
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2007-Q2",
+      "total_usd_billions": 8625.182
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2007-Q3",
+      "total_usd_billions": 8925.2
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2007-Q4",
+      "total_usd_billions": 9434.61
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2008-Q1",
+      "total_usd_billions": 9577.483
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2008-Q2",
+      "total_usd_billions": 10210.933
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2008-Q3",
+      "total_usd_billions": 10032.906
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2008-Q4",
+      "total_usd_billions": 8510.807999999999
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2009-Q1",
+      "total_usd_billions": 8863.038
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2009-Q2",
+      "total_usd_billions": 9001.667
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2009-Q3",
+      "total_usd_billions": 8683.962
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2009-Q4",
+      "total_usd_billions": 8990.0
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2010-Q1",
+      "total_usd_billions": 9819.525
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2010-Q2",
+      "total_usd_billions": 9439.643
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2010-Q3",
+      "total_usd_billions": 9934.007
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2010-Q4",
+      "total_usd_billions": 10020.333
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2011-Q1",
+      "total_usd_billions": 10729.381
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2011-Q2",
+      "total_usd_billions": 11214.42
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2011-Q3",
+      "total_usd_billions": 9912.68
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2011-Q4",
+      "total_usd_billions": 9986.271
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2012-Q1",
+      "total_usd_billions": 10549.587
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2012-Q2",
+      "total_usd_billions": 10429.20176
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2012-Q3",
+      "total_usd_billions": 10734.041482
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2012-Q4",
+      "total_usd_billions": 10926.749063
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2013-Q1",
+      "total_usd_billions": 11223.799862
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2013-Q2",
+      "total_usd_billions": 10606.736617
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2013-Q3",
+      "total_usd_billions": 10662.99995
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2013-Q4",
+      "total_usd_billions": 12228.702552
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2014-Q1",
+      "total_usd_billions": 12341.026136
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2014-Q2",
+      "total_usd_billions": 12237.3303
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2014-Q3",
+      "total_usd_billions": 11949.287012
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2014-Q4",
+      "total_usd_billions": 11896.102017
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2015-Q1",
+      "total_usd_billions": 11931.187159
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2015-Q2",
+      "total_usd_billions": 11617.233492
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2015-Q3",
+      "total_usd_billions": 11199.970913
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2015-Q4",
+      "total_usd_billions": 11027.831265
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2016-Q1",
+      "total_usd_billions": 11200.433771
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2016-Q2",
+      "total_usd_billions": 10671.338599
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2016-Q3",
+      "total_usd_billions": 10578.50335
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2016-Q4",
+      "total_usd_billions": 10021.463054
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2017-Q1",
+      "total_usd_billions": 11729.567857
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2017-Q2",
+      "total_usd_billions": 11620.510296
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2017-Q3",
+      "total_usd_billions": 11765.064023
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2017-Q4",
+      "total_usd_billions": 11299.176522
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2018-Q1",
+      "total_usd_billions": 12203.16291
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2018-Q2",
+      "total_usd_billions": 11721.873945
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2018-Q3",
+      "total_usd_billions": 12203.875277
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2018-Q4",
+      "total_usd_billions": 12161.246264
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2019-Q1",
+      "total_usd_billions": 12613.59866
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2019-Q2",
+      "total_usd_billions": 12802.308385
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2019-Q3",
+      "total_usd_billions": 12339.324952
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2019-Q4",
+      "total_usd_billions": 12935.683264
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2020-Q1",
+      "total_usd_billions": 11709.415385
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2020-Q2",
+      "total_usd_billions": 11933.520923
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2020-Q3",
+      "total_usd_billions": 12207.387256
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2020-Q4",
+      "total_usd_billions": 13183.230222
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2021-Q1",
+      "total_usd_billions": 12793.865618
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2021-Q2",
+      "total_usd_billions": 13406.967472
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2021-Q3",
+      "total_usd_billions": 12913.603568
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2021-Q4",
+      "total_usd_billions": 12863.682261
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2022-Q1",
+      "total_usd_billions": 13613.785137
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2022-Q2",
+      "total_usd_billions": 13523.563064
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2022-Q3",
+      "total_usd_billions": 13779.685074
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2022-Q4",
+      "total_usd_billions": 14384.566846
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2023-Q1",
+      "total_usd_billions": 15213.595303
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2023-Q2",
+      "total_usd_billions": 16206.377835
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2023-Q3",
+      "total_usd_billions": 16501.454723
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2023-Q4",
+      "total_usd_billions": 17029.371735
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2024-Q1",
+      "total_usd_billions": 17572.602804000002
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2024-Q2",
+      "total_usd_billions": 16264.179139
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2024-Q3",
+      "total_usd_billions": 15578.779233
+    },
+    {
+      "country": "Mexico",
+      "quarter": "2024-Q4",
+      "total_usd_billions": 15627.91703
+    },
+    {
+      "country": "Peru",
+      "quarter": "1983-Q4",
+      "total_usd_billions": 74.49
+    },
+    {
+      "country": "Peru",
+      "quarter": "1984-Q2",
+      "total_usd_billions": 72.775
+    },
+    {
+      "country": "Peru",
+      "quarter": "1984-Q4",
+      "total_usd_billions": 73.982
+    },
+    {
+      "country": "Peru",
+      "quarter": "1985-Q2",
+      "total_usd_billions": 90.104
+    },
+    {
+      "country": "Peru",
+      "quarter": "1985-Q4",
+      "total_usd_billions": 95.477
+    },
+    {
+      "country": "Peru",
+      "quarter": "1986-Q2",
+      "total_usd_billions": 89.065
+    },
+    {
+      "country": "Peru",
+      "quarter": "1986-Q4",
+      "total_usd_billions": 89.847
+    },
+    {
+      "country": "Peru",
+      "quarter": "1987-Q2",
+      "total_usd_billions": 84.656
+    },
+    {
+      "country": "Peru",
+      "quarter": "1987-Q4",
+      "total_usd_billions": 82.931
+    },
+    {
+      "country": "Peru",
+      "quarter": "1988-Q2",
+      "total_usd_billions": 74.31099999999999
+    },
+    {
+      "country": "Peru",
+      "quarter": "1988-Q4",
+      "total_usd_billions": 72.838
+    },
+    {
+      "country": "Peru",
+      "quarter": "1989-Q2",
+      "total_usd_billions": 67.725
+    },
+    {
+      "country": "Peru",
+      "quarter": "1989-Q4",
+      "total_usd_billions": 61.066
+    },
+    {
+      "country": "Peru",
+      "quarter": "1990-Q2",
+      "total_usd_billions": 57.377
+    },
+    {
+      "country": "Peru",
+      "quarter": "1990-Q4",
+      "total_usd_billions": 58.707
+    },
+    {
+      "country": "Peru",
+      "quarter": "1991-Q2",
+      "total_usd_billions": 56.023
+    },
+    {
+      "country": "Peru",
+      "quarter": "1991-Q4",
+      "total_usd_billions": 58.534
+    },
+    {
+      "country": "Peru",
+      "quarter": "1992-Q2",
+      "total_usd_billions": 53.823
+    },
+    {
+      "country": "Peru",
+      "quarter": "1992-Q4",
+      "total_usd_billions": 50.469
+    },
+    {
+      "country": "Peru",
+      "quarter": "1993-Q2",
+      "total_usd_billions": 47.763
+    },
+    {
+      "country": "Peru",
+      "quarter": "1993-Q4",
+      "total_usd_billions": 50.005
+    },
+    {
+      "country": "Peru",
+      "quarter": "1994-Q2",
+      "total_usd_billions": 58.587
+    },
+    {
+      "country": "Peru",
+      "quarter": "1994-Q4",
+      "total_usd_billions": 58.612
+    },
+    {
+      "country": "Peru",
+      "quarter": "1995-Q2",
+      "total_usd_billions": 96.84
+    },
+    {
+      "country": "Peru",
+      "quarter": "1995-Q4",
+      "total_usd_billions": 117.621
+    },
+    {
+      "country": "Peru",
+      "quarter": "1996-Q2",
+      "total_usd_billions": 154.738
+    },
+    {
+      "country": "Peru",
+      "quarter": "1996-Q4",
+      "total_usd_billions": 171.626
+    },
+    {
+      "country": "Peru",
+      "quarter": "1997-Q2",
+      "total_usd_billions": 167.757
+    },
+    {
+      "country": "Peru",
+      "quarter": "1997-Q4",
+      "total_usd_billions": 224.37
+    },
+    {
+      "country": "Peru",
+      "quarter": "1998-Q2",
+      "total_usd_billions": 252.749
+    },
+    {
+      "country": "Peru",
+      "quarter": "1998-Q4",
+      "total_usd_billions": 238.901
+    },
+    {
+      "country": "Peru",
+      "quarter": "1999-Q2",
+      "total_usd_billions": 262.163
+    },
+    {
+      "country": "Peru",
+      "quarter": "1999-Q4",
+      "total_usd_billions": 247.172
+    },
+    {
+      "country": "Peru",
+      "quarter": "2000-Q1",
+      "total_usd_billions": 318.638
+    },
+    {
+      "country": "Peru",
+      "quarter": "2000-Q2",
+      "total_usd_billions": 322.612
+    },
+    {
+      "country": "Peru",
+      "quarter": "2000-Q3",
+      "total_usd_billions": 322.269
+    },
+    {
+      "country": "Peru",
+      "quarter": "2000-Q4",
+      "total_usd_billions": 328.82099999999997
+    },
+    {
+      "country": "Peru",
+      "quarter": "2001-Q1",
+      "total_usd_billions": 332.096
+    },
+    {
+      "country": "Peru",
+      "quarter": "2001-Q2",
+      "total_usd_billions": 328.896
+    },
+    {
+      "country": "Peru",
+      "quarter": "2001-Q3",
+      "total_usd_billions": 327.426
+    },
+    {
+      "country": "Peru",
+      "quarter": "2001-Q4",
+      "total_usd_billions": 286.204
+    },
+    {
+      "country": "Peru",
+      "quarter": "2002-Q1",
+      "total_usd_billions": 275.651
+    },
+    {
+      "country": "Peru",
+      "quarter": "2002-Q2",
+      "total_usd_billions": 292.04
+    },
+    {
+      "country": "Peru",
+      "quarter": "2002-Q3",
+      "total_usd_billions": 288.964
+    },
+    {
+      "country": "Peru",
+      "quarter": "2002-Q4",
+      "total_usd_billions": 262.19
+    },
+    {
+      "country": "Peru",
+      "quarter": "2003-Q1",
+      "total_usd_billions": 244.177
+    },
+    {
+      "country": "Peru",
+      "quarter": "2003-Q2",
+      "total_usd_billions": 266.92
+    },
+    {
+      "country": "Peru",
+      "quarter": "2003-Q3",
+      "total_usd_billions": 249.549
+    },
+    {
+      "country": "Peru",
+      "quarter": "2003-Q4",
+      "total_usd_billions": 263.699
+    },
+    {
+      "country": "Peru",
+      "quarter": "2004-Q1",
+      "total_usd_billions": 251.811
+    },
+    {
+      "country": "Peru",
+      "quarter": "2004-Q2",
+      "total_usd_billions": 258.813
+    },
+    {
+      "country": "Peru",
+      "quarter": "2004-Q3",
+      "total_usd_billions": 259.875
+    },
+    {
+      "country": "Peru",
+      "quarter": "2004-Q4",
+      "total_usd_billions": 264.449
+    },
+    {
+      "country": "Peru",
+      "quarter": "2005-Q1",
+      "total_usd_billions": 326.469
+    },
+    {
+      "country": "Peru",
+      "quarter": "2005-Q2",
+      "total_usd_billions": 387.358
+    },
+    {
+      "country": "Peru",
+      "quarter": "2005-Q3",
+      "total_usd_billions": 393.0
+    },
+    {
+      "country": "Peru",
+      "quarter": "2005-Q4",
+      "total_usd_billions": 421.655
+    },
+    {
+      "country": "Peru",
+      "quarter": "2006-Q1",
+      "total_usd_billions": 324.885
+    },
+    {
+      "country": "Peru",
+      "quarter": "2006-Q2",
+      "total_usd_billions": 385.038
+    },
+    {
+      "country": "Peru",
+      "quarter": "2006-Q3",
+      "total_usd_billions": 397.054
+    },
+    {
+      "country": "Peru",
+      "quarter": "2006-Q4",
+      "total_usd_billions": 425.683
+    },
+    {
+      "country": "Peru",
+      "quarter": "2007-Q1",
+      "total_usd_billions": 416.805
+    },
+    {
+      "country": "Peru",
+      "quarter": "2007-Q2",
+      "total_usd_billions": 504.325
+    },
+    {
+      "country": "Peru",
+      "quarter": "2007-Q3",
+      "total_usd_billions": 536.316
+    },
+    {
+      "country": "Peru",
+      "quarter": "2007-Q4",
+      "total_usd_billions": 641.955
+    },
+    {
+      "country": "Peru",
+      "quarter": "2008-Q1",
+      "total_usd_billions": 760.766
+    },
+    {
+      "country": "Peru",
+      "quarter": "2008-Q2",
+      "total_usd_billions": 823.043
+    },
+    {
+      "country": "Peru",
+      "quarter": "2008-Q3",
+      "total_usd_billions": 876.765
+    },
+    {
+      "country": "Peru",
+      "quarter": "2008-Q4",
+      "total_usd_billions": 844.572
+    },
+    {
+      "country": "Peru",
+      "quarter": "2009-Q1",
+      "total_usd_billions": 855.544
+    },
+    {
+      "country": "Peru",
+      "quarter": "2009-Q2",
+      "total_usd_billions": 798.859
+    },
+    {
+      "country": "Peru",
+      "quarter": "2009-Q3",
+      "total_usd_billions": 792.968
+    },
+    {
+      "country": "Peru",
+      "quarter": "2009-Q4",
+      "total_usd_billions": 817.2139999999999
+    },
+    {
+      "country": "Peru",
+      "quarter": "2010-Q1",
+      "total_usd_billions": 958.575
+    },
+    {
+      "country": "Peru",
+      "quarter": "2010-Q2",
+      "total_usd_billions": 970.65
+    },
+    {
+      "country": "Peru",
+      "quarter": "2010-Q3",
+      "total_usd_billions": 1097.453
+    },
+    {
+      "country": "Peru",
+      "quarter": "2010-Q4",
+      "total_usd_billions": 1105.914
+    },
+    {
+      "country": "Peru",
+      "quarter": "2011-Q1",
+      "total_usd_billions": 1190.766
+    },
+    {
+      "country": "Peru",
+      "quarter": "2011-Q2",
+      "total_usd_billions": 1229.347
+    },
+    {
+      "country": "Peru",
+      "quarter": "2011-Q3",
+      "total_usd_billions": 1275.253
+    },
+    {
+      "country": "Peru",
+      "quarter": "2011-Q4",
+      "total_usd_billions": 1248.271
+    },
+    {
+      "country": "Peru",
+      "quarter": "2012-Q1",
+      "total_usd_billions": 1375.743
+    },
+    {
+      "country": "Peru",
+      "quarter": "2012-Q2",
+      "total_usd_billions": 1449.343496
+    },
+    {
+      "country": "Peru",
+      "quarter": "2012-Q3",
+      "total_usd_billions": 1490.2486
+    },
+    {
+      "country": "Peru",
+      "quarter": "2012-Q4",
+      "total_usd_billions": 1549.873538
+    },
+    {
+      "country": "Peru",
+      "quarter": "2013-Q1",
+      "total_usd_billions": 1641.746824
+    },
+    {
+      "country": "Peru",
+      "quarter": "2013-Q2",
+      "total_usd_billions": 1530.894925
+    },
+    {
+      "country": "Peru",
+      "quarter": "2013-Q3",
+      "total_usd_billions": 1571.003831
+    },
+    {
+      "country": "Peru",
+      "quarter": "2013-Q4",
+      "total_usd_billions": 1637.387708
+    },
+    {
+      "country": "Peru",
+      "quarter": "2014-Q1",
+      "total_usd_billions": 1634.017881
+    },
+    {
+      "country": "Peru",
+      "quarter": "2014-Q2",
+      "total_usd_billions": 1637.133132
+    },
+    {
+      "country": "Peru",
+      "quarter": "2014-Q3",
+      "total_usd_billions": 1682.487688
+    },
+    {
+      "country": "Peru",
+      "quarter": "2014-Q4",
+      "total_usd_billions": 1778.901214
+    },
+    {
+      "country": "Peru",
+      "quarter": "2015-Q1",
+      "total_usd_billions": 1689.733759
+    },
+    {
+      "country": "Peru",
+      "quarter": "2015-Q2",
+      "total_usd_billions": 1714.831427
+    },
+    {
+      "country": "Peru",
+      "quarter": "2015-Q3",
+      "total_usd_billions": 1763.612789
+    },
+    {
+      "country": "Peru",
+      "quarter": "2015-Q4",
+      "total_usd_billions": 1764.418065
+    },
+    {
+      "country": "Peru",
+      "quarter": "2016-Q1",
+      "total_usd_billions": 1781.348242
+    },
+    {
+      "country": "Peru",
+      "quarter": "2016-Q2",
+      "total_usd_billions": 1778.348906
+    },
+    {
+      "country": "Peru",
+      "quarter": "2016-Q3",
+      "total_usd_billions": 1716.490754
+    },
+    {
+      "country": "Peru",
+      "quarter": "2016-Q4",
+      "total_usd_billions": 1727.837983
+    },
+    {
+      "country": "Peru",
+      "quarter": "2017-Q1",
+      "total_usd_billions": 2100.094445
+    },
+    {
+      "country": "Peru",
+      "quarter": "2017-Q2",
+      "total_usd_billions": 1960.612245
+    },
+    {
+      "country": "Peru",
+      "quarter": "2017-Q3",
+      "total_usd_billions": 2013.92517
+    },
+    {
+      "country": "Peru",
+      "quarter": "2017-Q4",
+      "total_usd_billions": 2006.681214
+    },
+    {
+      "country": "Peru",
+      "quarter": "2018-Q1",
+      "total_usd_billions": 1953.66413
+    },
+    {
+      "country": "Peru",
+      "quarter": "2018-Q2",
+      "total_usd_billions": 1885.788928
+    },
+    {
+      "country": "Peru",
+      "quarter": "2018-Q3",
+      "total_usd_billions": 1854.663403
+    },
+    {
+      "country": "Peru",
+      "quarter": "2018-Q4",
+      "total_usd_billions": 1899.506381
+    },
+    {
+      "country": "Peru",
+      "quarter": "2019-Q1",
+      "total_usd_billions": 2046.516269
+    },
+    {
+      "country": "Peru",
+      "quarter": "2019-Q2",
+      "total_usd_billions": 2058.933026
+    },
+    {
+      "country": "Peru",
+      "quarter": "2019-Q3",
+      "total_usd_billions": 2083.285592
+    },
+    {
+      "country": "Peru",
+      "quarter": "2019-Q4",
+      "total_usd_billions": 2062.508119
+    },
+    {
+      "country": "Peru",
+      "quarter": "2020-Q1",
+      "total_usd_billions": 2106.733781
+    },
+    {
+      "country": "Peru",
+      "quarter": "2020-Q2",
+      "total_usd_billions": 2207.816038
+    },
+    {
+      "country": "Peru",
+      "quarter": "2020-Q3",
+      "total_usd_billions": 2186.429877
+    },
+    {
+      "country": "Peru",
+      "quarter": "2020-Q4",
+      "total_usd_billions": 2190.760477
+    },
+    {
+      "country": "Peru",
+      "quarter": "2021-Q1",
+      "total_usd_billions": 2049.571475
+    },
+    {
+      "country": "Peru",
+      "quarter": "2021-Q2",
+      "total_usd_billions": 2192.367017
+    },
+    {
+      "country": "Peru",
+      "quarter": "2021-Q3",
+      "total_usd_billions": 2077.714488
+    },
+    {
+      "country": "Peru",
+      "quarter": "2021-Q4",
+      "total_usd_billions": 2046.631497
+    },
+    {
+      "country": "Peru",
+      "quarter": "2022-Q1",
+      "total_usd_billions": 2156.661366
+    },
+    {
+      "country": "Peru",
+      "quarter": "2022-Q2",
+      "total_usd_billions": 2158.27037
+    },
+    {
+      "country": "Peru",
+      "quarter": "2022-Q3",
+      "total_usd_billions": 2164.561821
+    },
+    {
+      "country": "Peru",
+      "quarter": "2022-Q4",
+      "total_usd_billions": 2070.551001
+    },
+    {
+      "country": "Peru",
+      "quarter": "2023-Q1",
+      "total_usd_billions": 2204.921243
+    },
+    {
+      "country": "Peru",
+      "quarter": "2023-Q2",
+      "total_usd_billions": 2250.886693
+    },
+    {
+      "country": "Peru",
+      "quarter": "2023-Q3",
+      "total_usd_billions": 2151.500569
+    },
+    {
+      "country": "Peru",
+      "quarter": "2023-Q4",
+      "total_usd_billions": 2217.432687
+    },
+    {
+      "country": "Peru",
+      "quarter": "2024-Q1",
+      "total_usd_billions": 2293.8503140000003
+    },
+    {
+      "country": "Peru",
+      "quarter": "2024-Q2",
+      "total_usd_billions": 2243.055668
+    },
+    {
+      "country": "Peru",
+      "quarter": "2024-Q3",
+      "total_usd_billions": 2254.515147
+    },
+    {
+      "country": "Peru",
+      "quarter": "2024-Q4",
+      "total_usd_billions": 2171.382152
+    }
+  ]
+}

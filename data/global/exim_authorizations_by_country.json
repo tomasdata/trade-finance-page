@@ -1,0 +1,547 @@
+{
+  "metadata": {
+    "source": "Export-Import Bank of the United States",
+    "source_url": "https://www.exim.gov/data-reports",
+    "dataset": "exim_authorizations_by_country",
+    "description": "Series anuales de autorizaciones EXIM Bank por país (FY2007-2025)",
+    "unit": "USD millions",
+    "frequency": "Annual (Fiscal Year)",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2007-2025 (Fiscal Years)",
+    "generated_at": "2025-11-11T09:41:02.840212",
+    "total_records": 75,
+    "limitations": [
+      "Solo programas oficiales USA (no captura mercado comercial)",
+      "Representa 0.05-0.35% del financiamiento total BIS",
+      "Sesgo geográfico: 68% concentrado en México (USMCA/nearshoring)",
+      "CAGRs negativos 2007-2025: retiro gradual USA de LAC"
+    ]
+  },
+  "data": [
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2007,
+      "txn_count": 60,
+      "approved_usd_millions": 219.846,
+      "disbursed_usd_millions": 206.436
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2008,
+      "txn_count": 47,
+      "approved_usd_millions": 874.906,
+      "disbursed_usd_millions": 851.963
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2009,
+      "txn_count": 62,
+      "approved_usd_millions": 436.229,
+      "disbursed_usd_millions": 396.906
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2010,
+      "txn_count": 83,
+      "approved_usd_millions": 254.856,
+      "disbursed_usd_millions": 222.903
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2011,
+      "txn_count": 60,
+      "approved_usd_millions": 381.679,
+      "disbursed_usd_millions": 375.16
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2012,
+      "txn_count": 67,
+      "approved_usd_millions": 966.719,
+      "disbursed_usd_millions": 779.467
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2013,
+      "txn_count": 63,
+      "approved_usd_millions": 212.871,
+      "disbursed_usd_millions": 204.666
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2014,
+      "txn_count": 49,
+      "approved_usd_millions": 159.182,
+      "disbursed_usd_millions": 148.151
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2015,
+      "txn_count": 33,
+      "approved_usd_millions": 33.428,
+      "disbursed_usd_millions": 30.229
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2016,
+      "txn_count": 28,
+      "approved_usd_millions": 16.602,
+      "disbursed_usd_millions": 13.586
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2017,
+      "txn_count": 45,
+      "approved_usd_millions": 60.937,
+      "disbursed_usd_millions": 45.277
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2018,
+      "txn_count": 68,
+      "approved_usd_millions": 101.826,
+      "disbursed_usd_millions": 90.347
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2019,
+      "txn_count": 79,
+      "approved_usd_millions": 123.012,
+      "disbursed_usd_millions": 114.954
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2020,
+      "txn_count": 64,
+      "approved_usd_millions": 125.951,
+      "disbursed_usd_millions": 98.235
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2021,
+      "txn_count": 63,
+      "approved_usd_millions": 83.85,
+      "disbursed_usd_millions": 60.716
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2022,
+      "txn_count": 84,
+      "approved_usd_millions": 116.203,
+      "disbursed_usd_millions": 99.507
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2023,
+      "txn_count": 76,
+      "approved_usd_millions": 130.761,
+      "disbursed_usd_millions": 106.702
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2024,
+      "txn_count": 62,
+      "approved_usd_millions": 97.785,
+      "disbursed_usd_millions": 86.149
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2025,
+      "txn_count": 34,
+      "approved_usd_millions": 112.899,
+      "disbursed_usd_millions": 16.759
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2007,
+      "txn_count": 2,
+      "approved_usd_millions": 142.767,
+      "disbursed_usd_millions": 137.815
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2008,
+      "txn_count": 8,
+      "approved_usd_millions": 432.831,
+      "disbursed_usd_millions": 426.097
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2009,
+      "txn_count": 3,
+      "approved_usd_millions": 10.529,
+      "disbursed_usd_millions": 0.838
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2010,
+      "txn_count": 13,
+      "approved_usd_millions": 288.086,
+      "disbursed_usd_millions": 263.694
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2011,
+      "txn_count": 9,
+      "approved_usd_millions": 244.384,
+      "disbursed_usd_millions": 235.48
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2012,
+      "txn_count": 17,
+      "approved_usd_millions": 1091.103,
+      "disbursed_usd_millions": 1022.329
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2013,
+      "txn_count": 13,
+      "approved_usd_millions": 323.356,
+      "disbursed_usd_millions": 320.143
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2014,
+      "txn_count": 15,
+      "approved_usd_millions": 261.128,
+      "disbursed_usd_millions": 243.179
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2015,
+      "txn_count": 6,
+      "approved_usd_millions": 1.062,
+      "disbursed_usd_millions": 2.557
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2016,
+      "txn_count": 4,
+      "approved_usd_millions": 2.35,
+      "disbursed_usd_millions": 4.087
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2017,
+      "txn_count": 6,
+      "approved_usd_millions": 3.668,
+      "disbursed_usd_millions": 2.072
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2018,
+      "txn_count": 9,
+      "approved_usd_millions": 3.482,
+      "disbursed_usd_millions": 4.294
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2019,
+      "txn_count": 8,
+      "approved_usd_millions": 2.88,
+      "disbursed_usd_millions": 3.95
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2020,
+      "txn_count": 14,
+      "approved_usd_millions": 16.514,
+      "disbursed_usd_millions": 12.084
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2021,
+      "txn_count": 11,
+      "approved_usd_millions": 13.622,
+      "disbursed_usd_millions": 8.043
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2022,
+      "txn_count": 7,
+      "approved_usd_millions": 4.879,
+      "disbursed_usd_millions": 1.921
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2023,
+      "txn_count": 10,
+      "approved_usd_millions": 4.647,
+      "disbursed_usd_millions": 4.02
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2024,
+      "txn_count": 12,
+      "approved_usd_millions": 3.683,
+      "disbursed_usd_millions": 5.413
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2025,
+      "txn_count": 6,
+      "approved_usd_millions": 3.67,
+      "disbursed_usd_millions": 3.081
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2007,
+      "txn_count": 301,
+      "approved_usd_millions": 991.328,
+      "disbursed_usd_millions": 948.643
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2008,
+      "txn_count": 239,
+      "approved_usd_millions": 1424.6,
+      "disbursed_usd_millions": 1443.067
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2009,
+      "txn_count": 182,
+      "approved_usd_millions": 1689.799,
+      "disbursed_usd_millions": 1739.376
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2010,
+      "txn_count": 281,
+      "approved_usd_millions": 1814.837,
+      "disbursed_usd_millions": 1203.085
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2011,
+      "txn_count": 246,
+      "approved_usd_millions": 1632.415,
+      "disbursed_usd_millions": 1777.634
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2012,
+      "txn_count": 252,
+      "approved_usd_millions": 2825.838,
+      "disbursed_usd_millions": 2859.723
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2013,
+      "txn_count": 216,
+      "approved_usd_millions": 2063.453,
+      "disbursed_usd_millions": 2158.084
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2014,
+      "txn_count": 205,
+      "approved_usd_millions": 1592.393,
+      "disbursed_usd_millions": 1519.341
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2015,
+      "txn_count": 118,
+      "approved_usd_millions": 1943.429,
+      "disbursed_usd_millions": 986.904
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2016,
+      "txn_count": 71,
+      "approved_usd_millions": 116.55,
+      "disbursed_usd_millions": 160.927
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2017,
+      "txn_count": 100,
+      "approved_usd_millions": 98.602,
+      "disbursed_usd_millions": 117.648
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2018,
+      "txn_count": 114,
+      "approved_usd_millions": 114.501,
+      "disbursed_usd_millions": 159.487
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2019,
+      "txn_count": 101,
+      "approved_usd_millions": 119.366,
+      "disbursed_usd_millions": 151.902
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2020,
+      "txn_count": 86,
+      "approved_usd_millions": 519.211,
+      "disbursed_usd_millions": 77.085
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2021,
+      "txn_count": 91,
+      "approved_usd_millions": 75.995,
+      "disbursed_usd_millions": 61.719
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2022,
+      "txn_count": 78,
+      "approved_usd_millions": 100.762,
+      "disbursed_usd_millions": 82.484
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2023,
+      "txn_count": 58,
+      "approved_usd_millions": 111.623,
+      "disbursed_usd_millions": 80.646
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2024,
+      "txn_count": 61,
+      "approved_usd_millions": 70.793,
+      "disbursed_usd_millions": 38.212
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2025,
+      "txn_count": 30,
+      "approved_usd_millions": 19.864,
+      "disbursed_usd_millions": 2.519
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2007,
+      "txn_count": 31,
+      "approved_usd_millions": 39.287,
+      "disbursed_usd_millions": 25.64
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2008,
+      "txn_count": 22,
+      "approved_usd_millions": 424.367,
+      "disbursed_usd_millions": 338.108
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2009,
+      "txn_count": 12,
+      "approved_usd_millions": 45.899,
+      "disbursed_usd_millions": 48.563
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2010,
+      "txn_count": 17,
+      "approved_usd_millions": 79.9,
+      "disbursed_usd_millions": 77.014
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2011,
+      "txn_count": 13,
+      "approved_usd_millions": 40.119,
+      "disbursed_usd_millions": 28.141
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2012,
+      "txn_count": 22,
+      "approved_usd_millions": 62.738,
+      "disbursed_usd_millions": 18.916
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2013,
+      "txn_count": 12,
+      "approved_usd_millions": 6.616,
+      "disbursed_usd_millions": 4.769
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2014,
+      "txn_count": 14,
+      "approved_usd_millions": 76.219,
+      "disbursed_usd_millions": 64.475
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2015,
+      "txn_count": 6,
+      "approved_usd_millions": 5.513,
+      "disbursed_usd_millions": 1.0
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2017,
+      "txn_count": 4,
+      "approved_usd_millions": 1.228,
+      "disbursed_usd_millions": 1.116
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2018,
+      "txn_count": 7,
+      "approved_usd_millions": 2.156,
+      "disbursed_usd_millions": 0.557
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2019,
+      "txn_count": 11,
+      "approved_usd_millions": 4.385,
+      "disbursed_usd_millions": 2.701
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2020,
+      "txn_count": 7,
+      "approved_usd_millions": 1.528,
+      "disbursed_usd_millions": 1.196
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2021,
+      "txn_count": 8,
+      "approved_usd_millions": 2.646,
+      "disbursed_usd_millions": 2.148
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2022,
+      "txn_count": 10,
+      "approved_usd_millions": 0.878,
+      "disbursed_usd_millions": 1.061
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2023,
+      "txn_count": 8,
+      "approved_usd_millions": 0.774,
+      "disbursed_usd_millions": 0.732
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2024,
+      "txn_count": 14,
+      "approved_usd_millions": 2.955,
+      "disbursed_usd_millions": 2.492
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2025,
+      "txn_count": 7,
+      "approved_usd_millions": 0.68,
+      "disbursed_usd_millions": 0.092
+    }
+  ]
+}

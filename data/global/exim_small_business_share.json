@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "source": "Export-Import Bank of the United States",
+    "source_url": "https://www.exim.gov/data-reports",
+    "dataset": "exim_small_business_share",
+    "description": "Participación de pequeñas empresas en financiamiento EXIM por país",
+    "unit": "USD millions and percentage",
+    "frequency": "Aggregate 2007-2025",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2007-2025 (Fiscal Years)",
+    "generated_at": "2025-11-11T09:41:02.843250",
+    "total_records": 4,
+    "limitations": [
+      "Solo programas oficiales USA (no captura mercado comercial)",
+      "Representa 0.05-0.35% del financiamiento total BIS",
+      "Sesgo geográfico: 68% concentrado en México (USMCA/nearshoring)",
+      "CAGRs negativos 2007-2025: retiro gradual USA de LAC"
+    ]
+  },
+  "data": [
+    {
+      "country_group": "Brazil",
+      "approved_usd_millions": 4509.541,
+      "small_business_usd_millions": 705.754,
+      "small_business_share_pct": 15.65
+    },
+    {
+      "country_group": "Chile",
+      "approved_usd_millions": 2854.639,
+      "small_business_usd_millions": 78.073,
+      "small_business_share_pct": 2.73
+    },
+    {
+      "country_group": "Mexico",
+      "approved_usd_millions": 17325.359,
+      "small_business_usd_millions": 3619.924,
+      "small_business_share_pct": 20.89
+    },
+    {
+      "country_group": "Peru",
+      "approved_usd_millions": 797.888,
+      "small_business_usd_millions": 121.969,
+      "small_business_share_pct": 15.29
+    }
+  ]
+}

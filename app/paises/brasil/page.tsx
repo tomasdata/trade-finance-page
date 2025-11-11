@@ -12,7 +12,7 @@ import { Separator } from "@/components/ui/separator"
 import { FirmSizeChart } from "@/components/brazil/firm-size-chart"
 import { TemporalEvolutionChart } from "@/components/brazil/temporal-evolution-chart"
 import { SectorChart } from "@/components/brazil/sector-chart"
-import { StateDistributionChart } from "@/components/brazil/state-distribution-chart"
+import { BrazilMapChart } from "@/components/brazil/brazil-map-chart"
 import { MaturityStructureChart } from "@/components/brazil/maturity-structure-chart"
 import { NPLAnalysisChart } from "@/components/brazil/npl-analysis-chart"
 import { IndexerDistributionChart } from "@/components/brazil/indexer-distribution-chart"
@@ -260,54 +260,54 @@ export default function BrasilPage() {
             {/* Geography Tab */}
             <TabsContent value="geography" className="space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-2">Distribución Geográfica</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">Geografía del Trade Finance</h2>
                 <p className="text-muted-foreground mb-6">
-                  Análisis por estados brasileños y concentración regional
+                  Mapa interactivo de operaciones por estado y análisis de disparidades regionales
                 </p>
               </div>
 
               <div className="space-y-8">
-                <StateDistributionChart />
+                <BrazilMapChart />
 
                 <Card>
                   <CardHeader>
-                    <CardTitle>Dinámicas Regionales</CardTitle>
-                    <CardDescription>Factores que explican la distribución geográfica</CardDescription>
+                    <CardTitle>Dinámicas Regionales: Análisis Económico</CardTitle>
+                    <CardDescription>Cómo se distribuye el acceso al financiamiento de comercio</CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-4 text-sm text-muted-foreground">
                     <div className="grid md:grid-cols-2 gap-6">
                       <div className="space-y-2">
-                        <h4 className="font-semibold text-foreground">São Paulo: Hub Financiero y Exportador</h4>
+                        <h4 className="font-semibold text-foreground">São Paulo: Operaciones Medianas (BRL 48k)</h4>
                         <p>
-                          Con 38.7% de operaciones, SP concentra sedes de grandes empresas, puertos (Santos, el 
-                          mayor de América Latina), y el ecosistema financiero más desarrollado. Es puerta de 
-                          entrada/salida natural del comercio brasileño.
+                          32.5% de operaciones, 45.4% de cartera. Hub financiero + mayor puerto (Santos). 
+                          Economías de escala evidentes. Empresas grandes acceden fácilmente; PyMEs medianas 
+                          encuentran servicios especializados.
                         </p>
                       </div>
                       
                       <div className="space-y-2">
-                        <h4 className="font-semibold text-foreground">Región Sur: Potencia Exportadora</h4>
+                        <h4 className="font-semibold text-foreground">Región Sur: PyMEs Pequeñas (BRL 11-15k)</h4>
                         <p>
-                          RS + SC + PR suman 42% de la cartera. Esta región exporta commodities agrícolas, proteína 
-                          animal, textiles y productos manufacturados. Fuerte presencia de PyMEs exportadoras y 
-                          cooperativas agropecuarias.
+                          SC + RS + PR: 43% de operaciones pero 19% cartera. Muchas operaciones pequeñas: 
+                          cooperativas agrícolas, PyMEs exportadoras textiles/alimentos. <strong className="text-red-600">Subfinanciadas:</strong> 
+                          pagan % más alto en costos.
                         </p>
                       </div>
 
                       <div className="space-y-2">
-                        <h4 className="font-semibold text-foreground">Minas Gerais: Minería y Siderurgia</h4>
+                        <h4 className="font-semibold text-foreground">Rio de Janeiro: Operaciones Grandes (BRL 97k)</h4>
                         <p>
-                          MG aporta ~5% de la cartera, principalmente por exportaciones de hierro, acero y minerales. 
-                          Vale y otras mineras intensivas en capital usan trade finance para gestionar flujos complejos.
+                          Solo 4.3% de operaciones, 12.2% cartera. Concentrado en sectores intensivos: 
+                          petróleo, financiero. Pocas empresas pero con volúmenes grandes. 
+                          Acceso fácil para grandes players.
                         </p>
                       </div>
                       
                       <div className="space-y-2">
-                        <h4 className="font-semibold text-foreground">Regiones Menos Representadas</h4>
+                        <h4 className="font-semibold text-foreground">Nordeste y Centro-Oeste: Mercado Virgen</h4>
                         <p>
-                          Norte y Nordeste tienen menor participación, reflejando economías más orientadas al mercado 
-                          interno. Políticas regionales podrían incentivar exportaciones desde Bahía, Pernambuco y 
-                          Ceará (zonas económicas especiales, beneficios fiscales).
+                          BA, PE, CE, GO, MT: baja penetración de TF. Oportunidades: agronegocios (soja MT/GO), 
+                          textiles (NE). Necesidad de programas de fomento + agregadores regionales.
                         </p>
                       </div>
                     </div>
@@ -315,9 +315,10 @@ export default function BrasilPage() {
                     <Separator />
 
                     <p>
-                      <strong className="text-foreground">Oportunidad de Diversificación:</strong> Ampliar el acceso 
-                      al trade finance en regiones menos atendidas podría impulsar exportaciones no tradicionales y 
-                      reducir desigualdades regionales.
+                      <strong className="text-foreground">⚠️ Hallazgo Crítico:</strong> La geografía del trade finance en Brasil 
+                      refleja barreras estructurales. Donde hay operaciones más pequeñas (Sur), hay más empresas pero menos acceso 
+                      relativo. Donde hay operaciones grandes (RJ), el acceso es concentrado. Política implícita: necesidad de 
+                      intermediarios regionales para PyMEs en Sur/Nordeste.
                     </p>
                   </CardContent>
                 </Card>

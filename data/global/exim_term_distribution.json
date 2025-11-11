@@ -1,0 +1,94 @@
+{
+  "metadata": {
+    "source": "Export-Import Bank of the United States",
+    "source_url": "https://www.exim.gov/data-reports",
+    "dataset": "exim_term_distribution",
+    "description": "Estructura de plazos (Short/Medium/Long Term) por país",
+    "unit": "USD millions and percentage",
+    "frequency": "Aggregate 2007-2025",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2007-2025 (Fiscal Years)",
+    "generated_at": "2025-11-11T09:41:02.843792",
+    "total_records": 12,
+    "limitations": [
+      "Solo programas oficiales USA (no captura mercado comercial)",
+      "Representa 0.05-0.35% del financiamiento total BIS",
+      "Sesgo geográfico: 68% concentrado en México (USMCA/nearshoring)",
+      "CAGRs negativos 2007-2025: retiro gradual USA de LAC"
+    ]
+  },
+  "data": [
+    {
+      "country_group": "Brazil",
+      "Term": "Long Term",
+      "approved_usd_millions": 3035.636,
+      "share_pct": 67.32
+    },
+    {
+      "country_group": "Brazil",
+      "Term": "Medium Term",
+      "approved_usd_millions": 1222.255,
+      "share_pct": 27.1
+    },
+    {
+      "country_group": "Brazil",
+      "Term": "Short Term",
+      "approved_usd_millions": 251.649,
+      "share_pct": 5.58
+    },
+    {
+      "country_group": "Chile",
+      "Term": "Long Term",
+      "approved_usd_millions": 2689.469,
+      "share_pct": 94.21
+    },
+    {
+      "country_group": "Chile",
+      "Term": "Medium Term",
+      "approved_usd_millions": 136.574,
+      "share_pct": 4.78
+    },
+    {
+      "country_group": "Chile",
+      "Term": "Short Term",
+      "approved_usd_millions": 28.596,
+      "share_pct": 1.0
+    },
+    {
+      "country_group": "Mexico",
+      "Term": "Long Term",
+      "approved_usd_millions": 12841.387,
+      "share_pct": 74.12
+    },
+    {
+      "country_group": "Mexico",
+      "Term": "Medium Term",
+      "approved_usd_millions": 1568.008,
+      "share_pct": 9.05
+    },
+    {
+      "country_group": "Mexico",
+      "Term": "Short Term",
+      "approved_usd_millions": 2915.964,
+      "share_pct": 16.83
+    },
+    {
+      "country_group": "Peru",
+      "Term": "Long Term",
+      "approved_usd_millions": 476.841,
+      "share_pct": 59.76
+    },
+    {
+      "country_group": "Peru",
+      "Term": "Medium Term",
+      "approved_usd_millions": 72.395,
+      "share_pct": 9.07
+    },
+    {
+      "country_group": "Peru",
+      "Term": "Short Term",
+      "approved_usd_millions": 248.653,
+      "share_pct": 31.16
+    }
+  ]
+}

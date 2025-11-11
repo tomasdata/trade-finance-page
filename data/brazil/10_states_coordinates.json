@@ -1,0 +1,19 @@
+{
+  "states": [
+    {"uf": "SP", "name": "São Paulo", "lat": -23.5505, "lng": -46.6333, "region": "Sudeste"},
+    {"uf": "RJ", "name": "Rio de Janeiro", "lat": -22.9068, "lng": -43.1729, "region": "Sudeste"},
+    {"uf": "MG", "name": "Minas Gerais", "lat": -18.8844, "lng": -47.0626, "region": "Sudeste"},
+    {"uf": "ES", "name": "Espírito Santo", "lat": -19.1908, "lng": -40.2742, "region": "Sudeste"},
+    {"uf": "PR", "name": "Paraná", "lat": -25.2637, "lng": -51.1925, "region": "Sur"},
+    {"uf": "SC", "name": "Santa Catarina", "lat": -27.4429, "lng": -49.2767, "region": "Sur"},
+    {"uf": "RS", "name": "Rio Grande do Sul", "lat": -29.6883, "lng": -53.7353, "region": "Sur"},
+    {"uf": "BA", "name": "Bahia", "lat": -12.9714, "lng": -38.5014, "region": "Nordeste"},
+    {"uf": "PE", "name": "Pernambuco", "lat": -8.2883, "lng": -35.9027, "region": "Nordeste"},
+    {"uf": "CE", "name": "Ceará", "lat": -3.7319, "lng": -38.5267, "region": "Nordeste"},
+    {"uf": "GO", "name": "Goiás", "lat": -15.7339, "lng": -48.9489, "region": "Centro-Oeste"},
+    {"uf": "MT", "name": "Mato Grosso", "lat": -15.5921, "lng": -55.4704, "region": "Centro-Oeste"},
+    {"uf": "MS", "name": "Mato Grosso do Sul", "lat": -19.0150, "lng": -55.5828, "region": "Centro-Oeste"},
+    {"uf": "PA", "name": "Pará", "lat": -1.3521, "lng": -48.5244, "region": "Norte"},
+    {"uf": "AM", "name": "Amazonas", "lat": -3.0691, "lng": -60.1693, "region": "Norte"}
+  ]
+}

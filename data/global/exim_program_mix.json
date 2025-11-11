@@ -1,0 +1,1051 @@
+{
+  "metadata": {
+    "source": "Export-Import Bank of the United States",
+    "source_url": "https://www.exim.gov/data-reports",
+    "dataset": "exim_program_mix",
+    "description": "Distribución de programas EXIM (Guarantee/Insurance/Loan) por país y año",
+    "unit": "USD millions and percentage",
+    "frequency": "Annual (Fiscal Year)",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2007-2025 (Fiscal Years)",
+    "generated_at": "2025-11-11T09:41:02.841997",
+    "total_records": 147,
+    "limitations": [
+      "Solo programas oficiales USA (no captura mercado comercial)",
+      "Representa 0.05-0.35% del financiamiento total BIS",
+      "Sesgo geográfico: 68% concentrado en México (USMCA/nearshoring)",
+      "CAGRs negativos 2007-2025: retiro gradual USA de LAC"
+    ]
+  },
+  "data": [
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2007,
+      "Program": "Guarantee",
+      "approved_usd_millions": 180.865,
+      "share_pct": 82.27
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2007,
+      "Program": "Insurance",
+      "approved_usd_millions": 38.981,
+      "share_pct": 17.73
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2008,
+      "Program": "Guarantee",
+      "approved_usd_millions": 843.462,
+      "share_pct": 96.41
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2008,
+      "Program": "Insurance",
+      "approved_usd_millions": 19.626,
+      "share_pct": 2.24
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2008,
+      "Program": "Loan",
+      "approved_usd_millions": 11.818,
+      "share_pct": 1.35
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2009,
+      "Program": "Guarantee",
+      "approved_usd_millions": 305.109,
+      "share_pct": 69.94
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2009,
+      "Program": "Insurance",
+      "approved_usd_millions": 44.616,
+      "share_pct": 10.23
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2009,
+      "Program": "Loan",
+      "approved_usd_millions": 86.504,
+      "share_pct": 19.83
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2010,
+      "Program": "Guarantee",
+      "approved_usd_millions": 177.769,
+      "share_pct": 69.75
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2010,
+      "Program": "Insurance",
+      "approved_usd_millions": 77.086,
+      "share_pct": 30.25
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2011,
+      "Program": "Guarantee",
+      "approved_usd_millions": 233.273,
+      "share_pct": 61.12
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2011,
+      "Program": "Insurance",
+      "approved_usd_millions": 68.602,
+      "share_pct": 17.97
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2011,
+      "Program": "Loan",
+      "approved_usd_millions": 79.804,
+      "share_pct": 20.91
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2012,
+      "Program": "Guarantee",
+      "approved_usd_millions": 745.507,
+      "share_pct": 77.12
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2012,
+      "Program": "Insurance",
+      "approved_usd_millions": 63.345,
+      "share_pct": 6.55
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2012,
+      "Program": "Loan",
+      "approved_usd_millions": 157.866,
+      "share_pct": 16.33
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2013,
+      "Program": "Guarantee",
+      "approved_usd_millions": 167.061,
+      "share_pct": 78.48
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2013,
+      "Program": "Insurance",
+      "approved_usd_millions": 45.81,
+      "share_pct": 21.52
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2014,
+      "Program": "Guarantee",
+      "approved_usd_millions": 99.029,
+      "share_pct": 62.21
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2014,
+      "Program": "Insurance",
+      "approved_usd_millions": 60.153,
+      "share_pct": 37.79
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2015,
+      "Program": "Guarantee",
+      "approved_usd_millions": 2.868,
+      "share_pct": 8.58
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2015,
+      "Program": "Insurance",
+      "approved_usd_millions": 30.56,
+      "share_pct": 91.42
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2016,
+      "Program": "Insurance",
+      "approved_usd_millions": 16.602,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2017,
+      "Program": "Guarantee",
+      "approved_usd_millions": 29.982,
+      "share_pct": 49.2
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2017,
+      "Program": "Insurance",
+      "approved_usd_millions": 30.955,
+      "share_pct": 50.8
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2018,
+      "Program": "Guarantee",
+      "approved_usd_millions": 61.57,
+      "share_pct": 60.47
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2018,
+      "Program": "Insurance",
+      "approved_usd_millions": 40.256,
+      "share_pct": 39.53
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2019,
+      "Program": "Guarantee",
+      "approved_usd_millions": 56.414,
+      "share_pct": 45.86
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2019,
+      "Program": "Insurance",
+      "approved_usd_millions": 66.599,
+      "share_pct": 54.14
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2020,
+      "Program": "Guarantee",
+      "approved_usd_millions": 65.95,
+      "share_pct": 52.36
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2020,
+      "Program": "Insurance",
+      "approved_usd_millions": 60.002,
+      "share_pct": 47.64
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2021,
+      "Program": "Guarantee",
+      "approved_usd_millions": 66.495,
+      "share_pct": 79.3
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2021,
+      "Program": "Insurance",
+      "approved_usd_millions": 17.354,
+      "share_pct": 20.7
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2022,
+      "Program": "Guarantee",
+      "approved_usd_millions": 77.334,
+      "share_pct": 66.55
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2022,
+      "Program": "Insurance",
+      "approved_usd_millions": 38.869,
+      "share_pct": 33.45
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2023,
+      "Program": "Guarantee",
+      "approved_usd_millions": 64.956,
+      "share_pct": 49.68
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2023,
+      "Program": "Insurance",
+      "approved_usd_millions": 65.804,
+      "share_pct": 50.32
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2024,
+      "Program": "Guarantee",
+      "approved_usd_millions": 58.073,
+      "share_pct": 59.39
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2024,
+      "Program": "Insurance",
+      "approved_usd_millions": 39.711,
+      "share_pct": 40.61
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2025,
+      "Program": "Guarantee",
+      "approved_usd_millions": 79.999,
+      "share_pct": 70.86
+    },
+    {
+      "country_group": "Brazil",
+      "fiscal_year": 2025,
+      "Program": "Insurance",
+      "approved_usd_millions": 32.9,
+      "share_pct": 29.14
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2007,
+      "Program": "Guarantee",
+      "approved_usd_millions": 142.767,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2008,
+      "Program": "Guarantee",
+      "approved_usd_millions": 426.821,
+      "share_pct": 98.61
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2008,
+      "Program": "Insurance",
+      "approved_usd_millions": 6.009,
+      "share_pct": 1.39
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2009,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.047,
+      "share_pct": 9.94
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2009,
+      "Program": "Insurance",
+      "approved_usd_millions": 9.482,
+      "share_pct": 90.06
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2010,
+      "Program": "Guarantee",
+      "approved_usd_millions": 263.33,
+      "share_pct": 91.41
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2010,
+      "Program": "Insurance",
+      "approved_usd_millions": 24.756,
+      "share_pct": 8.59
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2011,
+      "Program": "Guarantee",
+      "approved_usd_millions": 238.549,
+      "share_pct": 97.61
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2011,
+      "Program": "Insurance",
+      "approved_usd_millions": 5.835,
+      "share_pct": 2.39
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2012,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1072.333,
+      "share_pct": 98.28
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2012,
+      "Program": "Insurance",
+      "approved_usd_millions": 18.77,
+      "share_pct": 1.72
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2013,
+      "Program": "Guarantee",
+      "approved_usd_millions": 313.689,
+      "share_pct": 97.01
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2013,
+      "Program": "Insurance",
+      "approved_usd_millions": 9.667,
+      "share_pct": 2.99
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2014,
+      "Program": "Guarantee",
+      "approved_usd_millions": 246.302,
+      "share_pct": 94.32
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2014,
+      "Program": "Insurance",
+      "approved_usd_millions": 14.826,
+      "share_pct": 5.68
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2015,
+      "Program": "Insurance",
+      "approved_usd_millions": 1.062,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2016,
+      "Program": "Insurance",
+      "approved_usd_millions": 2.35,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2017,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.508,
+      "share_pct": 41.1
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2017,
+      "Program": "Insurance",
+      "approved_usd_millions": 2.16,
+      "share_pct": 58.9
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2018,
+      "Program": "Insurance",
+      "approved_usd_millions": 3.482,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2019,
+      "Program": "Insurance",
+      "approved_usd_millions": 2.88,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2020,
+      "Program": "Guarantee",
+      "approved_usd_millions": 6.168,
+      "share_pct": 37.35
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2020,
+      "Program": "Insurance",
+      "approved_usd_millions": 10.346,
+      "share_pct": 62.65
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2021,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.784,
+      "share_pct": 13.1
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2021,
+      "Program": "Insurance",
+      "approved_usd_millions": 11.838,
+      "share_pct": 86.9
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2022,
+      "Program": "Insurance",
+      "approved_usd_millions": 4.879,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2023,
+      "Program": "Guarantee",
+      "approved_usd_millions": 2.158,
+      "share_pct": 46.44
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2023,
+      "Program": "Insurance",
+      "approved_usd_millions": 2.489,
+      "share_pct": 53.56
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2024,
+      "Program": "Guarantee",
+      "approved_usd_millions": 2.262,
+      "share_pct": 61.42
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2024,
+      "Program": "Insurance",
+      "approved_usd_millions": 1.421,
+      "share_pct": 38.58
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2025,
+      "Program": "Guarantee",
+      "approved_usd_millions": 3.081,
+      "share_pct": 83.94
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year": 2025,
+      "Program": "Insurance",
+      "approved_usd_millions": 0.59,
+      "share_pct": 16.06
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2007,
+      "Program": "Guarantee",
+      "approved_usd_millions": 657.318,
+      "share_pct": 66.31
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2007,
+      "Program": "Insurance",
+      "approved_usd_millions": 334.01,
+      "share_pct": 33.69
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2008,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1197.743,
+      "share_pct": 84.08
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2008,
+      "Program": "Insurance",
+      "approved_usd_millions": 226.858,
+      "share_pct": 15.92
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2009,
+      "Program": "Guarantee",
+      "approved_usd_millions": 341.962,
+      "share_pct": 20.24
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2009,
+      "Program": "Insurance",
+      "approved_usd_millions": 297.838,
+      "share_pct": 17.63
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2009,
+      "Program": "Loan",
+      "approved_usd_millions": 1050.0,
+      "share_pct": 62.14
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2010,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1266.769,
+      "share_pct": 69.8
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2010,
+      "Program": "Insurance",
+      "approved_usd_millions": 467.09,
+      "share_pct": 25.74
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2010,
+      "Program": "Loan",
+      "approved_usd_millions": 80.978,
+      "share_pct": 4.46
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2011,
+      "Program": "Guarantee",
+      "approved_usd_millions": 954.977,
+      "share_pct": 58.5
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2011,
+      "Program": "Insurance",
+      "approved_usd_millions": 377.438,
+      "share_pct": 23.12
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2011,
+      "Program": "Loan",
+      "approved_usd_millions": 300.0,
+      "share_pct": 18.38
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2012,
+      "Program": "Guarantee",
+      "approved_usd_millions": 2487.612,
+      "share_pct": 88.03
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2012,
+      "Program": "Insurance",
+      "approved_usd_millions": 338.226,
+      "share_pct": 11.97
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2013,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1805.68,
+      "share_pct": 87.51
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2013,
+      "Program": "Insurance",
+      "approved_usd_millions": 257.774,
+      "share_pct": 12.49
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2014,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1240.658,
+      "share_pct": 77.91
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2014,
+      "Program": "Insurance",
+      "approved_usd_millions": 272.152,
+      "share_pct": 17.09
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2014,
+      "Program": "Loan",
+      "approved_usd_millions": 79.584,
+      "share_pct": 5.0
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2015,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1748.078,
+      "share_pct": 89.95
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2015,
+      "Program": "Insurance",
+      "approved_usd_millions": 195.351,
+      "share_pct": 10.05
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2016,
+      "Program": "Guarantee",
+      "approved_usd_millions": 23.836,
+      "share_pct": 20.45
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2016,
+      "Program": "Insurance",
+      "approved_usd_millions": 92.713,
+      "share_pct": 79.55
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2017,
+      "Program": "Guarantee",
+      "approved_usd_millions": 25.279,
+      "share_pct": 25.64
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2017,
+      "Program": "Insurance",
+      "approved_usd_millions": 73.323,
+      "share_pct": 74.36
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2018,
+      "Program": "Guarantee",
+      "approved_usd_millions": 33.067,
+      "share_pct": 28.88
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2018,
+      "Program": "Insurance",
+      "approved_usd_millions": 81.434,
+      "share_pct": 71.12
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2019,
+      "Program": "Guarantee",
+      "approved_usd_millions": 36.286,
+      "share_pct": 30.4
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2019,
+      "Program": "Insurance",
+      "approved_usd_millions": 83.08,
+      "share_pct": 69.6
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2020,
+      "Program": "Guarantee",
+      "approved_usd_millions": 429.548,
+      "share_pct": 82.73
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2020,
+      "Program": "Insurance",
+      "approved_usd_millions": 89.663,
+      "share_pct": 17.27
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2021,
+      "Program": "Guarantee",
+      "approved_usd_millions": 22.195,
+      "share_pct": 29.21
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2021,
+      "Program": "Insurance",
+      "approved_usd_millions": 53.8,
+      "share_pct": 70.79
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2022,
+      "Program": "Guarantee",
+      "approved_usd_millions": 21.085,
+      "share_pct": 20.93
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2022,
+      "Program": "Insurance",
+      "approved_usd_millions": 79.677,
+      "share_pct": 79.07
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2023,
+      "Program": "Guarantee",
+      "approved_usd_millions": 58.788,
+      "share_pct": 52.67
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2023,
+      "Program": "Insurance",
+      "approved_usd_millions": 52.834,
+      "share_pct": 47.33
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2024,
+      "Program": "Guarantee",
+      "approved_usd_millions": 48.921,
+      "share_pct": 69.1
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2024,
+      "Program": "Insurance",
+      "approved_usd_millions": 21.872,
+      "share_pct": 30.9
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2025,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.895,
+      "share_pct": 9.54
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year": 2025,
+      "Program": "Insurance",
+      "approved_usd_millions": 17.969,
+      "share_pct": 90.46
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2007,
+      "Program": "Guarantee",
+      "approved_usd_millions": 14.307,
+      "share_pct": 36.42
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2007,
+      "Program": "Insurance",
+      "approved_usd_millions": 24.979,
+      "share_pct": 63.58
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2008,
+      "Program": "Guarantee",
+      "approved_usd_millions": 412.723,
+      "share_pct": 97.26
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2008,
+      "Program": "Insurance",
+      "approved_usd_millions": 11.644,
+      "share_pct": 2.74
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2009,
+      "Program": "Guarantee",
+      "approved_usd_millions": 15.419,
+      "share_pct": 33.59
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2009,
+      "Program": "Insurance",
+      "approved_usd_millions": 30.48,
+      "share_pct": 66.41
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2010,
+      "Program": "Guarantee",
+      "approved_usd_millions": 0.721,
+      "share_pct": 0.9
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2010,
+      "Program": "Insurance",
+      "approved_usd_millions": 79.179,
+      "share_pct": 99.1
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2011,
+      "Program": "Guarantee",
+      "approved_usd_millions": 0.96,
+      "share_pct": 2.39
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2011,
+      "Program": "Insurance",
+      "approved_usd_millions": 39.159,
+      "share_pct": 97.61
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2012,
+      "Program": "Insurance",
+      "approved_usd_millions": 62.738,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2013,
+      "Program": "Guarantee",
+      "approved_usd_millions": 2.645,
+      "share_pct": 39.98
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2013,
+      "Program": "Insurance",
+      "approved_usd_millions": 3.971,
+      "share_pct": 60.02
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2014,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.277,
+      "share_pct": 1.68
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2014,
+      "Program": "Insurance",
+      "approved_usd_millions": 10.17,
+      "share_pct": 13.34
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2014,
+      "Program": "Loan",
+      "approved_usd_millions": 64.773,
+      "share_pct": 84.98
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2015,
+      "Program": "Insurance",
+      "approved_usd_millions": 5.457,
+      "share_pct": 98.98
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2015,
+      "Program": "Loan",
+      "approved_usd_millions": 0.056,
+      "share_pct": 1.02
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2017,
+      "Program": "Guarantee",
+      "approved_usd_millions": 0.891,
+      "share_pct": 72.52
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2017,
+      "Program": "Insurance",
+      "approved_usd_millions": 0.338,
+      "share_pct": 27.48
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2018,
+      "Program": "Insurance",
+      "approved_usd_millions": 2.156,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2019,
+      "Program": "Guarantee",
+      "approved_usd_millions": 2.698,
+      "share_pct": 61.52
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2019,
+      "Program": "Insurance",
+      "approved_usd_millions": 1.688,
+      "share_pct": 38.48
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2020,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.119,
+      "share_pct": 73.21
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2020,
+      "Program": "Insurance",
+      "approved_usd_millions": 0.41,
+      "share_pct": 26.79
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2021,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.696,
+      "share_pct": 64.11
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2021,
+      "Program": "Insurance",
+      "approved_usd_millions": 0.95,
+      "share_pct": 35.89
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2022,
+      "Program": "Insurance",
+      "approved_usd_millions": 0.878,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2023,
+      "Program": "Insurance",
+      "approved_usd_millions": 0.774,
+      "share_pct": 100.0
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2024,
+      "Program": "Guarantee",
+      "approved_usd_millions": 1.57,
+      "share_pct": 53.12
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2024,
+      "Program": "Insurance",
+      "approved_usd_millions": 1.386,
+      "share_pct": 46.88
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year": 2025,
+      "Program": "Insurance",
+      "approved_usd_millions": 0.68,
+      "share_pct": 100.0
+    }
+  ]
+}

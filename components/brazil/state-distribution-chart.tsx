@@ -1,7 +1,7 @@
 "use client"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Cell } from "recharts"
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, ReferenceLine } from "recharts"
 import { MapPin } from "lucide-react"
 import stateData from "@/data/brazil/03_tf_by_state_data.json"
 
@@ -16,13 +16,18 @@ const STATE_NAMES: { [key: string]: string } = {
   'PE': 'Pernambuco',
   'CE': 'Ceará',
   'GO': 'Goiás',
+  'MT': 'Mato Grosso',
+  'PA': 'Pará',
 }
 
 export function StateDistributionChart() {
+  const avg_portfolio = stateData.data.reduce((sum: number, d: any) => sum + d.carteira_ativa_total / d.records, 0) / stateData.data.length
+
   const chartData = stateData.data.map((item: any) => ({
     ...item,
-    carteira_bn: Math.round(item.carteira_ativa_total / 1000 * 10) / 10,
+    avg_op: item.carteira_ativa_total / item.records,
     state_name: STATE_NAMES[item.uf] || item.uf,
+    pct_carteira: (item.carteira_ativa_total / stateData.data.reduce((sum: number, d: any) => sum + d.carteira_ativa_total, 0)) * 100,
   }))
 
   return (
@@ -30,85 +35,121 @@ export function StateDistributionChart() {
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <MapPin className="h-5 w-5 text-red-600" />
-          Distribución Geográfica del Trade Finance
+          Disparidades Regionales: Tamaño Promedio de Operación
         </CardTitle>
         <CardDescription>
-          Top 10 estados brasileños por cartera activa (BRL miles de millones)
+          Dónde están las PyMEs regionales: análisis de dispersión geográfica
         </CardDescription>
       </CardHeader>
-      <CardContent>
-        <div className="h-[400px] w-full">
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart 
-              data={chartData} 
-              layout="vertical"
-              margin={{ top: 20, right: 20, left: 130, bottom: 20 }}
-            >
-              <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
-              <XAxis 
-                type="number"
-                className="text-xs"
-                label={{ value: 'BRL Miles de Millones', position: 'insideBottom', offset: -10 }}
-              />
-              <YAxis 
-                type="category"
-                dataKey="state_name" 
-                className="text-xs"
-                width={120}
-              />
-              <Tooltip 
-                contentStyle={{ 
-                  backgroundColor: 'hsl(var(--background))',
-                  border: '1px solid hsl(var(--border))',
-                  borderRadius: '6px'
-                }}
-                formatter={(value: number, name: string, props: any) => [
-                  `BRL ${value.toFixed(1)} bn`,
-                  props.payload.state_name
-                ]}
-              />
-              <Bar 
-                dataKey="carteira_bn" 
-                radius={[0, 4, 4, 0]}
+      <CardContent className="space-y-8">
+        
+        {/* Gráfico principal */}
+        <div>
+          <h4 className="font-semibold text-foreground mb-4">Operación Promedio por Estado (BRL miles)</h4>
+          <div className="h-[400px] w-full">
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart 
+                data={chartData}
+                layout="vertical"
+                margin={{ top: 20, right: 20, left: 120, bottom: 20 }}
               >
-                {chartData.map((entry: any, index: number) => (
-                  <Cell 
-                    key={`cell-${index}`} 
-                    fill={index === 0 ? "hsl(217, 91%, 60%)" : "hsl(220, 13%, 60%)"} 
-                  />
+                <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
+                <XAxis 
+                  type="number"
+                  className="text-xs"
+                  label={{ value: 'BRL miles', position: 'insideBottom', offset: -10 }}
+                />
+                <YAxis 
+                  type="category"
+                  dataKey="state_name" 
+                  className="text-xs"
+                  width={110}
+                />
+                <ReferenceLine 
+                  x={avg_portfolio} 
+                  stroke="hsl(0, 0%, 50%)" 
+                  strokeDasharray="5 5"
+                  label={{ value: `Promedio: BRL ${avg_portfolio.toFixed(0)}k`, position: 'top', fill: 'hsl(0, 0%, 50%)' }}
+                />
+                <Tooltip 
+                  contentStyle={{ 
+                    backgroundColor: 'hsl(var(--background))',
+                    border: '1px solid hsl(var(--border))',
+                    borderRadius: '6px'
+                  }}
+                  formatter={(value: number, name: string) => {
+                    if (name === 'avg_op') return [`BRL ${value.toFixed(0)} mil`, 'Promedio']
+                    if (name === 'pct_carteira') return [`${value.toFixed(1)}%`, 'Del mercado']
+                    return [value, name]
+                  }}
+                />
+                <Bar 
+                  dataKey="avg_op" 
+                  fill="hsl(0, 100%, 50%)"
+                  radius={[0, 4, 4, 0]}
+                />
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
+        </div>
+
+        {/* Tabla comparativa */}
+        <div className="space-y-4">
+          <h4 className="font-semibold text-foreground">Análisis Regional: Concentración vs Dispersión</h4>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="bg-slate-100 dark:bg-slate-900">
+                <tr>
+                  <th className="px-3 py-2 text-left">Estado</th>
+                  <th className="px-3 py-2 text-right">Operaciones</th>
+                  <th className="px-3 py-2 text-right">Promedio</th>
+                  <th className="px-3 py-2 text-right">vs Promedio</th>
+                  <th className="px-3 py-2 text-right">Cartera %</th>
+                </tr>
+              </thead>
+              <tbody>
+                {chartData.map((item: any) => (
+                  <tr key={item.uf} className="border-b">
+                    <td className="px-3 py-2 font-medium">{item.state_name}</td>
+                    <td className="px-3 py-2 text-right text-xs">{(item.records/1000).toFixed(1)}k</td>
+                    <td className={`px-3 py-2 text-right font-semibold ${item.avg_op < avg_portfolio * 0.8 ? 'text-red-600 dark:text-red-400' : item.avg_op > avg_portfolio * 1.2 ? 'text-blue-600 dark:text-blue-400' : ''}`}>
+                      BRL {item.avg_op.toFixed(0)}k
+                    </td>
+                    <td className={`px-3 py-2 text-right ${item.avg_op < avg_portfolio ? 'text-red-600 dark:text-red-400' : 'text-blue-600 dark:text-blue-400'}`}>
+                      {((item.avg_op / avg_portfolio - 1) * 100).toFixed(0)}%
+                    </td>
+                    <td className="px-3 py-2 text-right">{item.pct_carteira.toFixed(1)}%</td>
+                  </tr>
                 ))}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-
-        <div className="grid md:grid-cols-3 gap-4 mt-6">
-          <div className="p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-900">
-            <div className="text-xs text-muted-foreground mb-1">São Paulo</div>
-            <div className="text-2xl font-bold text-blue-700 dark:text-blue-400">38.7%</div>
-            <div className="text-xs text-muted-foreground mt-1">de todas las operaciones</div>
-          </div>
-
-          <div className="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border">
-            <div className="text-xs text-muted-foreground mb-1">Top 3 Estados</div>
-            <div className="text-2xl font-bold">65%</div>
-            <div className="text-xs text-muted-foreground mt-1">de la cartera total</div>
-          </div>
-
-          <div className="p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg border">
-            <div className="text-xs text-muted-foreground mb-1">Región Sur</div>
-            <div className="text-2xl font-bold">42%</div>
-            <div className="text-xs text-muted-foreground mt-1">RS + SC + PR</div>
+              </tbody>
+            </table>
           </div>
         </div>
 
-        <div className="mt-6 p-4 bg-amber-50 dark:bg-amber-950/20 rounded-lg border border-amber-200 dark:border-amber-900">
-          <p className="text-sm text-muted-foreground">
-            <strong className="text-foreground">Concentración Regional:</strong> São Paulo concentra casi el 40% 
-            de todas las operaciones de trade finance, reflejando su rol como centro financiero y exportador. 
-            La región Sur (RS, SC, PR) representa otro 42%, destacando la importancia del comercio internacional 
-            en estos estados.
-          </p>
+        <div className="mt-6 space-y-3 p-4 bg-red-50 dark:bg-red-950/20 rounded-lg border border-red-200 dark:border-red-900">
+          <h5 className="font-semibold text-foreground">Hallazgos Clave: Geografía del Financiamiento</h5>
+          <ul className="text-sm text-muted-foreground space-y-2">
+            <li>
+              <strong className="text-red-600 dark:text-red-400">SC (Santa Catarina) - BRL 11k:</strong> 77% por debajo del promedio. 
+              13.4% de operaciones pero solo 4.5% de cartera. Región con PyMEs muy pequeñas, probablemente textiles y alimentos.
+            </li>
+            <li>
+              <strong className="text-red-600 dark:text-red-400">RS (Rio Grande do Sul) - BRL 15k:</strong> 69% por debajo. 
+              17.4% de operaciones, 7.4% cartera. Muchas cooperativas agrícolas de pequeño tamaño.
+            </li>
+            <li>
+              <strong className="text-blue-600 dark:text-blue-400">RJ (Rio de Janeiro) - BRL 97k:</strong> 2.0x promedio. 
+              Operaciones GRANDES (finanzas, petróleo). Solo 4.3% de operaciones pero 12.2% de cartera.
+            </li>
+            <li>
+              <strong className="text-blue-600 dark:text-blue-400">SP (São Paulo) - BRL 48k:</strong> 0.5x promedio pero operaciones sólidas. 
+              32.5% de operaciones, 45.4% cartera. Economías de escala significativas.
+            </li>
+            <li>
+              <strong>⚠️ Implicación Policy:</strong> SC y RS tienen PyMEs masivas subfinanciadas. 
+              Oportunidad para agregadores regionales o cooperativas de crédito especializadas.
+            </li>
+          </ul>
         </div>
 
         <div className="mt-4 text-xs text-muted-foreground italic text-center">

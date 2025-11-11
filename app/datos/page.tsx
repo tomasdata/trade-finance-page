@@ -1,20 +1,21 @@
 "use client"
 
 import { useState } from "react"
-import { ArrowLeft, Database, TrendingUp, Globe, BarChart3, Calendar, Download } from "lucide-react"
+import { ArrowLeft, Database, TrendingUp, Globe, AlertCircle, Calendar, FileText } from "lucide-react"
 import { Navbar } from "@/components/navbar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
-import { GlobalPaymentComparison } from "@/components/global-payment-comparison"
-import { PaymentRiskHeatmap } from "@/components/payment-risk-heatmap"
-import { CreditDelaysChart } from "@/components/credit-delays-chart"
-import { PaymentTrendsChart } from "@/components/payment-trends-chart"
+import { BISCrisisTimeline } from "@/components/global/bis-crisis-timeline"
+import { BISLendersSankey } from "@/components/global/bis-lenders-sankey"
+import { EXIMDeclineAnalysis } from "@/components/global/exim-decline-analysis"
+import { EXIMvsBISRatio } from "@/components/global/exim-vs-bis-ratio"
+import { EXIMPymeAccess } from "@/components/global/exim-pyme-access"
 
 export default function DatosPage() {
-  const [activeTab, setActiveTab] = useState("global")
+  const [activeTab, setActiveTab] = useState("bis")
 
   return (
     <div className="min-h-screen">
@@ -34,30 +35,30 @@ export default function DatosPage() {
 
           <div className="max-w-4xl">
             <Badge className="mb-4 bg-indigo-100 text-indigo-700 dark:bg-indigo-900/30 dark:text-indigo-400 border-indigo-200 dark:border-indigo-800">
-              Análisis de Datos
+              Panorama Global
             </Badge>
             
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 leading-tight">
-              Panorama de Pagos Comerciales
+              Financiamiento Internacional a Latinoamérica
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground mb-6 leading-relaxed">
-              Análisis profundo de retrasos en pagos, tendencias temporales y comparación internacional 
-              basado en datos del Finance, Credit and International Business Survey 2023-2025
+              Análisis riguroso de 40 años de exposición bancaria internacional (BIS) y programas oficiales USA (EXIM Bank). 
+              Evidencia crisis, dependencia externa y exclusión PYME.
             </p>
 
             <div className="flex flex-wrap gap-6 text-sm">
               <div className="flex items-center gap-2">
                 <Database className="h-4 w-4 text-indigo-600" />
-                <span className="text-muted-foreground">124 observaciones</span>
+                <span className="text-muted-foreground">532 trimestres (BIS 1983-2024)</span>
               </div>
               <div className="flex items-center gap-2">
                 <Globe className="h-4 w-4 text-indigo-600" />
-                <span className="text-muted-foreground">30+ países</span>
+                <span className="text-muted-foreground">4 países LAC-4 + 152 destinos EXIM</span>
               </div>
               <div className="flex items-center gap-2">
                 <Calendar className="h-4 w-4 text-indigo-600" />
-                <span className="text-muted-foreground">Período 2023-2025</span>
+                <span className="text-muted-foreground">40 años de crisis y recuperación</span>
               </div>
             </div>
           </div>
@@ -68,40 +69,40 @@ export default function DatosPage() {
       <section className="py-12 md:py-16">
         <div className="container px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl">
           
-          {/* Context Card */}
-          <Card className="mb-12 border-2 border-indigo-200 dark:border-indigo-900">
+          {/* Disclaimer Card */}
+          <Card className="mb-12 border-2 border-amber-200 dark:border-amber-900 bg-amber-50/50 dark:bg-amber-950/20">
             <CardHeader>
-              <CardTitle className="flex items-center gap-2">
-                <BarChart3 className="h-5 w-5 text-indigo-600" />
-                Sobre este Análisis
+              <CardTitle className="flex items-center gap-2 text-amber-900 dark:text-amber-400">
+                <AlertCircle className="h-5 w-5" />
+                Disclaimer Metodológico
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              <p className="text-muted-foreground leading-relaxed">
-                Esta página presenta un análisis exhaustivo de los retrasos en pagos comerciales y su impacto 
-                en el acceso a trade finance. Los datos provienen de encuestas mensuales realizadas a empresas 
-                exportadoras a nivel mundial, permitiendo comparar la situación de América Latina con otras regiones.
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                <strong>BIS Consolidated Banking Statistics</strong> captura exposición bancaria internacional TOTAL 
+                (Trade Finance + préstamos corporativos + exposición soberana + interbancario). 
+                No existe base de datos global que aisle Trade Finance puro (gap conocido en literatura académica).
               </p>
               
-              <div className="grid md:grid-cols-3 gap-4 pt-4">
-                <div className="p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-900">
-                  <div className="text-sm font-semibold mb-1 text-blue-900 dark:text-blue-300">Indicador Principal</div>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                <strong>EXIM Bank USA</strong> mide solo programas oficiales de crédito a exportación USA. 
+                Representa 0.05-0.35% del mercado total (BIS). No captura el 99.5% restante de financiamiento comercial privado.
+              </p>
+              
+              <div className="grid md:grid-cols-2 gap-4 pt-4">
+                <div className="p-3 bg-blue-50 dark:bg-blue-950/20 rounded border border-blue-200 dark:border-blue-900">
+                  <div className="text-xs font-semibold mb-1 text-blue-900 dark:text-blue-300">Fuentes</div>
                   <div className="text-xs text-muted-foreground">
-                    Días promedio de retraso más allá de términos de pago acordados
+                    BIS: https://www.bis.org/statistics/consstats.htm<br/>
+                    EXIM: https://www.exim.gov/data-reports
                   </div>
                 </div>
                 
-                <div className="p-4 bg-purple-50 dark:bg-purple-950/20 rounded-lg border border-purple-200 dark:border-purple-900">
-                  <div className="text-sm font-semibold mb-1 text-purple-900 dark:text-purple-300">Tendencia Crítica</div>
+                <div className="p-3 bg-purple-50 dark:bg-purple-950/20 rounded border border-purple-200 dark:border-purple-900">
+                  <div className="text-xs font-semibold mb-1 text-purple-900 dark:text-purple-300">Referencias</div>
                   <div className="text-xs text-muted-foreground">
-                    % de empresas reportando incremento en demoras de cobro
-                  </div>
-                </div>
-                
-                <div className="p-4 bg-teal-50 dark:bg-teal-950/20 rounded-lg border border-teal-200 dark:border-teal-900">
-                  <div className="text-sm font-semibold mb-1 text-teal-900 dark:text-teal-300">Implicación</div>
-                  <div className="text-xs text-muted-foreground">
-                    Mayor retraso = mayor necesidad de instrumentos de trade finance
+                    Hardy & Saffie (2023) JoF<br/>
+                    Ahir, Bloom & Furceri WUI
                   </div>
                 </div>
               </div>
@@ -111,251 +112,116 @@ export default function DatosPage() {
           {/* Tabs Navigation */}
           <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-8">
             <TabsList className="grid w-full grid-cols-3 lg:w-[600px]">
-              <TabsTrigger value="global" className="gap-2">
+              <TabsTrigger value="bis" className="gap-2">
                 <Globe className="h-4 w-4" />
-                <span className="hidden sm:inline">Comparación Global</span>
-                <span className="sm:hidden">Global</span>
+                <span className="hidden sm:inline">BIS: Mercado Total</span>
+                <span className="sm:hidden">BIS</span>
               </TabsTrigger>
-              <TabsTrigger value="lac" className="gap-2">
-                <BarChart3 className="h-4 w-4" />
-                <span className="hidden sm:inline">Detalle LAC</span>
-                <span className="sm:hidden">LAC</span>
-              </TabsTrigger>
-              <TabsTrigger value="tendencias" className="gap-2">
+              <TabsTrigger value="exim" className="gap-2">
                 <TrendingUp className="h-4 w-4" />
-                <span className="hidden sm:inline">Tendencias</span>
-                <span className="sm:hidden">Tiempo</span>
+                <span className="hidden sm:inline">EXIM: Programas Oficiales</span>
+                <span className="sm:hidden">EXIM</span>
+              </TabsTrigger>
+              <TabsTrigger value="comparacion" className="gap-2">
+                <FileText className="h-4 w-4" />
+                <span className="hidden sm:inline">Comparación & PYME</span>
+                <span className="sm:hidden">Análisis</span>
               </TabsTrigger>
             </TabsList>
 
-            {/* Global Comparison Tab */}
-            <TabsContent value="global" className="space-y-8">
+            {/* BIS Tab */}
+            <TabsContent value="bis" className="space-y-8">
               <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-2">Panorama Mundial</h2>
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">Exposición Bancaria Internacional (BIS)</h2>
                 <p className="text-muted-foreground mb-6">
-                  Comparación de América Latina con otras regiones del mundo en términos de retrasos en pagos comerciales
+                  40 años de datos trimestrales (1983-2024). Análisis de crisis, dependencia externa y concentración bancaria.
                 </p>
               </div>
 
-              <div className="grid lg:grid-cols-2 gap-8">
-                <GlobalPaymentComparison />
-                <PaymentRiskHeatmap />
+              <BISCrisisTimeline />
+              <BISLendersSankey />
+            </TabsContent>
+
+            {/* EXIM Tab */}
+            <TabsContent value="exim" className="space-y-8">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">EXIM Bank USA: Programas Oficiales (2007-2025)</h2>
+                <p className="text-muted-foreground mb-6">
+                  Análisis de retiro gradual USA de LAC, estructura de programas (Guarantee/Insurance/Loan) y acceso PYME.
+                </p>
               </div>
 
-              <Card className="bg-gradient-to-br from-amber-50/50 to-orange-50/50 dark:from-amber-950/10 dark:to-orange-950/10 border-amber-200 dark:border-amber-900">
+              <EXIMDeclineAnalysis />
+              <EXIMPymeAccess />
+            </TabsContent>
+
+            {/* Comparación Tab */}
+            <TabsContent value="comparacion" className="space-y-8">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">EXIM vs. BIS: Contextualizando Programas Oficiales</h2>
+                <p className="text-muted-foreground mb-6">
+                  Evidencia empírica de la marginalidad de EXIM (0.05-0.35% del mercado) e implicaciones para investigación académica.
+                </p>
+              </div>
+
+              <EXIMvsBISRatio />
+
+              <Card className="bg-gradient-to-br from-blue-50/50 to-indigo-50/50 dark:from-blue-950/10 dark:to-indigo-950/10 border-blue-200 dark:border-blue-900">
                 <CardHeader>
-                  <CardTitle className="text-lg">Interpretación de Resultados</CardTitle>
+                  <CardTitle className="text-lg">💡 Takeaways para Economistas</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-3 text-sm text-muted-foreground">
                   <p>
-                    <strong className="text-foreground">Gráfico de Barras:</strong> Muestra el promedio regional de días 
-                    de retraso. Un valor más alto indica que las empresas en esa región esperan más tiempo para recibir 
-                    pagos después de la fecha acordada, lo que genera tensiones en el flujo de caja y mayor necesidad 
-                    de financiamiento puente.
+                    <strong className="text-foreground">1. EXIM NO es representativo del mercado TF:</strong> Papers que usan solo datos EXIM 
+                    (firm-level exposure, efectos de garantías) capturan &lt;0.5% del universo. Resultados NO generalizables. 
+                    External validity limitada.
                   </p>
                   <p>
-                    <strong className="text-foreground">Mapa de Riesgo:</strong> El scatter plot relaciona dos dimensiones: 
-                    días de retraso (eje X) y porcentaje de empresas reportando incremento en demoras (eje Y). Los países 
-                    en el cuadrante superior derecho enfrentan la situación más crítica: altos retrasos que además están 
-                    empeorando.
+                    <strong className="text-foreground">2. BIS incluye más que TF:</strong> Exposición total = TF + corporate loans + 
+                    soberana + interbancario. Para aislar TF, cruzar con datos de comercio (X+M) y asumir ratio TF/Trade ≈ 15-25% 
+                    (estimación ICC).
                   </p>
                   <p>
-                    <strong className="text-foreground">Implicación para LAC:</strong> La posición de América Latina en 
-                    estos gráficos refleja el desafío estructural de acceso a instrumentos de trade finance. Mejorar esta 
-                    situación requiere ampliar la oferta de seguros de crédito, garantías y factoring internacional.
+                    <strong className="text-foreground">3. España domina, no USA:</strong> 36.9% del financiamiento LAC viene de bancos 
+                    españoles. Implicación: shocks en Eurozona (ej. 2012 crisis deuda) tienen mayor contagio a LAC que shocks USA. 
+                    Contraintuitivo dado percepción popular.
+                  </p>
+                  <p>
+                    <strong className="text-foreground">4. Home bias extremadamente bajo:</strong> México/Perú 0% financiamiento doméstico. 
+                    Brasil/Chile &lt;50%. Comparar con USA (75%), Alemania (70%). LAC altamente vulnerable a sudden stops.
+                  </p>
+                  <p>
+                    <strong className="text-foreground">5. PYME exclusión estructural:</strong> Acceso PYME 2.7-20.9% vs. benchmark 35-40%. 
+                    Policy recommendations: ventanillas PYME, garantías parciales, digitalizar aplicaciones, reducir colateral requerido.
                   </p>
                 </CardContent>
               </Card>
             </TabsContent>
-
-            {/* LAC Detail Tab */}
-            <TabsContent value="lac" className="space-y-8">
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-2">Análisis Detallado: América Latina</h2>
-                <p className="text-muted-foreground mb-6">
-                  Comparación entre países de la región LAC y evolución de indicadores clave
-                </p>
-              </div>
-
-              <div className="space-y-8">
-                <CreditDelaysChart />
-
-                <Card>
-                  <CardHeader>
-                    <CardTitle>Contexto Regional</CardTitle>
-                    <CardDescription>Factores que explican las diferencias entre países LAC</CardDescription>
-                  </CardHeader>
-                  <CardContent className="space-y-4 text-sm text-muted-foreground">
-                    <div className="grid md:grid-cols-2 gap-6">
-                      <div className="space-y-2">
-                        <h4 className="font-semibold text-foreground">Países con Menores Retrasos</h4>
-                        <ul className="space-y-1 list-disc list-inside">
-                          <li>Mayor desarrollo de instituciones de trade finance</li>
-                          <li>Programas gubernamentales de garantía más robustos</li>
-                          <li>Mejor integración con cadenas globales de valor</li>
-                          <li>Marcos legales más favorables para factoring y seguros</li>
-                        </ul>
-                      </div>
-                      
-                      <div className="space-y-2">
-                        <h4 className="font-semibold text-foreground">Países con Mayores Retrasos</h4>
-                        <ul className="space-y-1 list-disc list-inside">
-                          <li>Limitada oferta de instrumentos especializados</li>
-                          <li>Volatilidad macroeconómica e inflación alta</li>
-                          <li>Menor participación de banca internacional</li>
-                          <li>Burocracia y costos transaccionales elevados</li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <Separator />
-
-                    <p>
-                      <strong className="text-foreground">Oportunidad de Mejora:</strong> Los países LAC con mejores 
-                      indicadores demuestran que es posible reducir los retrasos mediante políticas públicas adecuadas, 
-                      fortalecimiento institucional y mayor participación del sector privado en esquemas de garantía y 
-                      financiamiento comercial.
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-            </TabsContent>
-
-            {/* Trends Tab */}
-            <TabsContent value="tendencias" className="space-y-8">
-              <div>
-                <h2 className="text-2xl md:text-3xl font-bold mb-2">Tendencias Temporales</h2>
-                <p className="text-muted-foreground mb-6">
-                  Evolución de los retrasos en pagos a lo largo del tiempo (2024-2025)
-                </p>
-              </div>
-
-              <div className="space-y-8">
-                <PaymentTrendsChart />
-
-                <div className="grid md:grid-cols-2 gap-8">
-                  <Card className="border-2">
-                    <CardHeader>
-                      <CardTitle className="text-lg">Factores que Explican la Tendencia</CardTitle>
-                    </CardHeader>
-                    <CardContent className="space-y-3 text-sm text-muted-foreground">
-                      <div className="space-y-2">
-                        <h5 className="font-semibold text-foreground">Ciclo Económico Global</h5>
-                        <p>
-                          Períodos de desaceleración económica se correlacionan con mayor porcentaje de empresas 
-                          reportando incremento en demoras, debido a la restricción del crédito comercial.
-                        </p>
-                      </div>
-                      
-                      <div className="space-y-2">
-                        <h5 className="font-semibold text-foreground">Shocks de Liquidez</h5>
-                        <p>
-                          Eventos como crisis cambiarias, subida de tasas de interés o disrupciones en cadenas de 
-                          suministro impactan la capacidad de pago de importadores.
-                        </p>
-                      </div>
-                      
-                      <div className="space-y-2">
-                        <h5 className="font-semibold text-foreground">Políticas de Trade Finance</h5>
-                        <p>
-                          Cambios en programas de garantía, nuevos esquemas de seguro de crédito o reformas 
-                          regulatorias pueden mejorar (o empeorar) la situación.
-                        </p>
-                      </div>
-                    </CardContent>
-                  </Card>
-
-                  <Card className="border-2 bg-gradient-to-br from-blue-50/50 to-indigo-50/50 dark:from-blue-950/10 dark:to-indigo-950/10">
-                    <CardHeader>
-                      <CardTitle className="text-lg">Implicaciones para Políticas Públicas</CardTitle>
-                    </CardHeader>
-                    <CardContent className="space-y-3 text-sm text-muted-foreground">
-                      <p>
-                        <strong className="text-foreground">Monitoreo Continuo:</strong> Los gobiernos y bancos de 
-                        desarrollo deben seguir estas tendencias de cerca para anticipar crisis de liquidez en el 
-                        sector exportador.
-                      </p>
-                      
-                      <p>
-                        <strong className="text-foreground">Intervención Contracíclica:</strong> Cuando el porcentaje 
-                        de empresas con retrasos crecientes supera cierto umbral, es momento de activar líneas de 
-                        crédito de emergencia o ampliar coberturas de garantía.
-                      </p>
-                      
-                      <p>
-                        <strong className="text-foreground">Coordinación Regional:</strong> Los países LAC podrían 
-                        beneficiarse de mecanismos de alerta temprana compartidos y fondos regionales de garantía 
-                        que se activen cuando múltiples países muestran deterioro simultáneo.
-                      </p>
-                    </CardContent>
-                  </Card>
-                </div>
-              </div>
-            </TabsContent>
           </Tabs>
 
-          {/* Methodology Section */}
-          <Separator className="my-12" />
-
-          <div className="space-y-6">
-            <h2 className="text-2xl md:text-3xl font-bold">Metodología y Fuentes</h2>
-            
-            <Card>
-              <CardHeader>
-                <CardTitle className="flex items-center gap-2 text-lg">
-                  <Database className="h-5 w-5 text-indigo-600" />
-                  Sobre los Datos
-                </CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-4 text-sm text-muted-foreground">
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="space-y-2">
-                    <h5 className="font-semibold text-foreground">Fuente Principal</h5>
-                    <p>
-                      Finance, Credit and International Business (FCIB) Survey - Encuesta mensual a empresas 
-                      exportadoras sobre términos de pago, experiencias de cobro y percepciones de riesgo.
-                    </p>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <h5 className="font-semibold text-foreground">Cobertura</h5>
-                    <p>
-                      Más de 30 países en América Latina, Asia, Europa, MENA y Norteamérica. Período analizado: 
-                      enero 2023 - octubre 2025. Total de 124 observaciones país-mes procesadas.
-                    </p>
-                  </div>
-
-                  <div className="space-y-2">
-                    <h5 className="font-semibold text-foreground">Variables Clave</h5>
-                    <ul className="list-disc list-inside space-y-1">
-                      <li>Días promedio de retraso más allá de términos</li>
-                      <li>% empresas reportando incremento en demoras</li>
-                      <li>Distribución de términos de pago (30, 60, 90+ días)</li>
-                      <li>Tendencia de retrasos (incrementando/estable/decreciendo)</li>
-                    </ul>
-                  </div>
-
-                  <div className="space-y-2">
-                    <h5 className="font-semibold text-foreground">Procesamiento</h5>
-                    <p>
-                      Los datos fueron agregados por región y país para permitir comparaciones significativas. 
-                      Se calcularon promedios ponderados para el período 2024-2025 para reflejar la situación actual.
-                    </p>
-                  </div>
-                </div>
-
-                <Separator />
-
-                <div className="flex items-start gap-2 p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-900">
-                  <Download className="h-4 w-4 text-blue-600 shrink-0 mt-0.5" />
-                  <div className="text-xs">
-                    <strong className="text-foreground">Elaboración propia</strong> a partir de informes Finance, Credit and 
-                    International Business Survey 2023-2025. Los datos originales fueron transformados siguiendo metodología 
-                    documentada en el repositorio del proyecto.
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
+          {/* Footer Notes */}
+          <div className="mt-16 pt-8 border-t">
+            <h3 className="text-lg font-semibold mb-4">📚 Referencias y Metodología</h3>
+            <div className="grid md:grid-cols-2 gap-6 text-sm text-muted-foreground">
+              <div>
+                <h4 className="font-semibold text-foreground mb-2">Fuentes Primarias</h4>
+                <ul className="space-y-1 list-disc list-inside">
+                  <li>Bank for International Settlements - CBS Table (1983-2024)</li>
+                  <li>Export-Import Bank of the United States - Authorization Reports (2007-2025)</li>
+                  <li>Hardy & Saffie (2023) - Network Risk and Key Players, Journal of Finance</li>
+                  <li>World Uncertainty Index - Ahir, Bloom & Furceri</li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-semibold text-foreground mb-2">Procesamiento de Datos</h4>
+                <ul className="space-y-1 list-disc list-inside">
+                  <li>BIS: Sin ajustes, datos directos quarterly</li>
+                  <li>EXIM: Encoding latin1, filtro LAC-4, exclusión offshore borrowers</li>
+                  <li>Ratios EXIM/BIS: EXIM disbursed / BIS total 2024-Q4</li>
+                  <li>Código disponible en: <code className="text-xs bg-muted px-1 py-0.5 rounded">transformacion-json/</code></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </section>
