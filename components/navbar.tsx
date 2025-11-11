@@ -21,10 +21,10 @@ export function Navbar() {
 
           <div className="hidden lg:flex items-center gap-8">
             <a
-              href="#overview"
+              href="/"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors relative group"
             >
-              Panorama
+              Inicio
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-blue-600 group-hover:w-full transition-all" />
             </a>
             <a
@@ -42,11 +42,11 @@ export function Navbar() {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-amber-600 group-hover:w-full transition-all" />
             </a>
             <a
-              href="#analysis"
+              href="/datos"
               className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors relative group"
             >
-              Análisis
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-orange-600 group-hover:w-full transition-all" />
+              Datos & Análisis
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-indigo-600 group-hover:w-full transition-all" />
             </a>
             <a
               href="#global"
@@ -69,10 +69,10 @@ export function Navbar() {
             <SheetContent side="right" className="w-72">
               <nav className="flex flex-col gap-4 mt-8">
                 <a
-                  href="#overview"
+                  href="/"
                   className="text-base font-medium py-2 px-3 rounded-lg hover:bg-muted transition-colors"
                 >
-                  Panorama Global
+                  Inicio
                 </a>
                 <a
                   href="#instruments"
@@ -87,10 +87,10 @@ export function Navbar() {
                   Perfiles de Países
                 </a>
                 <a
-                  href="#analysis"
+                  href="/datos"
                   className="text-base font-medium py-2 px-3 rounded-lg hover:bg-muted transition-colors"
                 >
-                  Análisis LAC
+                  Datos & Análisis
                 </a>
                 <a
                   href="#global"

@@ -36,7 +36,7 @@ import { ProgramTable } from "@/components/program-table"
 import { CountryDetailCard } from "@/components/country-detail-card"
 import { GlobalInitiativeCard } from "@/components/global-initiative-card"
 import { LessonCard } from "@/components/lesson-card"
-import { GlobalPreviewCard } from "@/components/global-preview-card" // Imported GlobalPreviewCard
+import { GlobalPreviewCard } from "@/components/global-preview-card"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -614,72 +614,141 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
-              <div className="space-y-6 md:space-y-8 order-2 lg:order-1">
-                <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                  El comercio internacional es motor fundamental del crecimiento económico en América Latina. Sin
-                  embargo, existe una brecha significativa entre la demanda y oferta de instrumentos de financiamiento
-                  del comercio.
-                </p>
+            <div className="space-y-8">
+              <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-start">
+                <div className="space-y-6 md:space-y-8 order-2 lg:order-1">
+                  <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
+                    El comercio internacional es motor fundamental del crecimiento económico en América Latina. Sin
+                    embargo, existe una brecha significativa entre la demanda y oferta de instrumentos de financiamiento
+                    del comercio.
+                  </p>
 
-                <Collapsible open={showFullText} onOpenChange={setShowFullText}>
-                  <CollapsibleContent className="space-y-4">
-                    <p className="text-muted-foreground leading-relaxed">
-                      Esta brecha afecta desproporcionadamente a las pequeñas y medianas empresas (PYMEs), que
-                      representan más del 90% del tejido empresarial pero tienen acceso limitado a productos financieros
-                      especializados.
-                    </p>
-                    <p className="text-muted-foreground leading-relaxed">
-                      Los instrumentos de trade finance como cartas de crédito, seguros de exportación y garantías son
-                      esenciales para mitigar riesgos y facilitar transacciones internacionales, pero su adopción en la
-                      región sigue siendo inferior a otras economías emergentes.
-                    </p>
-                  </CollapsibleContent>
+                  <Collapsible open={showFullText} onOpenChange={setShowFullText}>
+                    <CollapsibleContent className="space-y-4">
+                      <p className="text-muted-foreground leading-relaxed">
+                        Esta brecha afecta desproporcionadamente a las pequeñas y medianas empresas (PYMEs), que
+                        representan más del 90% del tejido empresarial pero tienen acceso limitado a productos financieros
+                        especializados.
+                      </p>
+                      <p className="text-muted-foreground leading-relaxed">
+                        Los instrumentos de trade finance como cartas de crédito, seguros de exportación y garantías son
+                        esenciales para mitigar riesgos y facilitar transacciones internacionales, pero su adopción en la
+                        región sigue siendo inferior a otras economías emergentes.
+                      </p>
+                    </CollapsibleContent>
 
-                  <CollapsibleTrigger asChild>
-                    <Button variant="ghost" className="mt-4 gap-2 font-semibold">
-                      {showFullText ? "Leer menos" : "Leer más"}
-                      <ChevronDown className={`h-4 w-4 transition-transform ${showFullText ? "rotate-180" : ""}`} />
-                    </Button>
-                  </CollapsibleTrigger>
-                </Collapsible>
-
-                <Card className="border-2 border-blue-200 dark:border-blue-900 bg-blue-50/50 dark:bg-blue-950/20">
-                  <CardContent className="pt-6">
-                    <EmptyChartState
-                      title="Brecha de Trade Finance por Región"
-                      description="Comparación de la brecha de financiamiento entre América Latina, Asia-Pacífico y África"
-                    />
-                  </CardContent>
-                </Card>
-              </div>
-
-              <div className="space-y-6 md:space-y-8 order-1 lg:order-2">
-                <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-                  <img
-                    src="/puerto-latinoamericano-contenedores-valparaiso-callao.jpg"
-                    alt="Puerto latinoamericano - Valparaíso, Callao, Buenaventura"
-                    className="w-full h-auto"
-                  />
+                    <CollapsibleTrigger asChild>
+                      <Button variant="ghost" className="mt-4 gap-2 font-semibold">
+                        {showFullText ? "Leer menos" : "Leer más"}
+                        <ChevronDown className={`h-4 w-4 transition-transform ${showFullText ? "rotate-180" : ""}`} />
+                      </Button>
+                    </CollapsibleTrigger>
+                  </Collapsible>
                 </div>
 
-                <Card className="border-2 border-blue-200 dark:border-blue-900 overflow-hidden shadow-lg">
-                  <CardHeader className="bg-gradient-to-r from-blue-50 to-teal-50 dark:from-blue-950/30 dark:to-teal-950/30">
-                    <CardTitle className="text-lg flex items-center gap-2">
-                      <MapPin className="h-5 w-5 text-blue-600" />
-                      Países Analizados en Detalle
-                    </CardTitle>
-                    <CardDescription>Haz clic en un país para ver su perfil completo</CardDescription>
-                  </CardHeader>
-                  <CardContent className="p-0">
-                    <div
-                      id="lac-map"
-                      className="w-full h-[450px] md:h-[500px] bg-slate-100 dark:bg-slate-800"
-                      style={{ zIndex: 0 }}
+                <div className="space-y-6 md:space-y-8 order-1 lg:order-2">
+                  <div className="relative rounded-2xl overflow-hidden shadow-2xl">
+                    <img
+                      src="/puerto-latinoamericano-contenedores-valparaiso-callao.jpg"
+                      alt="Puerto latinoamericano - Valparaíso, Callao, Buenaventura"
+                      className="w-full h-auto"
                     />
-                  </CardContent>
-                </Card>
+                  </div>
+
+                  <Card className="border-2 border-blue-200 dark:border-blue-900 overflow-hidden shadow-lg">
+                    <CardHeader className="bg-gradient-to-r from-blue-50 to-teal-50 dark:from-blue-950/30 dark:to-teal-950/30">
+                      <CardTitle className="text-lg flex items-center gap-2">
+                        <MapPin className="h-5 w-5 text-blue-600" />
+                        Países Analizados en Detalle
+                      </CardTitle>
+                      <CardDescription>Haz clic en un país para ver su perfil completo</CardDescription>
+                    </CardHeader>
+                    <CardContent className="p-0">
+                      <div
+                        id="lac-map"
+                        className="w-full h-[450px] md:h-[500px] bg-slate-100 dark:bg-slate-800"
+                        style={{ zIndex: 0 }}
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
               </div>
+
+              {/* Data Preview Card */}
+              <Card className="border-2 border-indigo-200 dark:border-indigo-900 shadow-xl">
+                <CardHeader className="bg-gradient-to-r from-indigo-50 to-blue-50 dark:from-indigo-950/30 dark:to-blue-950/30">
+                  <div className="flex items-start justify-between">
+                    <div>
+                      <CardTitle className="flex items-center gap-2 text-xl mb-2">
+                        <BarChart3 className="h-6 w-6 text-indigo-600" />
+                        Análisis de Datos: Retrasos en Pagos Comerciales
+                      </CardTitle>
+                      <CardDescription className="text-base">
+                        Comparación global de días de retraso y tendencias en pagos internacionales
+                      </CardDescription>
+                    </div>
+                  </div>
+                </CardHeader>
+                <CardContent className="pt-6 space-y-6">
+                  <div className="grid md:grid-cols-2 gap-6">
+                    <div className="space-y-2">
+                      <h4 className="font-semibold flex items-center gap-2">
+                        <Globe className="h-4 w-4 text-blue-600" />
+                        Comparación Regional
+                      </h4>
+                      <p className="text-sm text-muted-foreground">
+                        Análisis de días promedio de retraso en pagos más allá de términos acordados. 
+                        América Latina comparada con Asia, MENA y Norteamérica/Europa.
+                      </p>
+                    </div>
+
+                    <div className="space-y-2">
+                      <h4 className="font-semibold flex items-center gap-2">
+                        <TrendingUp className="h-4 w-4 text-purple-600" />
+                        Mapa de Riesgo Global
+                      </h4>
+                      <p className="text-sm text-muted-foreground">
+                        Visualización scatter plot relacionando retrasos con empresas reportando incremento 
+                        en demoras. Identifica países LAC en zonas de alto riesgo.
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="grid grid-cols-3 gap-4 p-4 bg-slate-50 dark:bg-slate-900/20 rounded-lg">
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-indigo-600">124</div>
+                      <div className="text-xs text-muted-foreground">Observaciones</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-indigo-600">30+</div>
+                      <div className="text-xs text-muted-foreground">Países</div>
+                    </div>
+                    <div className="text-center">
+                      <div className="text-2xl font-bold text-indigo-600">4</div>
+                      <div className="text-xs text-muted-foreground">Regiones</div>
+                    </div>
+                  </div>
+
+                  <div className="flex flex-col sm:flex-row gap-4">
+                    <Button asChild className="flex-1 gap-2 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
+                      <a href="/datos">
+                        Ver análisis completo
+                        <ArrowRight className="h-4 w-4" />
+                      </a>
+                    </Button>
+                    <Button variant="outline" className="flex-1 gap-2" asChild>
+                      <a href="/datos">
+                        <Database className="h-4 w-4" />
+                        Explorar datos
+                      </a>
+                    </Button>
+                  </div>
+
+                  <div className="text-xs text-muted-foreground italic text-center">
+                    Fuente: Elaboración propia a partir de Finance, Credit and International Business Survey 2023-2025
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
