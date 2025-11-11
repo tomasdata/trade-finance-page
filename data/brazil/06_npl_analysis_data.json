@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.945039",
+    "original_file": "06_npl_analysis_data.csv",
+    "total_records": 3,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "indicator": "npl_ratio_15d",
+      "ratio": 0.75
+    },
+    {
+      "indicator": "npl_ratio_inadim",
+      "ratio": 1.22
+    },
+    {
+      "indicator": "problem_ratio",
+      "ratio": 2.89
+    }
+  ]
+}

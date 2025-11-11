@@ -1,0 +1,36 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.964916",
+    "original_file": "07_indexer_distribution_data.csv",
+    "total_records": 5,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "indexador": "Prefixado",
+      "count": 389279,
+      "pct": 46.44
+    },
+    {
+      "indexador": "Pós-fixado",
+      "count": 224634,
+      "pct": 26.8
+    },
+    {
+      "indexador": "Flutuantes",
+      "count": 161315,
+      "pct": 19.25
+    },
+    {
+      "indexador": "Outros indexadores",
+      "count": 62890,
+      "pct": 7.5
+    },
+    {
+      "indexador": "Índices de preços",
+      "count": 48,
+      "pct": 0.01
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.863444",
+    "original_file": "02_tf_by_sector_data.csv",
+    "total_records": 10,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "cnae_secao": "PJ - Indústrias de transformação",
+      "records": 459656,
+      "carteira_ativa_total": 16724379.338705
+    },
+    {
+      "cnae_secao": "PJ - Comércio; reparação de veículos automotores e motocicletas",
+      "records": 247088,
+      "carteira_ativa_total": 4826662.509730941
+    },
+    {
+      "cnae_secao": "PJ - Transporte, armazenagem e correio",
+      "records": 24081,
+      "carteira_ativa_total": 1405394.96399555
+    },
+    {
+      "cnae_secao": "PJ - Agricultura, pecuária, produção florestal, pesca e aqüicultura",
+      "records": 41920,
+      "carteira_ativa_total": 1221740.1565411799
+    },
+    {
+      "cnae_secao": "PJ - Atividades administrativas e serviços complementares",
+      "records": 15398,
+      "carteira_ativa_total": 913110.1789395601
+    },
+    {
+      "cnae_secao": "PJ - Indústrias extrativas",
+      "records": 10274,
+      "carteira_ativa_total": 800691.16002373
+    },
+    {
+      "cnae_secao": "PJ - Atividades profissionais, científicas e técnicas",
+      "records": 11141,
+      "carteira_ativa_total": 209346.85724259
+    },
+    {
+      "cnae_secao": "PJ - Atividades financeiras, de seguros e serviços relacionados",
+      "records": 3347,
+      "carteira_ativa_total": 196334.50117588
+    },
+    {
+      "cnae_secao": "PJ - Construção",
+      "records": 8235,
+      "carteira_ativa_total": 109725.63534087
+    },
+    {
+      "cnae_secao": "PJ - Eletricidade e gás",
+      "records": 1220,
+      "carteira_ativa_total": 95322.26474938
+    }
+  ]
+}

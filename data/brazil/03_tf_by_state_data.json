@@ -1,0 +1,61 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.884520",
+    "original_file": "03_tf_by_state_data.csv",
+    "total_records": 10,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "uf": "SP",
+      "records": 237339,
+      "carteira_ativa_total": 11366495.802899731
+    },
+    {
+      "uf": "RJ",
+      "records": 31412,
+      "carteira_ativa_total": 3059537.08783978
+    },
+    {
+      "uf": "MG",
+      "records": 72587,
+      "carteira_ativa_total": 2553747.38312564
+    },
+    {
+      "uf": "RS",
+      "records": 126829,
+      "carteira_ativa_total": 1845905.9458726798
+    },
+    {
+      "uf": "PR",
+      "records": 89927,
+      "carteira_ativa_total": 1837923.1805898
+    },
+    {
+      "uf": "MT",
+      "records": 20078,
+      "carteira_ativa_total": 1393373.67528145
+    },
+    {
+      "uf": "SC",
+      "records": 97991,
+      "carteira_ativa_total": 1117255.36452598
+    },
+    {
+      "uf": "BA",
+      "records": 22083,
+      "carteira_ativa_total": 824144.27756108
+    },
+    {
+      "uf": "GO",
+      "records": 19695,
+      "carteira_ativa_total": 538614.73665823
+    },
+    {
+      "uf": "PA",
+      "records": 12838,
+      "carteira_ativa_total": 497718.65430434997
+    }
+  ]
+}

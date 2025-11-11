@@ -1,0 +1,635 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.926335",
+    "original_file": "05_temporal_evolution_data.csv",
+    "total_records": 156,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "data_base": "2012-01-31",
+      "carteira_ativa": 65.61215143173
+    },
+    {
+      "data_base": "2012-02-29",
+      "carteira_ativa": 65.34353237316
+    },
+    {
+      "data_base": "2012-03-31",
+      "carteira_ativa": 69.72437253826
+    },
+    {
+      "data_base": "2012-04-30",
+      "carteira_ativa": 74.75119992456
+    },
+    {
+      "data_base": "2012-05-31",
+      "carteira_ativa": 78.88964714171
+    },
+    {
+      "data_base": "2012-06-30",
+      "carteira_ativa": 78.62169307611
+    },
+    {
+      "data_base": "2012-07-31",
+      "carteira_ativa": 85.22808298677
+    },
+    {
+      "data_base": "2012-08-31",
+      "carteira_ativa": 86.90762727792999
+    },
+    {
+      "data_base": "2012-09-30",
+      "carteira_ativa": 86.83574699459
+    },
+    {
+      "data_base": "2012-10-31",
+      "carteira_ativa": 89.36332378483999
+    },
+    {
+      "data_base": "2012-11-30",
+      "carteira_ativa": 87.06726498655999
+    },
+    {
+      "data_base": "2012-12-31",
+      "carteira_ativa": 84.38698846816
+    },
+    {
+      "data_base": "2013-01-31",
+      "carteira_ativa": 84.77584421099
+    },
+    {
+      "data_base": "2013-02-28",
+      "carteira_ativa": 91.95349166537
+    },
+    {
+      "data_base": "2013-03-31",
+      "carteira_ativa": 93.77317996526
+    },
+    {
+      "data_base": "2013-04-30",
+      "carteira_ativa": 96.768365207
+    },
+    {
+      "data_base": "2013-05-31",
+      "carteira_ativa": 99.84686642305
+    },
+    {
+      "data_base": "2013-06-30",
+      "carteira_ativa": 100.30697155202
+    },
+    {
+      "data_base": "2013-07-31",
+      "carteira_ativa": 101.44626860352001
+    },
+    {
+      "data_base": "2013-08-31",
+      "carteira_ativa": 102.30022988922
+    },
+    {
+      "data_base": "2013-09-30",
+      "carteira_ativa": 101.51738246948
+    },
+    {
+      "data_base": "2013-10-31",
+      "carteira_ativa": 100.28016679702999
+    },
+    {
+      "data_base": "2013-11-30",
+      "carteira_ativa": 99.15874073258
+    },
+    {
+      "data_base": "2013-12-31",
+      "carteira_ativa": 100.57346438919001
+    },
+    {
+      "data_base": "2014-01-31",
+      "carteira_ativa": 100.69751917978
+    },
+    {
+      "data_base": "2014-02-28",
+      "carteira_ativa": 103.69363223544
+    },
+    {
+      "data_base": "2014-03-31",
+      "carteira_ativa": 105.39969555719999
+    },
+    {
+      "data_base": "2014-04-30",
+      "carteira_ativa": 107.26983762117
+    },
+    {
+      "data_base": "2014-05-31",
+      "carteira_ativa": 110.04544447880001
+    },
+    {
+      "data_base": "2014-06-30",
+      "carteira_ativa": 105.62387674282
+    },
+    {
+      "data_base": "2014-07-31",
+      "carteira_ativa": 107.18010483977001
+    },
+    {
+      "data_base": "2014-08-31",
+      "carteira_ativa": 104.72571602017
+    },
+    {
+      "data_base": "2014-09-30",
+      "carteira_ativa": 106.18608463644999
+    },
+    {
+      "data_base": "2014-10-31",
+      "carteira_ativa": 111.66882659111
+    },
+    {
+      "data_base": "2014-11-30",
+      "carteira_ativa": 120.13302424591001
+    },
+    {
+      "data_base": "2014-12-31",
+      "carteira_ativa": 119.23937936566
+    },
+    {
+      "data_base": "2015-01-31",
+      "carteira_ativa": 120.46373610626
+    },
+    {
+      "data_base": "2015-02-28",
+      "carteira_ativa": 121.56619111379
+    },
+    {
+      "data_base": "2015-03-31",
+      "carteira_ativa": 125.95985488462
+    },
+    {
+      "data_base": "2015-04-30",
+      "carteira_ativa": 129.49079876802
+    },
+    {
+      "data_base": "2015-05-31",
+      "carteira_ativa": 131.94856100983
+    },
+    {
+      "data_base": "2015-06-30",
+      "carteira_ativa": 135.73306566031
+    },
+    {
+      "data_base": "2015-07-31",
+      "carteira_ativa": 139.34394614570002
+    },
+    {
+      "data_base": "2015-08-31",
+      "carteira_ativa": 141.41700417420998
+    },
+    {
+      "data_base": "2015-09-30",
+      "carteira_ativa": 142.61215266045002
+    },
+    {
+      "data_base": "2015-10-31",
+      "carteira_ativa": 142.18966610193
+    },
+    {
+      "data_base": "2015-11-30",
+      "carteira_ativa": 142.50122570442002
+    },
+    {
+      "data_base": "2015-12-31",
+      "carteira_ativa": 145.85310164122
+    },
+    {
+      "data_base": "2016-01-31",
+      "carteira_ativa": 147.29285464971
+    },
+    {
+      "data_base": "2016-02-29",
+      "carteira_ativa": 145.22658572768
+    },
+    {
+      "data_base": "2016-03-31",
+      "carteira_ativa": 143.43871176075
+    },
+    {
+      "data_base": "2016-04-30",
+      "carteira_ativa": 142.68435053598
+    },
+    {
+      "data_base": "2016-05-31",
+      "carteira_ativa": 147.5817863698
+    },
+    {
+      "data_base": "2016-06-30",
+      "carteira_ativa": 172.50259562761
+    },
+    {
+      "data_base": "2016-07-31",
+      "carteira_ativa": 171.50016798291998
+    },
+    {
+      "data_base": "2016-08-31",
+      "carteira_ativa": 170.65099432385998
+    },
+    {
+      "data_base": "2016-09-30",
+      "carteira_ativa": 166.32337920147
+    },
+    {
+      "data_base": "2016-10-31",
+      "carteira_ativa": 164.6750380888
+    },
+    {
+      "data_base": "2016-11-30",
+      "carteira_ativa": 160.78854024348
+    },
+    {
+      "data_base": "2016-12-31",
+      "carteira_ativa": 156.63167808175
+    },
+    {
+      "data_base": "2017-01-31",
+      "carteira_ativa": 153.46050727353
+    },
+    {
+      "data_base": "2017-02-28",
+      "carteira_ativa": 155.11385558888
+    },
+    {
+      "data_base": "2017-03-31",
+      "carteira_ativa": 159.09189436823002
+    },
+    {
+      "data_base": "2017-04-30",
+      "carteira_ativa": 161.0118716728
+    },
+    {
+      "data_base": "2017-05-31",
+      "carteira_ativa": 158.92915749208
+    },
+    {
+      "data_base": "2017-06-30",
+      "carteira_ativa": 158.09080557275
+    },
+    {
+      "data_base": "2017-07-31",
+      "carteira_ativa": 157.46833157604001
+    },
+    {
+      "data_base": "2017-08-31",
+      "carteira_ativa": 160.92010778058
+    },
+    {
+      "data_base": "2017-09-30",
+      "carteira_ativa": 163.27063207958
+    },
+    {
+      "data_base": "2017-10-31",
+      "carteira_ativa": 161.4843920276
+    },
+    {
+      "data_base": "2017-11-30",
+      "carteira_ativa": 158.63023947165
+    },
+    {
+      "data_base": "2017-12-31",
+      "carteira_ativa": 154.52795113576002
+    },
+    {
+      "data_base": "2018-01-31",
+      "carteira_ativa": 155.49342018323
+    },
+    {
+      "data_base": "2018-02-28",
+      "carteira_ativa": 158.81028314639
+    },
+    {
+      "data_base": "2018-03-31",
+      "carteira_ativa": 164.87589500113
+    },
+    {
+      "data_base": "2018-04-30",
+      "carteira_ativa": 169.63385319079
+    },
+    {
+      "data_base": "2018-05-31",
+      "carteira_ativa": 176.10451503213
+    },
+    {
+      "data_base": "2018-06-30",
+      "carteira_ativa": 178.19517549312
+    },
+    {
+      "data_base": "2018-07-31",
+      "carteira_ativa": 177.72836423171
+    },
+    {
+      "data_base": "2018-08-31",
+      "carteira_ativa": 183.58752643489998
+    },
+    {
+      "data_base": "2018-09-30",
+      "carteira_ativa": 183.74296100257
+    },
+    {
+      "data_base": "2018-10-31",
+      "carteira_ativa": 181.76150697539998
+    },
+    {
+      "data_base": "2018-11-30",
+      "carteira_ativa": 179.70879770469
+    },
+    {
+      "data_base": "2018-12-31",
+      "carteira_ativa": 178.80042796651
+    },
+    {
+      "data_base": "2019-01-31",
+      "carteira_ativa": 179.53866166181
+    },
+    {
+      "data_base": "2019-02-28",
+      "carteira_ativa": 183.46713158047
+    },
+    {
+      "data_base": "2019-03-31",
+      "carteira_ativa": 180.15138108472001
+    },
+    {
+      "data_base": "2019-04-30",
+      "carteira_ativa": 180.74779848995001
+    },
+    {
+      "data_base": "2019-05-31",
+      "carteira_ativa": 183.89649730749
+    },
+    {
+      "data_base": "2019-06-30",
+      "carteira_ativa": 177.54189699559
+    },
+    {
+      "data_base": "2019-07-31",
+      "carteira_ativa": 174.32100501176998
+    },
+    {
+      "data_base": "2019-08-31",
+      "carteira_ativa": 178.15524236759
+    },
+    {
+      "data_base": "2019-09-30",
+      "carteira_ativa": 179.81302286908
+    },
+    {
+      "data_base": "2019-10-31",
+      "carteira_ativa": 176.93556003733
+    },
+    {
+      "data_base": "2019-11-30",
+      "carteira_ativa": 178.76311276728
+    },
+    {
+      "data_base": "2019-12-31",
+      "carteira_ativa": 176.93047685042
+    },
+    {
+      "data_base": "2020-01-31",
+      "carteira_ativa": 178.0187155944
+    },
+    {
+      "data_base": "2020-02-29",
+      "carteira_ativa": 181.7815473039
+    },
+    {
+      "data_base": "2020-03-31",
+      "carteira_ativa": 221.89110721106
+    },
+    {
+      "data_base": "2020-04-30",
+      "carteira_ativa": 233.81158860875
+    },
+    {
+      "data_base": "2020-05-31",
+      "carteira_ativa": 234.43906004322
+    },
+    {
+      "data_base": "2020-06-30",
+      "carteira_ativa": 226.80996174832
+    },
+    {
+      "data_base": "2020-07-31",
+      "carteira_ativa": 216.3660016204
+    },
+    {
+      "data_base": "2020-08-31",
+      "carteira_ativa": 214.95672692812
+    },
+    {
+      "data_base": "2020-09-30",
+      "carteira_ativa": 207.05856076976002
+    },
+    {
+      "data_base": "2020-10-31",
+      "carteira_ativa": 204.80884326609
+    },
+    {
+      "data_base": "2020-11-30",
+      "carteira_ativa": 197.72734824997
+    },
+    {
+      "data_base": "2020-12-31",
+      "carteira_ativa": 190.07620027835
+    },
+    {
+      "data_base": "2021-01-31",
+      "carteira_ativa": 194.1304847315
+    },
+    {
+      "data_base": "2021-02-28",
+      "carteira_ativa": 197.7950155501
+    },
+    {
+      "data_base": "2021-03-31",
+      "carteira_ativa": 203.13077207385
+    },
+    {
+      "data_base": "2021-04-30",
+      "carteira_ativa": 211.22390872138
+    },
+    {
+      "data_base": "2021-05-31",
+      "carteira_ativa": 214.08113683091
+    },
+    {
+      "data_base": "2021-06-30",
+      "carteira_ativa": 204.63311519332999
+    },
+    {
+      "data_base": "2021-07-31",
+      "carteira_ativa": 204.92969480413
+    },
+    {
+      "data_base": "2021-08-31",
+      "carteira_ativa": 203.58417827531
+    },
+    {
+      "data_base": "2021-09-30",
+      "carteira_ativa": 207.58886201054
+    },
+    {
+      "data_base": "2021-10-31",
+      "carteira_ativa": 212.18169075072
+    },
+    {
+      "data_base": "2021-11-30",
+      "carteira_ativa": 211.99153433859
+    },
+    {
+      "data_base": "2021-12-31",
+      "carteira_ativa": 214.34257608615
+    },
+    {
+      "data_base": "2022-01-31",
+      "carteira_ativa": 217.77956140116
+    },
+    {
+      "data_base": "2022-02-28",
+      "carteira_ativa": 226.60695688197
+    },
+    {
+      "data_base": "2022-03-31",
+      "carteira_ativa": 233.32629483646
+    },
+    {
+      "data_base": "2022-04-30",
+      "carteira_ativa": 245.35185511005
+    },
+    {
+      "data_base": "2022-05-31",
+      "carteira_ativa": 246.65583887089002
+    },
+    {
+      "data_base": "2022-06-30",
+      "carteira_ativa": 246.21037389098
+    },
+    {
+      "data_base": "2022-07-31",
+      "carteira_ativa": 244.64636591634
+    },
+    {
+      "data_base": "2022-08-31",
+      "carteira_ativa": 241.16138523671
+    },
+    {
+      "data_base": "2022-09-30",
+      "carteira_ativa": 238.52698654628
+    },
+    {
+      "data_base": "2022-10-31",
+      "carteira_ativa": 236.39452786810998
+    },
+    {
+      "data_base": "2022-11-30",
+      "carteira_ativa": 234.36901348854002
+    },
+    {
+      "data_base": "2022-12-31",
+      "carteira_ativa": 228.00925101521
+    },
+    {
+      "data_base": "2023-01-31",
+      "carteira_ativa": 221.38089904637
+    },
+    {
+      "data_base": "2023-02-28",
+      "carteira_ativa": 226.56784110105
+    },
+    {
+      "data_base": "2023-03-31",
+      "carteira_ativa": 232.76746891385997
+    },
+    {
+      "data_base": "2023-04-30",
+      "carteira_ativa": 235.79135990711998
+    },
+    {
+      "data_base": "2023-05-31",
+      "carteira_ativa": 240.81992231319
+    },
+    {
+      "data_base": "2023-06-30",
+      "carteira_ativa": 242.32656897452
+    },
+    {
+      "data_base": "2023-07-31",
+      "carteira_ativa": 238.54241480691002
+    },
+    {
+      "data_base": "2023-08-31",
+      "carteira_ativa": 233.12759063139998
+    },
+    {
+      "data_base": "2023-09-30",
+      "carteira_ativa": 225.95898855292998
+    },
+    {
+      "data_base": "2023-10-31",
+      "carteira_ativa": 220.30468562168
+    },
+    {
+      "data_base": "2023-11-30",
+      "carteira_ativa": 217.14264053488998
+    },
+    {
+      "data_base": "2023-12-31",
+      "carteira_ativa": 219.33982027894
+    },
+    {
+      "data_base": "2024-01-31",
+      "carteira_ativa": 220.58753826177
+    },
+    {
+      "data_base": "2024-02-29",
+      "carteira_ativa": 222.67608729343
+    },
+    {
+      "data_base": "2024-03-31",
+      "carteira_ativa": 226.63806443112
+    },
+    {
+      "data_base": "2024-04-30",
+      "carteira_ativa": 236.03029281245
+    },
+    {
+      "data_base": "2024-05-31",
+      "carteira_ativa": 241.99868074903
+    },
+    {
+      "data_base": "2024-06-30",
+      "carteira_ativa": 252.27832382871
+    },
+    {
+      "data_base": "2024-07-31",
+      "carteira_ativa": 256.92777570065
+    },
+    {
+      "data_base": "2024-08-31",
+      "carteira_ativa": 258.86742853367
+    },
+    {
+      "data_base": "2024-09-30",
+      "carteira_ativa": 258.7705883033
+    },
+    {
+      "data_base": "2024-10-31",
+      "carteira_ativa": 263.87357008452
+    },
+    {
+      "data_base": "2024-11-30",
+      "carteira_ativa": 263.07615143095
+    },
+    {
+      "data_base": "2024-12-31",
+      "carteira_ativa": 265.87270002813
+    }
+  ]
+}

@@ -1539,6 +1539,7 @@ export default function Home() {
                 key={country.name}
                 name={country.name}
                 flag={country.flag}
+                hasDetailPage={country.name === "Brasil"}
                 onClick={() => setSelectedCountry(country.name)}
               />
             ))}

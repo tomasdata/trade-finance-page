@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.838694",
+    "original_file": "01_tf_by_firm_size_data.csv",
+    "total_records": 5,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "porte": "PJ - Grande",
+      "records": 221235,
+      "carteira_ativa_total": 20785044.832112238,
+      "pct_records": 26.4,
+      "pct_carteira": 78.07
+    },
+    {
+      "porte": "PJ - Indisponível",
+      "records": 3972,
+      "carteira_ativa_total": 322593.50776096,
+      "pct_records": 0.47,
+      "pct_carteira": 1.21
+    },
+    {
+      "porte": "PJ - Micro",
+      "records": 33789,
+      "carteira_ativa_total": 641103.78787384,
+      "pct_records": 4.03,
+      "pct_carteira": 2.41
+    },
+    {
+      "porte": "PJ - Médio",
+      "records": 448617,
+      "carteira_ativa_total": 4293758.35055157,
+      "pct_records": 53.52,
+      "pct_carteira": 16.13
+    },
+    {
+      "porte": "PJ - Pequeno",
+      "records": 130553,
+      "carteira_ativa_total": 581939.95628702,
+      "pct_records": 15.58,
+      "pct_carteira": 2.19
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.985350",
+    "original_file": "08_currency_by_maturity_data.csv",
+    "total_records": 3,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "maturity_bucket": "0-90d",
+      "brl_amount": 6648588.22743499,
+      "usd_amount": 1747010.6070806605,
+      "total": 8395598.83451565,
+      "usd_pct": 20.81
+    },
+    {
+      "maturity_bucket": "91-360d",
+      "brl_amount": 10510150.10184644,
+      "usd_amount": 2745828.155818007,
+      "total": 13255978.257664446,
+      "usd_pct": 20.71
+    },
+    {
+      "maturity_bucket": "361-1080d",
+      "brl_amount": 5194700.67865381,
+      "usd_amount": 1328253.7764864098,
+      "total": 6522954.45514022,
+      "usd_pct": 20.36
+    }
+  ]
+}

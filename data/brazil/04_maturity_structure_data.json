@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "generated_at": "2025-11-11T08:50:46.904983",
+    "original_file": "04_maturity_structure_data.csv",
+    "total_records": 6,
+    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+  },
+  "data": [
+    {
+      "maturity_bucket": "0-90 days",
+      "amount": 0.162,
+      "pct": 15.6
+    },
+    {
+      "maturity_bucket": "91-360 days",
+      "amount": 0.41,
+      "pct": 39.5
+    },
+    {
+      "maturity_bucket": "361-720 days",
+      "amount": 0.195,
+      "pct": 18.8
+    },
+    {
+      "maturity_bucket": "721-1080 days",
+      "amount": 0.098,
+      "pct": 9.4
+    },
+    {
+      "maturity_bucket": "1081-1800 days",
+      "amount": 0.078,
+      "pct": 7.5
+    },
+    {
+      "maturity_bucket": ">1800 days",
+      "amount": 0.057,
+      "pct": 5.5
+    }
+  ]
+}
