@@ -5,7 +5,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { Zap } from "lucide-react"
 import indexerData from "@/data/brazil/07_indexer_distribution_data.json"
 
-export function IndexerDistributionChart() {
+export default function IndexerDistributionChart() {
   // Group data: Fixed vs Variable
   const fixedRate = indexerData.data.find((d: any) => d.indexador === "Prefixado")?.pct || 0
   const variableRates = indexerData.data

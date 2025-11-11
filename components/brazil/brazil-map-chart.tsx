@@ -6,7 +6,7 @@ import { MapPin } from "lucide-react"
 import stateData from "@/data/brazil/03_tf_by_state_data.json"
 import coordinatesData from "@/data/brazil/10_states_coordinates.json"
 
-export function BrazilMapChart() {
+export default function BrazilMapChart() {
   const mapContainer = useRef<HTMLDivElement>(null)
   const mapInstance = useRef<any>(null)
   const [isClient, setIsClient] = useState(false)

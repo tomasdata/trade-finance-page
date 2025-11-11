@@ -5,7 +5,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 import { TrendingUp } from "lucide-react"
 import temporalData from "@/data/brazil/05_temporal_evolution_data.json"
 
-export function TemporalEvolutionChart() {
+export default function TemporalEvolutionChart() {
   const chartData = temporalData.data.map((item: any) => ({
     ...item,
     year: new Date(item.data_base).getFullYear(),

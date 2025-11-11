@@ -5,7 +5,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { Factory } from "lucide-react"
 import sectorData from "@/data/brazil/02_tf_by_sector_data.json"
 
-export function SectorChart() {
+export default function SectorChart() {
   const avg_portfolio = sectorData.data.reduce((sum: number, d: any) => sum + d.carteira_ativa_total / d.records, 0) / sectorData.data.length
 
   const chartData = sectorData.data.map((item: any) => ({

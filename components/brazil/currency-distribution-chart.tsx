@@ -10,7 +10,7 @@ const COLORS = {
   usd: "hsl(217, 91%, 60%)",
 }
 
-export function CurrencyDistributionChart() {
+export default function CurrencyDistributionChart() {
   const chartData = currencyData.data.map((item: any) => ({
     ...item,
     brl_bn: Math.round(item.brl_amount / 1000 * 10) / 10,

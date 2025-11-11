@@ -14,7 +14,7 @@ const GRADIENT_COLORS = [
   "hsl(340, 82%, 52%)",
 ]
 
-export function MaturityStructureChart() {
+export default function MaturityStructureChart() {
   const chartData = maturityData.data.map((item: any) => ({
     ...item,
     name: item.maturity_bucket,

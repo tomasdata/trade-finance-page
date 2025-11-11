@@ -13,7 +13,7 @@ const NPL_LABELS: { [key: string]: string } = {
   problem_ratio: "Problem Ratio",
 }
 
-export function NPLAnalysisChart() {
+export default function NPLAnalysisChart() {
   const chartData = nplData.data.map((item: any) => ({
     ...item,
     name: NPL_LABELS[item.indicator] || item.indicator,

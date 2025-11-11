@@ -5,7 +5,7 @@ import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContaine
 import { Building2 } from "lucide-react"
 import firmSizeData from "@/data/brazil/01_tf_by_firm_size_data.json"
 
-export function FirmSizeChart() {
+export default function FirmSizeChart() {
   const chartData = firmSizeData.data
     .filter((item: any) => item.porte !== "PJ - Indisponível")
     .map((item: any) => ({
