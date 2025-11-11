@@ -1,7 +1,8 @@
 "use client"
 
 import { useState } from "react"
-import { ArrowLeft, Database, TrendingUp, Building2, MapPin, Calendar, Download, BarChart3 } from "lucide-react"
+import { useRouter } from "next/navigation"
+import { ArrowLeft, Database, TrendingUp, Building2, MapPin, Calendar, Download, BarChart3, Shield } from "lucide-react"
 import { Navbar } from "@/components/navbar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
@@ -13,9 +14,13 @@ import { TemporalEvolutionChart } from "@/components/brazil/temporal-evolution-c
 import { SectorChart } from "@/components/brazil/sector-chart"
 import { StateDistributionChart } from "@/components/brazil/state-distribution-chart"
 import { MaturityStructureChart } from "@/components/brazil/maturity-structure-chart"
+import { NPLAnalysisChart } from "@/components/brazil/npl-analysis-chart"
+import { IndexerDistributionChart } from "@/components/brazil/indexer-distribution-chart"
+import { CurrencyDistributionChart } from "@/components/brazil/currency-distribution-chart"
 
 export default function BrasilPage() {
   const [activeTab, setActiveTab] = useState("overview")
+  const router = useRouter()
 
   return (
     <div className="min-h-screen">
@@ -25,11 +30,9 @@ export default function BrasilPage() {
       <section className="border-b bg-gradient-to-br from-green-50 via-blue-50/30 to-slate-50 dark:from-green-950/20 dark:via-blue-950/10 dark:to-slate-950">
         <div className="container px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl py-12 md:py-16">
           <div className="flex items-center gap-4 mb-6">
-            <Button variant="ghost" size="sm" asChild>
-              <a href="/#countries" className="gap-2">
-                <ArrowLeft className="h-4 w-4" />
-                Volver a países
-              </a>
+            <Button variant="ghost" size="sm" onClick={() => router.push("/")} className="gap-2">
+              <ArrowLeft className="h-4 w-4" />
+              Volver a países
             </Button>
           </div>
 
@@ -121,7 +124,7 @@ export default function BrasilPage() {
 
           {/* Tabs Navigation */}
           <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-8">
-            <TabsList className="grid w-full grid-cols-4 lg:w-[800px]">
+            <TabsList className="grid w-full grid-cols-5 lg:w-auto overflow-x-auto">
               <TabsTrigger value="overview" className="gap-2">
                 <BarChart3 className="h-4 w-4" />
                 <span className="hidden sm:inline">Panorama</span>
@@ -141,6 +144,11 @@ export default function BrasilPage() {
                 <TrendingUp className="h-4 w-4" />
                 <span className="hidden sm:inline">Evolución</span>
                 <span className="sm:hidden">Tiempo</span>
+              </TabsTrigger>
+              <TabsTrigger value="quality" className="gap-2">
+                <Shield className="h-4 w-4" />
+                <span className="hidden sm:inline">Calidad</span>
+                <span className="sm:hidden">Qtd</span>
               </TabsTrigger>
             </TabsList>
 
@@ -413,6 +421,72 @@ export default function BrasilPage() {
                     </CardContent>
                   </Card>
                 </div>
+              </div>
+            </TabsContent>
+
+            {/* Quality Tab */}
+            <TabsContent value="quality" className="space-y-8">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">Calidad de Cartera</h2>
+                <p className="text-muted-foreground mb-6">
+                  Indicadores de riesgo crediticio, tasas y composición de divisas
+                </p>
+              </div>
+
+              <div className="space-y-8">
+                <NPLAnalysisChart />
+
+                <div className="grid lg:grid-cols-2 gap-8">
+                  <IndexerDistributionChart />
+                  <CurrencyDistributionChart />
+                </div>
+
+                <Card className="bg-gradient-to-br from-green-50/50 to-emerald-50/50 dark:from-green-950/10 dark:to-emerald-950/10 border-green-200 dark:border-green-900">
+                  <CardHeader>
+                    <CardTitle className="text-lg">Resumen de Indicadores de Riesgo</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-4 text-sm text-muted-foreground">
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-foreground">Cartera de Excelente Calidad</h4>
+                        <p>
+                          Con un ratio NPL (>15 días) de 0.75%, el trade finance brasileño se posiciona como uno de 
+                          los segmentos de menor riesgo en el sistema financiero. Esto es resultado de: (i) garantías 
+                          inherentes (mercancías, cartas de crédito), (ii) análisis exhaustivo de empresas exportadoras 
+                          y (iii) supervisión activa del BCB.
+                        </p>
+                      </div>
+                      
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-foreground">Gestión de Tasa Equilibrada</h4>
+                        <p>
+                          La casi equidistribución entre tasas prefijadas (46.4%) y variables (46.1%) refleja estrategias 
+                          diferenciadas: tasas fijas para operaciones de corto plazo (pre-embarque) y variables para 
+                          financiamiento a mayor plazo. Esto permite a bancos y empresas gestionar riesgos de tasa acorde 
+                          a sus horizontes.
+                        </p>
+                      </div>
+
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-foreground">Composición de Divisas</h4>
+                        <p>
+                          Aproximadamente 80% de la cartera está denominada en BRL, lo que mitiga riesgos de devaluación 
+                          para empresas importadoras brasileñas. El 20% en USD es natural dado el comercio global, 
+                          especialmente en commodities donde USD es la referencia.
+                        </p>
+                      </div>
+
+                      <div className="space-y-2">
+                        <h4 className="font-semibold text-foreground">Implicación Regulatoria</h4>
+                        <p>
+                          Estos indicadores justifican tratamientos preferenciales en requerimientos de capital 
+                          (Basiléa III) y márgenes regulatorios. Bancos pueden ofrecer tasas más competitivas en TF 
+                          versus crédito directo, incentivando el financiamiento del comercio internacional.
+                        </p>
+                      </div>
+                    </div>
+                  </CardContent>
+                </Card>
               </div>
             </TabsContent>
           </Tabs>

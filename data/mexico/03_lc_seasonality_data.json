@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "source": "Comisión Nacional Bancaria y de Valores (CNBV) - Reporte R12A Sección 133. Datos de cartas de crédito (Letters of Credit) únicamente. Período: mensual 2022-2025. LIMITACIÓN: Solo cubre ~15-25% del mercado total de trade finance",
+    "generated_at": "2025-11-11T09:08:40.893100",
+    "original_file": "03_lc_seasonality_data.csv",
+    "total_records": 12,
+    "description": "Datos de cartas de crédito del sistema regulatorio CNBV de México"
+  },
+  "data": [
+    {
+      "month": 1,
+      "avg_lc_usd": 8.442802218749277,
+      "index": 88.9
+    },
+    {
+      "month": 2,
+      "avg_lc_usd": 9.014856185491146,
+      "index": 94.92
+    },
+    {
+      "month": 3,
+      "avg_lc_usd": 8.909244854693736,
+      "index": 93.81
+    },
+    {
+      "month": 4,
+      "avg_lc_usd": 10.179718404827927,
+      "index": 107.19
+    },
+    {
+      "month": 5,
+      "avg_lc_usd": 10.523504708750556,
+      "index": 110.81
+    },
+    {
+      "month": 6,
+      "avg_lc_usd": 9.166527258637855,
+      "index": 96.52
+    },
+    {
+      "month": 7,
+      "avg_lc_usd": 9.064753675490195,
+      "index": 95.45
+    },
+    {
+      "month": 8,
+      "avg_lc_usd": 9.270600276889226,
+      "index": 97.62
+    },
+    {
+      "month": 9,
+      "avg_lc_usd": 9.732610418189688,
+      "index": 102.48
+    },
+    {
+      "month": 10,
+      "avg_lc_usd": 9.931916149222243,
+      "index": 104.58
+    },
+    {
+      "month": 11,
+      "avg_lc_usd": 9.980259956902087,
+      "index": 105.09
+    },
+    {
+      "month": 12,
+      "avg_lc_usd": 9.746024580254991,
+      "index": 102.62
+    }
+  ]
+}

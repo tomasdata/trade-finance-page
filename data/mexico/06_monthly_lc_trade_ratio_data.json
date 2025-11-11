@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "source": "Comisión Nacional Bancaria y de Valores (CNBV) - Reporte R12A Sección 133. Datos de cartas de crédito (Letters of Credit) únicamente. Período: mensual 2022-2025. LIMITACIÓN: Solo cubre ~15-25% del mercado total de trade finance",
+    "generated_at": "2025-11-11T09:08:40.949345",
+    "original_file": "06_monthly_lc_trade_ratio_data.csv",
+    "total_records": 44,
+    "description": "Datos de cartas de crédito del sistema regulatorio CNBV de México"
+  },
+  "data": [
+    {
+      "year_month": "2022-01",
+      "lc_usd_mn": 272.09,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 24.41
+    },
+    {
+      "year_month": "2022-02",
+      "lc_usd_mn": 442.97,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 39.73
+    },
+    {
+      "year_month": "2022-03",
+      "lc_usd_mn": 315.57,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 28.31
+    },
+    {
+      "year_month": "2022-04",
+      "lc_usd_mn": 594.97,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 53.37
+    },
+    {
+      "year_month": "2022-05",
+      "lc_usd_mn": 677.62,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 60.78
+    },
+    {
+      "year_month": "2022-06",
+      "lc_usd_mn": 464.84,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 41.7
+    },
+    {
+      "year_month": "2022-07",
+      "lc_usd_mn": 400.98,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 35.97
+    },
+    {
+      "year_month": "2022-08",
+      "lc_usd_mn": 459.43,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 41.21
+    },
+    {
+      "year_month": "2022-09",
+      "lc_usd_mn": 484.59,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 43.47
+    },
+    {
+      "year_month": "2022-10",
+      "lc_usd_mn": 476.05,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 42.7
+    },
+    {
+      "year_month": "2022-11",
+      "lc_usd_mn": 461.75,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 41.42
+    },
+    {
+      "year_month": "2022-12",
+      "lc_usd_mn": 410.85,
+      "trade_bn": 1.11,
+      "lc_trade_ratio": 36.85
+    },
+    {
+      "year_month": "2023-01",
+      "lc_usd_mn": 383.3,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 33.9
+    },
+    {
+      "year_month": "2023-02",
+      "lc_usd_mn": 419.64,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 37.12
+    },
+    {
+      "year_month": "2023-03",
+      "lc_usd_mn": 483.34,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 42.75
+    },
+    {
+      "year_month": "2023-04",
+      "lc_usd_mn": 480.06,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 42.46
+    },
+    {
+      "year_month": "2023-05",
+      "lc_usd_mn": 504.63,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 44.64
+    },
+    {
+      "year_month": "2023-06",
+      "lc_usd_mn": 522.37,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 46.21
+    },
+    {
+      "year_month": "2023-07",
+      "lc_usd_mn": 542.76,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 48.01
+    },
+    {
+      "year_month": "2023-08",
+      "lc_usd_mn": 516.59,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 45.7
+    },
+    {
+      "year_month": "2023-09",
+      "lc_usd_mn": 491.49,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 43.47
+    },
+    {
+      "year_month": "2023-10",
+      "lc_usd_mn": 516.63,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 45.7
+    },
+    {
+      "year_month": "2023-11",
+      "lc_usd_mn": 530.96,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 46.97
+    },
+    {
+      "year_month": "2023-12",
+      "lc_usd_mn": 532.34,
+      "trade_bn": 1.13,
+      "lc_trade_ratio": 47.09
+    },
+    {
+      "year_month": "2024-01",
+      "lc_usd_mn": 549.71,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-02",
+      "lc_usd_mn": 508.29,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-03",
+      "lc_usd_mn": 500.43,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-04",
+      "lc_usd_mn": 447.4,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-05",
+      "lc_usd_mn": 476.05,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-06",
+      "lc_usd_mn": 451.97,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-07",
+      "lc_usd_mn": 455.35,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-08",
+      "lc_usd_mn": 466.11,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-09",
+      "lc_usd_mn": 474.08,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-10",
+      "lc_usd_mn": 487.18,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-11",
+      "lc_usd_mn": 504.33,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2024-12",
+      "lc_usd_mn": 518.71,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-01",
+      "lc_usd_mn": 483.47,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-02",
+      "lc_usd_mn": 441.09,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-03",
+      "lc_usd_mn": 491.43,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-04",
+      "lc_usd_mn": 523.69,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-05",
+      "lc_usd_mn": 456.92,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-06",
+      "lc_usd_mn": 403.3,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-07",
+      "lc_usd_mn": 413.85,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year_month": "2025-08",
+      "lc_usd_mn": 421.26,
+      "trade_bn": null,
+      "lc_trade_ratio": null
+    }
+  ]
+}

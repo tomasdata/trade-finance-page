@@ -1,0 +1,187 @@
+{
+  "metadata": {
+    "source": "Comisión Nacional Bancaria y de Valores (CNBV) - Reporte R12A Sección 133. Datos de cartas de crédito (Letters of Credit) únicamente. Período: mensual 2022-2025. LIMITACIÓN: Solo cubre ~15-25% del mercado total de trade finance",
+    "generated_at": "2025-11-11T09:08:40.911988",
+    "original_file": "04_monthly_evolution_data.csv",
+    "total_records": 44,
+    "description": "Datos de cartas de crédito del sistema regulatorio CNBV de México"
+  },
+  "data": [
+    {
+      "year_month": "2022-01-01",
+      "lc_usd": 272.09017544928963
+    },
+    {
+      "year_month": "2022-02-01",
+      "lc_usd": 442.96556554606013
+    },
+    {
+      "year_month": "2022-03-01",
+      "lc_usd": 315.5676799336809
+    },
+    {
+      "year_month": "2022-04-01",
+      "lc_usd": 594.970769295473
+    },
+    {
+      "year_month": "2022-05-01",
+      "lc_usd": 677.6151351930192
+    },
+    {
+      "year_month": "2022-06-01",
+      "lc_usd": 464.838679976182
+    },
+    {
+      "year_month": "2022-07-01",
+      "lc_usd": 400.9812335011632
+    },
+    {
+      "year_month": "2022-08-01",
+      "lc_usd": 459.43078789817156
+    },
+    {
+      "year_month": "2022-09-01",
+      "lc_usd": 484.58965972333044
+    },
+    {
+      "year_month": "2022-10-01",
+      "lc_usd": 476.0541541355582
+    },
+    {
+      "year_month": "2022-11-01",
+      "lc_usd": 461.7452643777486
+    },
+    {
+      "year_month": "2022-12-01",
+      "lc_usd": 410.85180100508796
+    },
+    {
+      "year_month": "2023-01-01",
+      "lc_usd": 383.2978226638349
+    },
+    {
+      "year_month": "2023-02-01",
+      "lc_usd": 419.64089084570975
+    },
+    {
+      "year_month": "2023-03-01",
+      "lc_usd": 483.3352265697148
+    },
+    {
+      "year_month": "2023-04-01",
+      "lc_usd": 480.0583628542028
+    },
+    {
+      "year_month": "2023-05-01",
+      "lc_usd": 504.6329280789272
+    },
+    {
+      "year_month": "2023-06-01",
+      "lc_usd": 522.3653656952906
+    },
+    {
+      "year_month": "2023-07-01",
+      "lc_usd": 542.7640204681545
+    },
+    {
+      "year_month": "2023-08-01",
+      "lc_usd": 516.5889629078038
+    },
+    {
+      "year_month": "2023-09-01",
+      "lc_usd": 491.48906665285597
+    },
+    {
+      "year_month": "2023-10-01",
+      "lc_usd": 516.6250844494114
+    },
+    {
+      "year_month": "2023-11-01",
+      "lc_usd": 530.9642381425919
+    },
+    {
+      "year_month": "2023-12-01",
+      "lc_usd": 532.3418959244685
+    },
+    {
+      "year_month": "2024-01-01",
+      "lc_usd": 549.7060281437683
+    },
+    {
+      "year_month": "2024-02-01",
+      "lc_usd": 508.2868549292228
+    },
+    {
+      "year_month": "2024-03-01",
+      "lc_usd": 500.42715379841667
+    },
+    {
+      "year_month": "2024-04-01",
+      "lc_usd": 447.4035405049194
+    },
+    {
+      "year_month": "2024-05-01",
+      "lc_usd": 476.052590898525
+    },
+    {
+      "year_month": "2024-06-01",
+      "lc_usd": 451.9726096385208
+    },
+    {
+      "year_month": "2024-07-01",
+      "lc_usd": 455.35220310141403
+    },
+    {
+      "year_month": "2024-08-01",
+      "lc_usd": 466.1129027133544
+    },
+    {
+      "year_month": "2024-09-01",
+      "lc_usd": 474.0802259340769
+    },
+    {
+      "year_month": "2024-10-01",
+      "lc_usd": 487.1762676491448
+    },
+    {
+      "year_month": "2024-11-01",
+      "lc_usd": 504.3294910149727
+    },
+    {
+      "year_month": "2024-12-01",
+      "lc_usd": 518.709990108692
+    },
+    {
+      "year_month": "2025-01-01",
+      "lc_usd": 483.4664174929625
+    },
+    {
+      "year_month": "2025-02-01",
+      "lc_usd": 441.0927819627279
+    },
+    {
+      "year_month": "2025-03-01",
+      "lc_usd": 491.42815549162833
+    },
+    {
+      "year_month": "2025-04-01",
+      "lc_usd": 523.690726715818
+    },
+    {
+      "year_month": "2025-05-01",
+      "lc_usd": 456.92379228839025
+    },
+    {
+      "year_month": "2025-06-01",
+      "lc_usd": 403.29532367621516
+    },
+    {
+      "year_month": "2025-07-01",
+      "lc_usd": 413.8532780273074
+    },
+    {
+      "year_month": "2025-08-01",
+      "lc_usd": 421.2580021354046
+    }
+  ]
+}

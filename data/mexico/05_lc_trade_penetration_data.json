@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "source": "Comisión Nacional Bancaria y de Valores (CNBV) - Reporte R12A Sección 133. Datos de cartas de crédito (Letters of Credit) únicamente. Período: mensual 2022-2025. LIMITACIÓN: Solo cubre ~15-25% del mercado total de trade finance",
+    "generated_at": "2025-11-11T09:08:40.929997",
+    "original_file": "05_lc_trade_penetration_data.csv",
+    "total_records": 4,
+    "description": "Datos de cartas de crédito del sistema regulatorio CNBV de México"
+  },
+  "data": [
+    {
+      "year": 2022,
+      "lc_usd_bn": 5.46,
+      "exports_bn": 7.09,
+      "imports_bn": 6.28,
+      "trade_bn": 13.38,
+      "lc_exports_ratio": 77.0,
+      "lc_imports_ratio": 86.9,
+      "lc_trade_ratio": 40.83
+    },
+    {
+      "year": 2023,
+      "lc_usd_bn": 5.92,
+      "exports_bn": 7.23,
+      "imports_bn": 6.34,
+      "trade_bn": 13.57,
+      "lc_exports_ratio": 81.94,
+      "lc_imports_ratio": 93.5,
+      "lc_trade_ratio": 43.67
+    },
+    {
+      "year": 2024,
+      "lc_usd_bn": 5.84,
+      "exports_bn": null,
+      "imports_bn": null,
+      "trade_bn": null,
+      "lc_exports_ratio": null,
+      "lc_imports_ratio": null,
+      "lc_trade_ratio": null
+    },
+    {
+      "year": 2025,
+      "lc_usd_bn": 3.64,
+      "exports_bn": null,
+      "imports_bn": null,
+      "trade_bn": null,
+      "lc_exports_ratio": null,
+      "lc_imports_ratio": null,
+      "lc_trade_ratio": null
+    }
+  ]
+}

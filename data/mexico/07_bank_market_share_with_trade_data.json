@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "source": "Comisión Nacional Bancaria y de Valores (CNBV) - Reporte R12A Sección 133. Datos de cartas de crédito (Letters of Credit) únicamente. Período: mensual 2022-2025. LIMITACIÓN: Solo cubre ~15-25% del mercado total de trade finance",
+    "generated_at": "2025-11-11T09:08:40.969531",
+    "original_file": "07_bank_market_share_with_trade_data.csv",
+    "total_records": 10,
+    "description": "Datos de cartas de crédito del sistema regulatorio CNBV de México"
+  },
+  "data": [
+    {
+      "institucion": "BBVA MEXICO",
+      "lc_usd_mn": 6206.76,
+      "market_share": 30.39,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "SANTANDER",
+      "lc_usd_mn": 4403.85,
+      "market_share": 21.56,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "HSBC",
+      "lc_usd_mn": 2676.78,
+      "market_share": 13.11,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "BANORTE",
+      "lc_usd_mn": 2226.68,
+      "market_share": 10.9,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "BMONEX",
+      "lc_usd_mn": 1403.07,
+      "market_share": 6.87,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "SCOTIABANK",
+      "lc_usd_mn": 1362.66,
+      "market_share": 6.67,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "BANAMEX",
+      "lc_usd_mn": 1331.44,
+      "market_share": 6.52,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": 40143,
+      "lc_usd_mn": 369.09,
+      "market_share": 1.81,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "ICBC",
+      "lc_usd_mn": 309.1,
+      "market_share": 1.51,
+      "trade_bn": 1.12
+    },
+    {
+      "institucion": "CITI MEXICO",
+      "lc_usd_mn": 136.15,
+      "market_share": 0.67,
+      "trade_bn": 1.13
+    }
+  ]
+}
