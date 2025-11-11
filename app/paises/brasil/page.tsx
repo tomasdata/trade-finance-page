@@ -450,7 +450,7 @@ export default function BrasilPage() {
                       <div className="space-y-2">
                         <h4 className="font-semibold text-foreground">Cartera de Excelente Calidad</h4>
                         <p>
-                          Con un ratio NPL (>15 días) de 0.75%, el trade finance brasileño se posiciona como uno de 
+                          Con un ratio NPL (&gt;15 días) de 0.75%, el trade finance brasileño se posiciona como uno de 
                           los segmentos de menor riesgo en el sistema financiero. Esto es resultado de: (i) garantías 
                           inherentes (mercancías, cartas de crédito), (ii) análisis exhaustivo de empresas exportadoras 
                           y (iii) supervisión activa del BCB.

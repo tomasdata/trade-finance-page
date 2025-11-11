@@ -8,7 +8,7 @@ import nplData from "@/data/brazil/06_npl_analysis_data.json"
 const COLORS = ["hsl(142, 76%, 36%)", "hsl(47, 96%, 53%)", "hsl(24, 95%, 53%)"]
 
 const NPL_LABELS: { [key: string]: string } = {
-  npl_ratio_15d: "NPL >15 días",
+  npl_ratio_15d: "NPL &gt;15 días",
   npl_ratio_inadim: "NPL Inadimplente",
   problem_ratio: "Problem Ratio",
 }
@@ -66,7 +66,7 @@ export function NPLAnalysisChart() {
 
         <div className="mt-6 p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-900">
           <p className="text-sm text-muted-foreground">
-            <strong className="text-foreground">Excelente Calidad de Cartera:</strong> Con un NPL de 0.75% (>15 días), 
+            <strong className="text-foreground">Excelente Calidad de Cartera:</strong> Con un NPL de 0.75% (&gt;15 días), 
             el trade finance brasileño demuestra una calidad crediticia excepcional. Esto refleja el carácter garantizado 
             de las operaciones (cartas de crédito, mercancías) y el análisis riguroso de riesgo.
           </p>
