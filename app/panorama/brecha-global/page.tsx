@@ -1,7 +1,7 @@
 'use client';
 
 import { EximVsBisRatio } from '@/components/global/exim-vs-bis-ratio';
-import { BisLendersSankey } from '@/components/global/bis-lenders-sankey';
+import { BISLendersSankey } from '@/components/global/bis-lenders-sankey';
 
 export default function BrechaGlobalPage() {
   return (
@@ -21,7 +21,7 @@ export default function BrechaGlobalPage() {
 
         <div className="space-y-6">
           <EximVsBisRatio />
-          <BisLendersSankey />
+          <BISLendersSankey />
         </div>
       </div>
     </div>

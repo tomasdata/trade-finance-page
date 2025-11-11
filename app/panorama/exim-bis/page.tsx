@@ -1,8 +1,8 @@
 'use client';
 
 import { EximVsBisRatio } from '@/components/global/exim-vs-bis-ratio';
-import { EximDeclineAnalysis } from '@/components/global/exim-decline-analysis';
-import { EximPymeAccess } from '@/components/global/exim-pyme-access';
+import { EXIMDeclineAnalysis } from '@/components/global/exim-decline-analysis';
+import { EXIMPymeAccess } from '@/components/global/exim-pyme-access';
 
 export default function EximBisPage() {
   return (
@@ -23,8 +23,8 @@ export default function EximBisPage() {
 
         <div className="space-y-6">
           <EximVsBisRatio />
-          <EximDeclineAnalysis />
-          <EximPymeAccess />
+          <EXIMDeclineAnalysis />
+          <EXIMPymeAccess />
         </div>
       </div>
     </div>
