@@ -1,23 +1,32 @@
 "use client"
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { PieChart, Pie, Cell, ResponsiveContainer, Legend, Tooltip } from "recharts"
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, Legend, Cell } from "recharts"
 import { Zap } from "lucide-react"
 import indexerData from "@/data/brazil/07_indexer_distribution_data.json"
 
-const COLORS = [
-  "hsl(217, 91%, 60%)",
-  "hsl(142, 76%, 36%)",
-  "hsl(47, 96%, 53%)",
-  "hsl(24, 95%, 53%)",
-  "hsl(263, 70%, 50%)",
-]
-
 export function IndexerDistributionChart() {
-  const chartData = indexerData.data.map((item: any) => ({
+  // Group data: Fixed vs Variable
+  const fixedRate = indexerData.data.find((d: any) => d.indexador === "Prefixado")?.pct || 0
+  const variableRates = indexerData.data
+    .filter((d: any) => ["Pós-fixado", "Flutuantes"].includes(d.indexador))
+    .reduce((sum: number, d: any) => sum + d.pct, 0)
+  const others = indexerData.data
+    .filter((d: any) => !["Prefixado", "Pós-fixado", "Flutuantes"].includes(d.indexador))
+    .reduce((sum: number, d: any) => sum + d.pct, 0)
+
+  const chartData = [
+    {
+      category: "Composición de Tasas",
+      "Prefijado": fixedRate,
+      "Variables": variableRates,
+      "Otros": others,
+    }
+  ]
+
+  const detailData = indexerData.data.map((item: any) => ({
     ...item,
     name: item.indexador,
-    value: item.pct,
   }))
 
   return (
@@ -25,62 +34,64 @@ export function IndexerDistributionChart() {
       <CardHeader>
         <CardTitle className="flex items-center gap-2">
           <Zap className="h-5 w-5 text-yellow-600" />
-          Distribución por Tipo de Indexador
+          Estructura de Tasas de Interés
         </CardTitle>
         <CardDescription>
-          Composición de tasas de interés en la cartera de trade finance
+          Composición fijo vs variable y gestión de riesgo de tasa
         </CardDescription>
       </CardHeader>
       <CardContent>
-        <div className="h-[350px] w-full">
+        <div className="h-[300px] w-full">
           <ResponsiveContainer width="100%" height="100%">
-            <PieChart>
-              <Pie
-                data={chartData}
-                cx="50%"
-                cy="50%"
-                labelLine={false}
-                label={({name, value}) => `${name}: ${value}%`}
-                outerRadius={100}
-                fill="#8884d8"
-                dataKey="value"
-              >
-                {chartData.map((entry: any, index: number) => (
-                  <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
-                ))}
-              </Pie>
+            <BarChart data={chartData} layout="vertical" margin={{ top: 20, right: 20, left: 150, bottom: 20 }}>
+              <CartesianGrid strokeDasharray="3 3" className="stroke-muted" />
+              <XAxis type="number" className="text-xs" />
+              <YAxis 
+                type="category"
+                dataKey="category" 
+                className="text-xs"
+                width={140}
+              />
               <Tooltip 
                 contentStyle={{ 
                   backgroundColor: 'hsl(var(--background))',
                   border: '1px solid hsl(var(--border))',
                   borderRadius: '6px'
                 }}
-                formatter={(value: number) => [`${value}%`, 'Participación']}
+                formatter={(value: number) => `${value.toFixed(1)}%`}
               />
               <Legend />
-            </PieChart>
+              <Bar dataKey="Prefijado" stackId="a" fill="hsl(217, 91%, 60%)" />
+              <Bar dataKey="Variables" stackId="a" fill="hsl(142, 76%, 36%)" />
+              <Bar dataKey="Otros" stackId="a" fill="hsl(220, 13%, 60%)" />
+            </BarChart>
           </ResponsiveContainer>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-4 mt-6">
-          <div className="p-4 bg-blue-50 dark:bg-blue-950/20 rounded-lg border border-blue-200 dark:border-blue-900">
-            <div className="text-xs text-muted-foreground mb-1">Prefijado</div>
-            <div className="text-2xl font-bold text-blue-700 dark:text-blue-400">46.4%</div>
-            <div className="text-xs text-muted-foreground mt-1">Tasas fijas</div>
-          </div>
-
-          <div className="p-4 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-900">
-            <div className="text-xs text-muted-foreground mb-1">Posfijado + Flotantes</div>
-            <div className="text-2xl font-bold text-green-700 dark:text-green-400">46.1%</div>
-            <div className="text-xs text-muted-foreground mt-1">Tasas variables</div>
+        <div className="mt-8 space-y-4">
+          <h4 className="font-semibold text-foreground">Desglose por Tipo de Indexador</h4>
+          <div className="grid md:grid-cols-2 gap-4">
+            {detailData.map((item: any) => (
+              <div key={item.indexador} className="p-3 bg-slate-50 dark:bg-slate-900/20 rounded border">
+                <div className="flex justify-between items-center">
+                  <span className="text-sm font-medium">{item.indexador}</span>
+                  <span className="font-bold text-lg">{item.pct.toFixed(2)}%</span>
+                </div>
+                <div className="text-xs text-muted-foreground mt-1">
+                  {item.count.toLocaleString()} operaciones
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
-        <div className="mt-6 p-4 bg-yellow-50 dark:bg-yellow-950/20 rounded-lg border border-yellow-200 dark:border-yellow-900">
-          <p className="text-sm text-muted-foreground">
-            <strong className="text-foreground">Estructura de Tasas Equilibrada:</strong> La cartera está casi 
-            equidistribuida entre tasas prefijadas (46.4%) y variables (46.1%), reflejando estrategias de 
-            gestión de riesgo de tasa diferenciadas según el horizonte temporal y condiciones de mercado.
+        <div className="mt-6 bg-yellow-50 dark:bg-yellow-950/20 p-4 rounded-lg border border-yellow-200 dark:border-yellow-900">
+          <h5 className="font-semibold text-foreground mb-2">Análisis de Gestión de Riesgo</h5>
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            La <strong>casi equipartición (46.4% fijo vs 46.1% variable)</strong> muestra que los bancos brasileños 
+            utilizan ambas estrategias según el plazo de la operación: tasas fijas para pre-embarque (corto plazo) 
+            y variables para financiamiento a mayor horizonte. Esto permite transferir riesgo de tasa apropiadamente 
+            a los actores económicos.
           </p>
         </div>
 

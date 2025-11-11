@@ -1,0 +1,101 @@
+{
+  "metadata": {
+    "source": "Superintendencia de Banca, Seguros y AFP (SBS) - Sistema de Información de Créditos (SIC). Datos de comercio exterior de todos los bancos y financieras reguladas. Período: mensual 2010-2024",
+    "generated_at": "2025-11-11T09:16:15.496405",
+    "original_file": "06_dollarization_over_time_data.csv",
+    "total_records": 15,
+    "description": "Datos de trade finance del sistema regulatorio SBS de Perú"
+  },
+  "data": [
+    {
+      "anio": 2010,
+      "amount_pen": 25984113977.32,
+      "amount_usd": 9235236517.583261,
+      "usd_share": 26.22
+    },
+    {
+      "anio": 2011,
+      "amount_pen": 109382232502.18,
+      "amount_usd": 39732235911.587166,
+      "usd_share": 26.65
+    },
+    {
+      "anio": 2012,
+      "amount_pen": 106909820501.45,
+      "amount_usd": 40629859499.24611,
+      "usd_share": 27.54
+    },
+    {
+      "anio": 2013,
+      "amount_pen": 130635871984.06999,
+      "amount_usd": 47866849572.1251,
+      "usd_share": 26.82
+    },
+    {
+      "anio": 2014,
+      "amount_pen": 166514859540.91,
+      "amount_usd": 58433053865.194145,
+      "usd_share": 25.98
+    },
+    {
+      "anio": 2015,
+      "amount_pen": 215736627437.09,
+      "amount_usd": 67304843781.0914,
+      "usd_share": 23.78
+    },
+    {
+      "anio": 2016,
+      "amount_pen": 206957662968.2,
+      "amount_usd": 61224294147.82179,
+      "usd_share": 22.83
+    },
+    {
+      "anio": 2017,
+      "amount_pen": 205273017033.52,
+      "amount_usd": 63080347261.15902,
+      "usd_share": 23.51
+    },
+    {
+      "anio": 2018,
+      "amount_pen": 247750823939.8,
+      "amount_usd": 75231991924.6732,
+      "usd_share": 23.29
+    },
+    {
+      "anio": 2019,
+      "amount_pen": 230848687227.92,
+      "amount_usd": 69108619775.46938,
+      "usd_share": 23.04
+    },
+    {
+      "anio": 2020,
+      "amount_pen": 201467263778.0,
+      "amount_usd": 57545714448.30005,
+      "usd_share": 22.22
+    },
+    {
+      "anio": 2021,
+      "amount_pen": 217626653490.44,
+      "amount_usd": 55529697242.91421,
+      "usd_share": 20.33
+    },
+    {
+      "anio": 2022,
+      "amount_pen": 276886700515.99,
+      "amount_usd": 72062458287.41975,
+      "usd_share": 20.65
+    },
+    {
+      "anio": 2023,
+      "amount_pen": 276145196995.83,
+      "amount_usd": 73915782753.32504,
+      "usd_share": 21.12
+    },
+    {
+      "anio": 2024,
+      "amount_pen": 257236323471.57,
+      "amount_usd": 68458384957.87307,
+      "usd_share": 21.02
+    }
+  ]
+}

@@ -1539,7 +1539,7 @@ export default function Home() {
                 key={country.name}
                 name={country.name}
                 flag={country.flag}
-                hasDetailPage={["Brasil", "Chile", "México"].includes(country.name)}
+                hasDetailPage={["Brasil", "Chile", "México", "Perú"].includes(country.name)}
                 onClick={() => setSelectedCountry(country.name)}
               />
             ))}

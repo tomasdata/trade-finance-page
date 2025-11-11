@@ -1,0 +1,41 @@
+{
+  "metadata": {
+    "source": "Superintendencia de Banca, Seguros y AFP (SBS) - Sistema de Información de Créditos (SIC). Datos de comercio exterior de todos los bancos y financieras reguladas. Período: mensual 2010-2024",
+    "generated_at": "2025-11-11T09:16:15.395206",
+    "original_file": "01_tf_by_firm_size_data.csv",
+    "total_records": 5,
+    "description": "Datos de trade finance del sistema regulatorio SBS de Perú"
+  },
+  "data": [
+    {
+      "size": "Corporate",
+      "amount_pen": 1369912896299.01,
+      "amount_usd": 404534714469.7865,
+      "pct": 47.64
+    },
+    {
+      "size": "Large",
+      "amount_pen": 1182071170739.01,
+      "amount_usd": 354301510046.6561,
+      "pct": 41.11
+    },
+    {
+      "size": "Medium",
+      "amount_pen": 312004337598.13,
+      "amount_usd": 96901154497.2932,
+      "pct": 10.85
+    },
+    {
+      "size": "Small",
+      "amount_pen": 9402960227.23,
+      "amount_usd": 2962912968.584273,
+      "pct": 0.33
+    },
+    {
+      "size": "Micro",
+      "amount_pen": 1964490500.91,
+      "amount_usd": 659077963.4626276,
+      "pct": 0.07
+    }
+  ]
+}

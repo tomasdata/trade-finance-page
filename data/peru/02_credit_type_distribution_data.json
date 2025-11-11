@@ -1,0 +1,59 @@
+{
+  "metadata": {
+    "source": "Superintendencia de Banca, Seguros y AFP (SBS) - Sistema de Información de Créditos (SIC). Datos de comercio exterior de todos los bancos y financieras reguladas. Período: mensual 2010-2024",
+    "generated_at": "2025-11-11T09:16:15.417999",
+    "original_file": "02_credit_type_distribution_data.csv",
+    "total_records": 8,
+    "description": "Datos de trade finance del sistema regulatorio SBS de Perú"
+  },
+  "data": [
+    {
+      "Concepto": "Préstamos",
+      "amount_pen": 18007007391043.72,
+      "pct": 65.05,
+      "is_trade_finance": "No"
+    },
+    {
+      "Concepto": "Comercio exterior",
+      "amount_pen": 2875355855364.29,
+      "pct": 10.39,
+      "is_trade_finance": "Yes"
+    },
+    {
+      "Concepto": "Arrendamiento financiero y Lease-back",
+      "amount_pen": 2209592296943.17,
+      "pct": 7.98,
+      "is_trade_finance": "No"
+    },
+    {
+      "Concepto": "Otros 1/",
+      "amount_pen": 1363407712761.12,
+      "pct": 4.93,
+      "is_trade_finance": "No"
+    },
+    {
+      "Concepto": "Arrendamiento financiero y Lease-back**",
+      "amount_pen": 1086972449724.05,
+      "pct": 3.93,
+      "is_trade_finance": "No"
+    },
+    {
+      "Concepto": "Descuentos",
+      "amount_pen": 857356935539.61,
+      "pct": 3.1,
+      "is_trade_finance": "No"
+    },
+    {
+      "Concepto": "Factoring",
+      "amount_pen": 702884782586.3,
+      "pct": 2.54,
+      "is_trade_finance": "No"
+    },
+    {
+      "Concepto": "Tarjetas de crédito",
+      "amount_pen": 577245307879.72,
+      "pct": 2.09,
+      "is_trade_finance": "No"
+    }
+  ]
+}

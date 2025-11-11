@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "source": "Superintendencia de Banca, Seguros y AFP (SBS) - Sistema de Información de Créditos (SIC). Datos de comercio exterior de todos los bancos y financieras reguladas. Período: mensual 2010-2024",
+    "generated_at": "2025-11-11T09:16:15.437867",
+    "original_file": "03_bank_concentration_data.csv",
+    "total_records": 10,
+    "description": "Datos de trade finance del sistema regulatorio SBS de Perú"
+  },
+  "data": [
+    {
+      "institucion_std": "B. BBVA Perú",
+      "amount_pen": 826606689538.9401,
+      "market_share": 28.86,
+      "cumulative": 28.86
+    },
+    {
+      "institucion_std": "Banco de Crédito del Perú",
+      "amount_pen": 609489681727.55,
+      "market_share": 21.28,
+      "cumulative": 50.14
+    },
+    {
+      "institucion_std": "Scotiabank Perú",
+      "amount_pen": 573903163200.69,
+      "market_share": 20.04,
+      "cumulative": 70.18
+    },
+    {
+      "institucion_std": "Interbank",
+      "amount_pen": 316188404383.04,
+      "market_share": 11.04,
+      "cumulative": 81.22
+    },
+    {
+      "institucion_std": "BanBif (Banco Interamericano de Finanzas)",
+      "amount_pen": 219969712682.26,
+      "market_share": 7.68,
+      "cumulative": 88.9
+    },
+    {
+      "institucion_std": "B. Pichincha",
+      "amount_pen": 126310901817.15,
+      "market_share": 4.41,
+      "cumulative": 93.31
+    },
+    {
+      "institucion_std": "Citibank",
+      "amount_pen": 75409823875.11,
+      "market_share": 2.63,
+      "cumulative": 95.94
+    },
+    {
+      "institucion_std": "B. Santander Perú",
+      "amount_pen": 68117178814.36,
+      "market_share": 2.38,
+      "cumulative": 98.32
+    },
+    {
+      "institucion_std": "B. GNB",
+      "amount_pen": 35770520439.72,
+      "market_share": 1.25,
+      "cumulative": 99.57
+    },
+    {
+      "institucion_std": "Bancom (Banco de Comercio)",
+      "amount_pen": 12511221740.36,
+      "market_share": 0.44,
+      "cumulative": 100.01
+    }
+  ]
+}
