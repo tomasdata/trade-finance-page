@@ -12,14 +12,14 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
 
 // Dynamic imports with SSR disabled for all chart components
-const FirmSizeChart = dynamic(() => import("@/components/brazil/firm-size-chart").then(mod => ({ default: mod.FirmSizeChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
-const TemporalEvolutionChart = dynamic(() => import("@/components/brazil/temporal-evolution-chart").then(mod => ({ default: mod.TemporalEvolutionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
-const SectorChart = dynamic(() => import("@/components/brazil/sector-chart").then(mod => ({ default: mod.SectorChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
-const BrazilMapChart = dynamic(() => import("@/components/brazil/brazil-map-chart").then(mod => ({ default: mod.BrazilMapChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
-const MaturityStructureChart = dynamic(() => import("@/components/brazil/maturity-structure-chart").then(mod => ({ default: mod.MaturityStructureChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
-const NPLAnalysisChart = dynamic(() => import("@/components/brazil/npl-analysis-chart").then(mod => ({ default: mod.NPLAnalysisChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
-const IndexerDistributionChart = dynamic(() => import("@/components/brazil/indexer-distribution-chart").then(mod => ({ default: mod.IndexerDistributionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
-const CurrencyDistributionChart = dynamic(() => import("@/components/brazil/currency-distribution-chart").then(mod => ({ default: mod.CurrencyDistributionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const FirmSizeChart = dynamic(() => import("@/components/brazil/firm-size-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const TemporalEvolutionChart = dynamic(() => import("@/components/brazil/temporal-evolution-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const SectorChart = dynamic(() => import("@/components/brazil/sector-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const BrazilMapChart = dynamic(() => import("@/components/brazil/brazil-map-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const MaturityStructureChart = dynamic(() => import("@/components/brazil/maturity-structure-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const NPLAnalysisChart = dynamic(() => import("@/components/brazil/npl-analysis-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const IndexerDistributionChart = dynamic(() => import("@/components/brazil/indexer-distribution-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const CurrencyDistributionChart = dynamic(() => import("@/components/brazil/currency-distribution-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 
 export default function BrasilPage() {
   const [activeTab, setActiveTab] = useState("overview")
