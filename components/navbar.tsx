@@ -58,6 +58,11 @@ export function Navbar() {
                   </a>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
+                  <a href="/panorama/retrasos-pagos" className="cursor-pointer">
+                    Retrasos de Pagos
+                  </a>
+                </DropdownMenuItem>
+                <DropdownMenuItem asChild>
                   <a href="/panorama/exim-bis" className="cursor-pointer">
                     EXIM & BIS
                   </a>
@@ -146,6 +151,13 @@ export function Navbar() {
                     className="text-base font-medium py-2 px-6 rounded-lg hover:bg-muted transition-colors block"
                   >
                     Brecha Global
+                  </a>
+                  <a
+                    href="/panorama/retrasos-pagos"
+                    onClick={() => setIsOpen(false)}
+                    className="text-base font-medium py-2 px-6 rounded-lg hover:bg-muted transition-colors block"
+                  >
+                    Retrasos de Pagos
                   </a>
                   <a
                     href="/panorama/exim-bis"

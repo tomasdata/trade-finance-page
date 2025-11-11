@@ -731,13 +731,13 @@ export default function Home() {
 
                   <div className="flex flex-col sm:flex-row gap-4">
                     <Button asChild className="flex-1 gap-2 bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700">
-                      <a href="/datos">
+                      <a href="/panorama/retrasos-pagos">
                         Ver análisis completo
                         <ArrowRight className="h-4 w-4" />
                       </a>
                     </Button>
                     <Button variant="outline" className="flex-1 gap-2" asChild>
-                      <a href="/datos">
+                      <a href="/panorama/retrasos-pagos">
                         <Database className="h-4 w-4" />
                         Explorar datos
                       </a>
