@@ -1,6 +1,7 @@
 "use client"
 
 import { useState } from "react"
+import dynamic from "next/dynamic"
 import { ArrowLeft, Database, TrendingUp, Building2, Calendar, Download, BarChart3 } from "lucide-react"
 import { Navbar } from "@/components/navbar"
 import { Button } from "@/components/ui/button"
@@ -8,9 +9,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
-import { BankConcentrationChart } from "@/components/chile/bank-concentration-chart"
-import { CurrencyCompositionChart } from "@/components/chile/currency-composition-chart"
-import { AnnualEvolutionChart } from "@/components/chile/annual-evolution-chart"
+
+// Dynamic imports with SSR disabled
+const BankConcentrationChart = dynamic(() => import("@/components/chile/bank-concentration-chart").then(mod => ({ default: mod.BankConcentrationChart })), { ssr: false })
+const CurrencyCompositionChart = dynamic(() => import("@/components/chile/currency-composition-chart").then(mod => ({ default: mod.CurrencyCompositionChart })), { ssr: false })
+const AnnualEvolutionChart = dynamic(() => import("@/components/chile/annual-evolution-chart").then(mod => ({ default: mod.AnnualEvolutionChart })), { ssr: false })
 
 export default function ChilePage() {
   const [activeTab, setActiveTab] = useState("overview")

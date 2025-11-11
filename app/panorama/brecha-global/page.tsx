@@ -1,7 +1,10 @@
 'use client';
 
-import { EximVsBisRatio } from '@/components/global/exim-vs-bis-ratio';
-import { BISLendersSankey } from '@/components/global/bis-lenders-sankey';
+import dynamic from 'next/dynamic';
+
+// Dynamic imports with SSR disabled
+const EximVsBisRatio = dynamic(() => import('@/components/global/exim-vs-bis-ratio').then(mod => ({ default: mod.EximVsBisRatio })), { ssr: false });
+const BISLendersSankey = dynamic(() => import('@/components/global/bis-lenders-sankey').then(mod => ({ default: mod.BISLendersSankey })), { ssr: false });
 
 export default function BrechaGlobalPage() {
   return (

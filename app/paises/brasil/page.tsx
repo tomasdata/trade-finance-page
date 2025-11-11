@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import { useRouter } from "next/navigation"
+import dynamic from "next/dynamic"
 import { ArrowLeft, Database, TrendingUp, Building2, MapPin, Calendar, Download, BarChart3, Shield } from "lucide-react"
 import { Navbar } from "@/components/navbar"
 import { Button } from "@/components/ui/button"
@@ -9,14 +10,16 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Separator } from "@/components/ui/separator"
-import { FirmSizeChart } from "@/components/brazil/firm-size-chart"
-import { TemporalEvolutionChart } from "@/components/brazil/temporal-evolution-chart"
-import { SectorChart } from "@/components/brazil/sector-chart"
-import { BrazilMapChart } from "@/components/brazil/brazil-map-chart"
-import { MaturityStructureChart } from "@/components/brazil/maturity-structure-chart"
-import { NPLAnalysisChart } from "@/components/brazil/npl-analysis-chart"
-import { IndexerDistributionChart } from "@/components/brazil/indexer-distribution-chart"
-import { CurrencyDistributionChart } from "@/components/brazil/currency-distribution-chart"
+
+// Dynamic imports with SSR disabled for all chart components
+const FirmSizeChart = dynamic(() => import("@/components/brazil/firm-size-chart").then(mod => ({ default: mod.FirmSizeChart })), { ssr: false })
+const TemporalEvolutionChart = dynamic(() => import("@/components/brazil/temporal-evolution-chart").then(mod => ({ default: mod.TemporalEvolutionChart })), { ssr: false })
+const SectorChart = dynamic(() => import("@/components/brazil/sector-chart").then(mod => ({ default: mod.SectorChart })), { ssr: false })
+const BrazilMapChart = dynamic(() => import("@/components/brazil/brazil-map-chart").then(mod => ({ default: mod.BrazilMapChart })), { ssr: false })
+const MaturityStructureChart = dynamic(() => import("@/components/brazil/maturity-structure-chart").then(mod => ({ default: mod.MaturityStructureChart })), { ssr: false })
+const NPLAnalysisChart = dynamic(() => import("@/components/brazil/npl-analysis-chart").then(mod => ({ default: mod.NPLAnalysisChart })), { ssr: false })
+const IndexerDistributionChart = dynamic(() => import("@/components/brazil/indexer-distribution-chart").then(mod => ({ default: mod.IndexerDistributionChart })), { ssr: false })
+const CurrencyDistributionChart = dynamic(() => import("@/components/brazil/currency-distribution-chart").then(mod => ({ default: mod.CurrencyDistributionChart })), { ssr: false })
 
 export default function BrasilPage() {
   const [activeTab, setActiveTab] = useState("overview")
