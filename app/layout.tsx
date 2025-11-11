@@ -3,12 +3,7 @@ import type { Metadata } from "next"
 
 import "./globals.css"
 
-import { Outfit, Space_Grotesk, Libre_Baskerville as V0_Font_Libre_Baskerville, IBM_Plex_Mono as V0_Font_IBM_Plex_Mono, Lora as V0_Font_Lora } from 'next/font/google'
-
-// Initialize fonts
-const _libreBaskerville = V0_Font_Libre_Baskerville({ subsets: ['latin'], weight: ["400","700"] })
-const _ibmPlexMono = V0_Font_IBM_Plex_Mono({ subsets: ['latin'], weight: ["100","200","300","400","500","600","700"] })
-const _lora = V0_Font_Lora({ subsets: ['latin'], weight: ["400","500","600","700"] })
+import { Outfit, Space_Grotesk } from 'next/font/google'
 
 const outfit = Outfit({
   subsets: ["latin"],
