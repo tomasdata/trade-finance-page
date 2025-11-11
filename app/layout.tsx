@@ -47,9 +47,9 @@ export const metadata: Metadata = {
     siteName: "Trade Finance LAC",
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
-        height: 630,
+        url: "https://tradefinancelac.tomasdata.io/og-image.jpg",
+        width: 1024,
+        height: 1024,
         alt: "Trade Finance América Latina - Investigación y Análisis",
       },
     ],
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     title: "Trade Finance LAC | Investigación sobre Financiamiento Comercial",
     description: "Análisis comparativo de instrumentos de financiamiento del comercio en América Latina.",
     creator: "@tomasdata",
-    images: ["/og-image.jpg"],
+    images: ["https://tradefinancelac.tomasdata.io/og-image.jpg"],
   },
   robots: {
     index: true,
