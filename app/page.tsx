@@ -800,7 +800,174 @@ export default function Home() {
               <h2 className="text-3xl md:text-4xl font-bold">América Latina en Contexto</h2>
             </div>
             <p className="text-muted-foreground text-lg max-w-2xl">
-              Análisis regional de barreras estructurales y comparación con otras economías emergentes
+              Perfiles de países, barreras estructurales y comparación con otras economías emergentes
+            </p>
+          </div>
+
+          {/* Perfiles por País - Ahora primero */}
+          <div className="mb-16">
+            <div className="mb-8">
+              <h3 className="text-2xl font-bold mb-2">Perfiles por País</h3>
+              <p className="text-muted-foreground">
+                Selecciona un país para ver análisis detallado de su ecosistema de trade finance
+              </p>
+            </div>
+
+            <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 mb-12">
+              {countries.map((country) => (
+                <CountryCard
+                  key={country.name}
+                  name={country.name}
+                  flag={country.flag}
+                  hasDetailPage={["Brasil", "Chile", "México", "Perú"].includes(country.name)}
+                  onClick={() => setSelectedCountry(country.name)}
+                />
+              ))}
+            </div>
+
+            {selectedCountry &&
+              selectedCountry !== "Centroamérica" &&
+              countryPrograms[selectedCountry as keyof typeof countryPrograms] && (
+                <div className="space-y-8 animate-in fade-in-50 duration-500">
+                  <Card className="border-2 border-teal-500 shadow-lg">
+                    <CardHeader>
+                      <div className="flex items-center gap-4">
+                        <div className="text-5xl">{countries.find((c) => c.name === selectedCountry)?.flag}</div>
+                        <div>
+                          <CardTitle className="text-3xl">{selectedCountry}</CardTitle>
+                          <CardDescription className="text-base">
+                            Programas de Apoyo a Exportaciones - Ecosistema Completo
+                          </CardDescription>
+                        </div>
+                      </div>
+                    </CardHeader>
+                  </Card>
+
+                  {/* Institutions Overview */}
+                  <CountryDetailCard
+                    icon={Building2}
+                    title="Marco Institucional"
+                    description="Organismos clave en el ecosistema de financiamiento"
+                  >
+                    <div className="grid md:grid-cols-3 gap-4">
+                      {countryPrograms[selectedCountry as keyof typeof countryPrograms].institutions.map((inst, idx) => (
+                        <Card key={idx} className="border">
+                          <CardHeader>
+                            <Badge className="w-fit mb-2">{inst.type}</Badge>
+                            <CardTitle className="text-base">{inst.name}</CardTitle>
+                          </CardHeader>
+                          <CardContent>
+                            <p className="text-sm text-muted-foreground mb-3">{inst.description}</p>
+                            {inst.link && (
+                              <a
+                                href={inst.link}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-700"
+                              >
+                                Sitio oficial
+                                <ExternalLink className="h-3 w-3" />
+                              </a>
+                            )}
+                          </CardContent>
+                        </Card>
+                      ))}
+                    </div>
+                  </CountryDetailCard>
+
+                  {/* Programs Table */}
+                  <CountryDetailCard
+                    icon={Award}
+                    title="Instrumentos y Programas"
+                    description="Catálogo completo de herramientas de financiamiento disponibles"
+                  >
+                    <ProgramTable
+                      programs={countryPrograms[selectedCountry as keyof typeof countryPrograms].programs}
+                      title=""
+                    />
+                  </CountryDetailCard>
+
+                  {/* Statistics */}
+                  <CountryDetailCard
+                    icon={BarChart3}
+                    title="Montos Operados e Impacto"
+                    description="Datos cuantitativos sobre alcance y resultados"
+                  >
+                    <div className="grid md:grid-cols-2 gap-6">
+                      <div className="space-y-3">
+                        {Object.entries(countryPrograms[selectedCountry as keyof typeof countryPrograms].stats).map(
+                          ([key, value]) => (
+                            <div key={key} className="flex flex-col p-4 bg-muted rounded-lg">
+                              <span className="text-sm text-muted-foreground capitalize mb-1">
+                                {key.replace(/([A-Z])/g, " $1").trim()}
+                              </span>
+                              <span className="font-semibold text-lg">{value}</span>
+                            </div>
+                          ),
+                        )}
+                      </div>
+
+                      {/* Impact metrics for Colombia */}
+                      {selectedCountry === "Colombia" && countryPrograms.Colombia.impact && (
+                        <div className="space-y-3">
+                          <h5 className="font-semibold text-sm text-muted-foreground mb-3">IMPACTO MEDIDO (BANCÓLDEX)</h5>
+                          {Object.entries(countryPrograms.Colombia.impact).map(([key, value]) => (
+                            <div
+                              key={key}
+                              className="flex items-center justify-between p-3 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-900"
+                            >
+                              <span className="text-sm capitalize">{key.replace(/([A-Z])/g, " $1").trim()}</span>
+                              <span className="font-bold text-green-700 dark:text-green-400">{value}</span>
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </div>
+                  </CountryDetailCard>
+
+                  {/* Sources */}
+                  <CountryDetailCard
+                    icon={BookOpen}
+                    title="Fuentes y Metodología"
+                    description="Referencias oficiales y documentación técnica"
+                  >
+                    <div className="space-y-3">
+                      {countryPrograms[selectedCountry as keyof typeof countryPrograms].sources.map((source, idx) => (
+                        <a
+                          key={idx}
+                          href={source.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-start gap-3 p-4 border rounded-lg hover:bg-muted/50 transition-colors group"
+                        >
+                          <ExternalLink className="h-4 w-4 mt-0.5 text-blue-600 group-hover:text-blue-700" />
+                          <div className="flex-1 min-w-0">
+                            <p className="font-medium text-sm mb-1 group-hover:text-blue-700">{source.name}</p>
+                            <p className="text-xs text-muted-foreground truncate">{source.url}</p>
+                          </div>
+                        </a>
+                      ))}
+                    </div>
+                  </CountryDetailCard>
+
+                  <Card>
+                    <CardContent className="pt-6">
+                      <Button variant="outline" onClick={() => setSelectedCountry(null)}>
+                        Volver a selección
+                      </Button>
+                    </CardContent>
+                  </Card>
+                </div>
+              )}
+          </div>
+
+          {/* Análisis Regional - Ahora segundo */}
+          <Separator className="my-12" />
+          
+          <div className="mb-8">
+            <h3 className="text-2xl font-bold mb-2">Análisis Regional</h3>
+            <p className="text-muted-foreground">
+              Comparación estructural y barreras críticas en América Latina
             </p>
           </div>
 
@@ -1524,197 +1691,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="countries" className="bg-gradient-to-b from-background to-blue-50/20 dark:to-blue-950/10">
-        <div className="container px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl py-16 md:py-20">
-          <div className="mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">Perfiles por País</h2>
-            <p className="text-muted-foreground text-lg max-w-2xl">
-              Selecciona un país para ver análisis detallado de su ecosistema de trade finance
-            </p>
-          </div>
-
-          <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6 mb-12">
-            {countries.map((country) => (
-              <CountryCard
-                key={country.name}
-                name={country.name}
-                flag={country.flag}
-                hasDetailPage={["Brasil", "Chile", "México", "Perú"].includes(country.name)}
-                onClick={() => setSelectedCountry(country.name)}
-              />
-            ))}
-          </div>
-
-          {selectedCountry &&
-            selectedCountry !== "Centroamérica" &&
-            countryPrograms[selectedCountry as keyof typeof countryPrograms] && (
-              <div className="space-y-8 animate-in fade-in-50 duration-500">
-                <Card className="border-2 border-teal-500 shadow-lg">
-                  <CardHeader>
-                    <div className="flex items-center gap-4">
-                      <div className="text-5xl">{countries.find((c) => c.name === selectedCountry)?.flag}</div>
-                      <div>
-                        <CardTitle className="text-3xl">{selectedCountry}</CardTitle>
-                        <CardDescription className="text-base">
-                          Programas de Apoyo a Exportaciones - Ecosistema Completo
-                        </CardDescription>
-                      </div>
-                    </div>
-                  </CardHeader>
-                </Card>
-
-                {/* Institutions Overview */}
-                <CountryDetailCard
-                  icon={Building2}
-                  title="Marco Institucional"
-                  description="Organismos clave en el ecosistema de financiamiento"
-                >
-                  <div className="grid md:grid-cols-3 gap-4">
-                    {countryPrograms[selectedCountry as keyof typeof countryPrograms].institutions.map((inst, idx) => (
-                      <Card key={idx} className="border">
-                        <CardHeader>
-                          <Badge className="w-fit mb-2">{inst.type}</Badge>
-                          <CardTitle className="text-base">{inst.name}</CardTitle>
-                        </CardHeader>
-                        <CardContent>
-                          <p className="text-sm text-muted-foreground mb-3">{inst.description}</p>
-                          {inst.link && (
-                            <a
-                              href={inst.link}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="inline-flex items-center gap-1 text-sm text-blue-600 hover:text-blue-700"
-                            >
-                              Sitio oficial
-                              <ExternalLink className="h-3 w-3" />
-                            </a>
-                          )}
-                        </CardContent>
-                      </Card>
-                    ))}
-                  </div>
-                </CountryDetailCard>
-
-                {/* Programs Table */}
-                <CountryDetailCard
-                  icon={Award}
-                  title="Instrumentos y Programas"
-                  description="Catálogo completo de herramientas de financiamiento disponibles"
-                >
-                  <ProgramTable
-                    programs={countryPrograms[selectedCountry as keyof typeof countryPrograms].programs}
-                    title=""
-                  />
-                </CountryDetailCard>
-
-                {/* Statistics */}
-                <CountryDetailCard
-                  icon={BarChart3}
-                  title="Montos Operados e Impacto"
-                  description="Datos cuantitativos sobre alcance y resultados"
-                >
-                  <div className="grid md:grid-cols-2 gap-6">
-                    <div className="space-y-3">
-                      {Object.entries(countryPrograms[selectedCountry as keyof typeof countryPrograms].stats).map(
-                        ([key, value]) => (
-                          <div key={key} className="flex flex-col p-4 bg-muted rounded-lg">
-                            <span className="text-sm text-muted-foreground capitalize mb-1">
-                              {key.replace(/([A-Z])/g, " $1").trim()}
-                            </span>
-                            <span className="font-semibold text-lg">{value}</span>
-                          </div>
-                        ),
-                      )}
-                    </div>
-
-                    {/* Impact metrics for Colombia */}
-                    {selectedCountry === "Colombia" && countryPrograms.Colombia.impact && (
-                      <div className="space-y-3">
-                        <h5 className="font-semibold text-sm text-muted-foreground mb-3">IMPACTO MEDIDO (BANCÓLDEX)</h5>
-                        {Object.entries(countryPrograms.Colombia.impact).map(([key, value]) => (
-                          <div
-                            key={key}
-                            className="flex items-center justify-between p-3 bg-green-50 dark:bg-green-950/20 rounded-lg border border-green-200 dark:border-green-900"
-                          >
-                            <span className="text-sm capitalize">{key.replace(/([A-Z])/g, " $1").trim()}</span>
-                            <span className="font-bold text-green-700 dark:text-green-400">{value}</span>
-                          </div>
-                        ))}
-                      </div>
-                    )}
-                  </div>
-                </CountryDetailCard>
-
-                {/* Sources */}
-                <CountryDetailCard
-                  icon={BookOpen}
-                  title="Fuentes y Referencias"
-                  description="Documentación oficial y estudios de evaluación"
-                >
-                  <div className="space-y-3">
-                    {countryPrograms[selectedCountry as keyof typeof countryPrograms].sources.map((source, idx) => (
-                      <div
-                        key={idx}
-                        className="flex items-start gap-3 p-4 border rounded-lg hover:bg-muted/50 transition-colors"
-                      >
-                        <FileText className="h-5 w-5 text-blue-600 shrink-0 mt-0.5" />
-                        <div className="flex-1 min-w-0">
-                          <p className="font-medium text-sm mb-1">{source.title}</p>
-                          <a
-                            href={source.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="text-xs text-blue-600 hover:text-blue-700 break-all inline-flex items-center gap-1"
-                          >
-                            {source.url}
-                            <ExternalLink className="h-3 w-3 shrink-0" />
-                          </a>
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </CountryDetailCard>
-
-                <div className="flex justify-center">
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    onClick={() => setSelectedCountry(null)}
-                    className="w-full max-w-md"
-                  >
-                    Cerrar perfil de {selectedCountry}
-                  </Button>
-                </div>
-              </div>
-            )}
-
-          {/* Fallback for Centroamérica */}
-          {selectedCountry === "Centroamérica" && (
-            <Card className="border-2 border-amber-500">
-              <CardHeader>
-                <CardTitle className="flex items-center gap-3">
-                  <span className="text-4xl">🌎</span>
-                  Centroamérica
-                </CardTitle>
-                <CardDescription>Análisis regional en desarrollo</CardDescription>
-              </CardHeader>
-              <CardContent className="space-y-4">
-                <p className="text-muted-foreground">
-                  El análisis detallado de programas de financiamiento en países centroamericanos (Guatemala, El
-                  Salvador, Honduras, Nicaragua, Costa Rica, Panamá) está siendo recopilado.
-                </p>
-                <p className="text-muted-foreground">
-                  Esta región comparte desafíos similares en acceso a trade finance, con iniciativas regionales como
-                  CABEI (Banco Centroamericano de Integración Económico) playing a key role.
-                </p>
-                <Button variant="outline" onClick={() => setSelectedCountry(null)}>
-                  Volver a selección
-                </Button>
-              </CardContent>
-            </Card>
-          )}
-        </div>
-      </section>
 
       <footer className="border-t bg-slate-50/50 dark:bg-slate-900/50">
         <div className="container px-4 sm:px-6 lg:px-8 mx-auto max-w-7xl py-16 md:py-20">
