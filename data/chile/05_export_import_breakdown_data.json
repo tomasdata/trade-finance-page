@@ -1,0 +1,29 @@
+{
+  "metadata": {
+    "source": "Comisión para el Mercado Financiero (CMF) - Sistema FECU. Información financiera de bancos agregada a nivel nacional. Período: mensual 2015-2024",
+    "generated_at": "2025-11-11T09:02:12.131882",
+    "original_file": "05_export_import_breakdown_data.csv",
+    "total_records": 3,
+    "description": "Datos de trade finance del sistema regulatorio CMF de Chile"
+  },
+  "data": [
+    {
+      "operation_type": "Export Financing",
+      "amount_total": 1722.856557887282,
+      "amount_fx": 1598.613086178566,
+      "pct": 65.32
+    },
+    {
+      "operation_type": "Import Financing",
+      "amount_total": 803.99092325769,
+      "amount_fx": 764.484606013632,
+      "pct": 30.48
+    },
+    {
+      "operation_type": "Third Country",
+      "amount_total": 110.565328550308,
+      "amount_fx": 110.56524287984,
+      "pct": 4.19
+    }
+  ]
+}

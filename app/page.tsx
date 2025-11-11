@@ -1539,7 +1539,7 @@ export default function Home() {
                 key={country.name}
                 name={country.name}
                 flag={country.flag}
-                hasDetailPage={country.name === "Brasil"}
+                hasDetailPage={country.name === "Brasil" || country.name === "Chile"}
                 onClick={() => setSelectedCountry(country.name)}
               />
             ))}

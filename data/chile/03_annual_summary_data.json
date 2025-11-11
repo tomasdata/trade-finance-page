@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "source": "Comisión para el Mercado Financiero (CMF) - Sistema FECU. Información financiera de bancos agregada a nivel nacional. Período: mensual 2015-2024",
+    "generated_at": "2025-11-11T09:02:12.094411",
+    "original_file": "03_annual_summary_data.csv",
+    "total_records": 10,
+    "description": "Datos de trade finance del sistema regulatorio CMF de Chile"
+  },
+  "data": [
+    {
+      "Anho": 2015,
+      "amount_total": 5882.5321,
+      "amount_fx": 1959.102206,
+      "amount_clp": 2255.680166
+    },
+    {
+      "Anho": 2016,
+      "amount_total": 6478.88409,
+      "amount_fx": 2145.943922,
+      "amount_clp": 2437.194796
+    },
+    {
+      "Anho": 2017,
+      "amount_total": 6590.556066,
+      "amount_fx": 2056.10569,
+      "amount_clp": 2551.745744
+    },
+    {
+      "Anho": 2018,
+      "amount_total": 7092.561734,
+      "amount_fx": 2262.510376,
+      "amount_clp": 2690.235864
+    },
+    {
+      "Anho": 2019,
+      "amount_total": 7900.303728,
+      "amount_fx": 2697.274956,
+      "amount_clp": 2764.05519
+    },
+    {
+      "Anho": 2020,
+      "amount_total": 8890.008402,
+      "amount_fx": 2954.070096,
+      "amount_clp": 3288.280764
+    },
+    {
+      "Anho": 2021,
+      "amount_total": 8812.41694,
+      "amount_fx": 2558.222766,
+      "amount_clp": 3592.58598
+    },
+    {
+      "Anho": 2022,
+      "amount_total": 7339.919900877308,
+      "amount_fx": 2730.897788644754,
+      "amount_clp": 2576.83926025674
+    },
+    {
+      "Anho": 2023,
+      "amount_total": 7531.76149191213,
+      "amount_fx": 2858.508289888388,
+      "amount_clp": 2596.86967847529
+    },
+    {
+      "Anho": 2024,
+      "amount_total": 7879.68526541092,
+      "amount_fx": 3195.889324276814,
+      "amount_clp": 2414.006808662976
+    }
+  ]
+}

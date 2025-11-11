@@ -1,0 +1,26 @@
+{
+  "metadata": {
+    "source": "Comisión para el Mercado Financiero (CMF) - Sistema FECU. Información financiera de bancos agregada a nivel nacional. Período: mensual 2015-2024",
+    "generated_at": "2025-11-11T09:02:12.072436",
+    "original_file": "02_currency_composition_data.csv",
+    "total_records": 3,
+    "description": "Datos de trade finance del sistema regulatorio CMF de Chile"
+  },
+  "data": [
+    {
+      "currency_type": "Chilean Peso",
+      "amount": 27.16749425139501,
+      "pct": 36.67
+    },
+    {
+      "currency_type": "Foreign Currency",
+      "amount": 25.418525414809956,
+      "pct": 34.31
+    },
+    {
+      "currency_type": "IPC-indexed",
+      "amount": 21.492524555612,
+      "pct": 29.01
+    }
+  ]
+}

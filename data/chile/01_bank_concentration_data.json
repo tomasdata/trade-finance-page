@@ -1,0 +1,71 @@
+{
+  "metadata": {
+    "source": "Comisión para el Mercado Financiero (CMF) - Sistema FECU. Información financiera de bancos agregada a nivel nacional. Período: mensual 2015-2024",
+    "generated_at": "2025-11-11T09:02:12.048292",
+    "original_file": "01_bank_concentration_data.csv",
+    "total_records": 10,
+    "description": "Datos de trade finance del sistema regulatorio CMF de Chile"
+  },
+  "data": [
+    {
+      "NombreInstitucion": "BANCO DE CRÉDITO E INVERSIONES",
+      "amount_fx": 3570.538366435905,
+      "market_share": 29.48,
+      "cumulative_share": 29.48
+    },
+    {
+      "NombreInstitucion": "ITAÚ CORPBANCA",
+      "amount_fx": 2280.7868798349,
+      "market_share": 18.83,
+      "cumulative_share": 48.31
+    },
+    {
+      "NombreInstitucion": "BANCO SANTANDER-CHILE",
+      "amount_fx": 1653.621115808115,
+      "market_share": 13.65,
+      "cumulative_share": 61.96
+    },
+    {
+      "NombreInstitucion": "SCOTIABANK CHILE",
+      "amount_fx": 1583.799977977069,
+      "market_share": 13.08,
+      "cumulative_share": 75.04
+    },
+    {
+      "NombreInstitucion": "BANCO DE CHILE",
+      "amount_fx": 1136.113814816174,
+      "market_share": 9.38,
+      "cumulative_share": 84.42
+    },
+    {
+      "NombreInstitucion": "BANCO DEL ESTADO DE CHILE",
+      "amount_fx": 897.512971889426,
+      "market_share": 7.41,
+      "cumulative_share": 91.83
+    },
+    {
+      "NombreInstitucion": "BANCO BICE",
+      "amount_fx": 321.063364523276,
+      "market_share": 2.65,
+      "cumulative_share": 94.48
+    },
+    {
+      "NombreInstitucion": "BANCO SECURITY",
+      "amount_fx": 255.130546135543,
+      "market_share": 2.11,
+      "cumulative_share": 96.59
+    },
+    {
+      "NombreInstitucion": "CORPBANCA",
+      "amount_fx": 217.927891,
+      "market_share": 1.8,
+      "cumulative_share": 98.39
+    },
+    {
+      "NombreInstitucion": "BANCO CONSORCIO",
+      "amount_fx": 195.097734908102,
+      "market_share": 1.61,
+      "cumulative_share": 100.0
+    }
+  ]
+}

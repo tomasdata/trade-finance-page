@@ -1,0 +1,86 @@
+{
+  "metadata": {
+    "source": "Comisión para el Mercado Financiero (CMF) - Sistema FECU. Información financiera de bancos agregada a nivel nacional. Período: mensual 2015-2024",
+    "generated_at": "2025-11-11T09:02:12.113725",
+    "original_file": "04_top_accounts_data.csv",
+    "total_records": 15,
+    "description": "Datos de trade finance del sistema regulatorio CMF de Chile"
+  },
+  "data": [
+    {
+      "DescripcionCuenta": "Préstamos comerciales",
+      "amount_fx": 5088.950018395712,
+      "pct": 21.0
+    },
+    {
+      "DescripcionCuenta": "COLOCACIONES COMERCIALES",
+      "amount_fx": 4484.407982,
+      "pct": 18.51
+    },
+    {
+      "DescripcionCuenta": "Préstamos en el país",
+      "amount_fx": 2365.203177449162,
+      "pct": 9.76
+    },
+    {
+      "DescripcionCuenta": "Créditos de comercio exterior",
+      "amount_fx": 1957.062638208152,
+      "pct": 8.08
+    },
+    {
+      "DescripcionCuenta": "Préstamos en el exterior",
+      "amount_fx": 1776.30437785574,
+      "pct": 7.33
+    },
+    {
+      "DescripcionCuenta": "BANCOS DEL EXTERIOR",
+      "amount_fx": 1693.026522,
+      "pct": 6.99
+    },
+    {
+      "DescripcionCuenta": "Préstamos y otras obligaciones",
+      "amount_fx": 1500.933323340002,
+      "pct": 6.19
+    },
+    {
+      "DescripcionCuenta": "Otros créditos para exportaciones chilenas",
+      "amount_fx": 1197.002233612102,
+      "pct": 4.94
+    },
+    {
+      "DescripcionCuenta": "Financiamientos de comercio exterior",
+      "amount_fx": 1132.431372855782,
+      "pct": 4.67
+    },
+    {
+      "DescripcionCuenta": "Bancos del exterior",
+      "amount_fx": 938.469438781876,
+      "pct": 3.87
+    },
+    {
+      "DescripcionCuenta": "Otros créditos para importaciones chilenas",
+      "amount_fx": 521.191081420438,
+      "pct": 2.15
+    },
+    {
+      "DescripcionCuenta": "Préstamos con mutuos hipotecarios endosables para fines generales",
+      "amount_fx": 520.26065509081,
+      "pct": 2.15
+    },
+    {
+      "DescripcionCuenta": "Préstamos con mutuos hipotecarios endosables",
+      "amount_fx": 427.181808,
+      "pct": 1.76
+    },
+    {
+      "DescripcionCuenta": "Financiamientos para exportaciones chilenas",
+      "amount_fx": 342.163525143176,
+      "pct": 1.41
+    },
+    {
+      "DescripcionCuenta": "Préstamos interbancarios comerciales",
+      "amount_fx": 288.51364104402,
+      "pct": 1.19
+    }
+  ]
+}
