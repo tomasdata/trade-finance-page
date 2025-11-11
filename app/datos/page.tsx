@@ -13,6 +13,7 @@ import { BISLendersSankey } from "@/components/global/bis-lenders-sankey"
 import { EXIMDeclineAnalysis } from "@/components/global/exim-decline-analysis"
 import { EximVsBisRatio } from "@/components/global/exim-vs-bis-ratio"
 import { EXIMPymeAccess } from "@/components/global/exim-pyme-access"
+import { CreditDelaysChart } from "@/components/credit-delays-chart"
 
 export default function DatosPage() {
   const [activeTab, setActiveTab] = useState("bis")
@@ -111,7 +112,7 @@ export default function DatosPage() {
 
           {/* Tabs Navigation */}
           <Tabs value={activeTab} onValueChange={setActiveTab} className="space-y-8">
-            <TabsList className="grid w-full grid-cols-3 lg:w-[600px]">
+            <TabsList className="grid w-full grid-cols-4 lg:w-[800px]">
               <TabsTrigger value="bis" className="gap-2">
                 <Globe className="h-4 w-4" />
                 <span className="hidden sm:inline">BIS: Mercado Total</span>
@@ -121,6 +122,11 @@ export default function DatosPage() {
                 <TrendingUp className="h-4 w-4" />
                 <span className="hidden sm:inline">EXIM: Programas Oficiales</span>
                 <span className="sm:hidden">EXIM</span>
+              </TabsTrigger>
+              <TabsTrigger value="fcib" className="gap-2">
+                <AlertCircle className="h-4 w-4" />
+                <span className="hidden sm:inline">FCIB: Retrasos de Pago</span>
+                <span className="sm:hidden">FCIB</span>
               </TabsTrigger>
               <TabsTrigger value="comparacion" className="gap-2">
                 <FileText className="h-4 w-4" />
@@ -153,6 +159,47 @@ export default function DatosPage() {
 
               <EXIMDeclineAnalysis />
               <EXIMPymeAccess />
+            </TabsContent>
+
+            {/* FCIB Tab */}
+            <TabsContent value="fcib" className="space-y-8">
+              <div>
+                <h2 className="text-2xl md:text-3xl font-bold mb-2">FCIB: Retrasos en Pagos Comerciales (2023-2025)</h2>
+                <p className="text-muted-foreground mb-6">
+                  Datos de encuestas Finance, Credit and International Business Survey sobre días promedio de retraso 
+                  en pagos comerciales internacionales. Indicador clave de tensiones de liquidez y riesgo crediticio.
+                </p>
+              </div>
+
+              <CreditDelaysChart />
+
+              <Card className="bg-gradient-to-br from-orange-50/50 to-amber-50/50 dark:from-orange-950/10 dark:to-amber-950/10 border-orange-200 dark:border-orange-900">
+                <CardHeader>
+                  <CardTitle className="text-lg">📊 Interpretación de Retrasos en Pagos</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-3 text-sm text-muted-foreground">
+                  <p>
+                    <strong className="text-foreground">1. Indicador de estrés crediticio:</strong> Días de retraso &gt;30 
+                    señalan problemas de liquidez estructurales en importadores. Correlaciona con crisis bancarias y sudden stops 
+                    (Hardy & Saffie 2023).
+                  </p>
+                  <p>
+                    <strong className="text-foreground">2. Variación regional significativa:</strong> Países LAC muestran 
+                    retrasos promedio 15-45 días vs. 8-12 días en economías desarrolladas. Refleja menor profundidad financiera 
+                    y mayor concentración en crédito bancario.
+                  </p>
+                  <p>
+                    <strong className="text-foreground">3. Impacto en cadenas de valor:</strong> Retrasos &gt;45 días 
+                    aumentan probabilidad de ruptura de contratos, renegociación de términos y exit de exportadores PYME 
+                    (evidencia en Brasil 2015-2016).
+                  </p>
+                  <p>
+                    <strong className="text-foreground">4. Conexión con instrumentos TF:</strong> Mayor uso de L/C y seguros 
+                    de crédito reduce días de retraso promedio en 40-60%. Política pública: subsidiar primas de seguro para PYME 
+                    exportadoras.
+                  </p>
+                </CardContent>
+              </Card>
             </TabsContent>
 
             {/* Comparación Tab */}
