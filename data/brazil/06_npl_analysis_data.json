@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "source": "Elaboración propia a partir de informes Finance, Credit and International Business Survey 2023-2025",
+    "source": "Banco Central do Brasil (BCB) - Sistema de Crédito (SCR), modalidad comercio exterior. Agregados a nivel estatal (UF), desagregados por tipo de cliente, industria (CNAE) y tamaño de empresa. Período: mensual 2012-2024",
     "generated_at": "2025-11-11T08:50:46.945039",
     "original_file": "06_npl_analysis_data.csv",
     "total_records": 3,
-    "description": "Datos de encuestas de crédito y cobranzas internacionales FCIB"
+    "description": "Datos de trade finance del Sistema de Crédito del Banco Central do Brasil"
   },
   "data": [
     {
