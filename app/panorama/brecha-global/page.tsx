@@ -1,7 +1,7 @@
 'use client';
 
-import { GlobalGap } from '@/components/global/global-gap';
-import { LatamEmphasis } from '@/components/global/latam-emphasis';
+import { EximVsBisRatio } from '@/components/global/exim-vs-bis-ratio';
+import { BisLendersSankey } from '@/components/global/bis-lenders-sankey';
 
 export default function BrechaGlobalPage() {
   return (
@@ -15,13 +15,13 @@ export default function BrechaGlobalPage() {
             Panorama mundial de la brecha de financiamiento comercial, con énfasis en América Latina.
           </p>
           <p className="text-sm text-slate-500 mt-2">
-            Fuente: Elaboración propia a partir de Trade Finance and International Business Survey 2023-2025
+            Fuente: Elaboración propia a partir de EXIM Bank y BIS (2007-2024)
           </p>
         </div>
 
         <div className="space-y-6">
-          <GlobalGap />
-          <LatamEmphasis />
+          <EximVsBisRatio />
+          <BisLendersSankey />
         </div>
       </div>
     </div>
