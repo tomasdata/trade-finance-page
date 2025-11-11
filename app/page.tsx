@@ -50,13 +50,11 @@ const instruments = [
     title: "Cartas de Crédito (L/C)",
     description:
       "Garantía bancaria de pago para transacciones internacionales. Reduce el riesgo entre importador y exportador.",
-    percentage: "15%",
   },
   {
     icon: Shield,
     title: "Seguro de Crédito a la Exportación",
     description: "Protección contra impago del importador. Cubre riesgos políticos y comerciales.",
-    percentage: "8%",
   },
   {
     icon: CreditCard,
