@@ -1,0 +1,576 @@
+{
+  "metadata": {
+    "source": "Bank for International Settlements (BIS)",
+    "source_url": "https://www.bis.org/statistics/consstats.htm",
+    "dataset": "bis_exposure_by_reporting_country_latest",
+    "description": "Exposición por país reportante (prestamista) al cierre 2024-Q4",
+    "unit": "USD billions and percentage",
+    "frequency": "Snapshot (2024-Q4)",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2024-Q4",
+    "methodology": "Consolidated Banking Statistics (CBS)",
+    "interpretation": "Identifica principales financiadores internacionales de cada país LAC-4",
+    "generated_at": "2025-11-11T09:41:02.847613",
+    "total_records": 92,
+    "limitations": [
+      "CBS consolida subsidiarias (puede sobre-estimar exposición real)",
+      "NO desglosa Trade Finance específico vs. otros créditos",
+      "Gaps temporales: ~36 trimestres faltantes en serie 1983-2024",
+      "Reporting lag: datos Q4-2024 publicados en Q1-2025"
+    ]
+  },
+  "data": [
+    {
+      "country": "Brazil",
+      "Reporting country": "Brazil",
+      "usd_billions": 3664.198408,
+      "share_pct": 47.700996547373634
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Spain",
+      "usd_billions": 2017.204817,
+      "share_pct": 26.26022646617079
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "United States",
+      "usd_billions": 954.7,
+      "share_pct": 12.428404887778555
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "United Kingdom",
+      "usd_billions": 376.174,
+      "share_pct": 4.897080528181849
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "France",
+      "usd_billions": 266.127,
+      "share_pct": 3.4644748167695028
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Japan",
+      "usd_billions": 181.5485,
+      "share_pct": 2.3634212472702054
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Germany",
+      "usd_billions": 77.28,
+      "share_pct": 1.0060407769220978
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Switzerland",
+      "usd_billions": 32.127296,
+      "share_pct": 0.4182371872185069
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Netherlands",
+      "usd_billions": 31.743852,
+      "share_pct": 0.4132454649143386
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Portugal",
+      "usd_billions": 19.344371,
+      "share_pct": 0.2518274589791576
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Australia",
+      "usd_billions": 18.453463000000003,
+      "share_pct": 0.2402295063848756
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Korea",
+      "usd_billions": 18.30934,
+      "share_pct": 0.238353295012045
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "India",
+      "usd_billions": 11.170492,
+      "share_pct": 0.1454188722862587
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Chile",
+      "usd_billions": 8.72649,
+      "share_pct": 0.1136025463173255
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Panama",
+      "usd_billions": 5.697914000000001,
+      "share_pct": 0.0741761623627756
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Canada",
+      "usd_billions": 3.997936,
+      "share_pct": 0.0520456345694206
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Austria",
+      "usd_billions": 2.095352,
+      "share_pct": 0.0272775563406479
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Chinese Taipei",
+      "usd_billions": 0.375,
+      "share_pct": 0.0048817972482632
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Denmark",
+      "usd_billions": 0.069273,
+      "share_pct": 0.0009018046420771
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Ireland",
+      "usd_billions": 0.04822,
+      "share_pct": 0.0006277340354966
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Belgium",
+      "usd_billions": 0.042,
+      "share_pct": 0.0005467612918054
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Greece",
+      "usd_billions": 0.001648,
+      "share_pct": 2.145387164036772e-05
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Türkiye",
+      "usd_billions": 0.000696,
+      "share_pct": 9.06061569277666e-06
+    },
+    {
+      "country": "Brazil",
+      "Reporting country": "Sweden",
+      "usd_billions": -7.838883,
+      "share_pct": -0.1020475665569542
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Chile",
+      "usd_billions": 812.019193,
+      "share_pct": 42.5329105453135
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Spain",
+      "usd_billions": 522.272455,
+      "share_pct": 27.356210050562524
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Brazil",
+      "usd_billions": 183.362958,
+      "share_pct": 9.604403882529995
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "United States",
+      "usd_billions": 128.174,
+      "share_pct": 6.713650764945667
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "France",
+      "usd_billions": 77.012,
+      "share_pct": 4.033826460202503
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Japan",
+      "usd_billions": 73.82267,
+      "share_pct": 3.866771926567256
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "United Kingdom",
+      "usd_billions": 49.014,
+      "share_pct": 2.5673137968156325
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Switzerland",
+      "usd_billions": 17.183443999999998,
+      "share_pct": 0.9000549405885827
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Germany",
+      "usd_billions": 15.288,
+      "share_pct": 0.8007731122886805
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Chinese Taipei",
+      "usd_billions": 14.596,
+      "share_pct": 0.7645267102934054
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Korea",
+      "usd_billions": 6.544817999999999,
+      "share_pct": 0.3428122893264637
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Panama",
+      "usd_billions": 4.007814,
+      "share_pct": 0.2099260655582251
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Belgium",
+      "usd_billions": 1.354,
+      "share_pct": 0.0709214281815066
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Portugal",
+      "usd_billions": 1.212481,
+      "share_pct": 0.0635087770775046
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Greece",
+      "usd_billions": 1.204026,
+      "share_pct": 0.0630659109953225
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Austria",
+      "usd_billions": 0.830954,
+      "share_pct": 0.0435247004676038
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Australia",
+      "usd_billions": 0.778124,
+      "share_pct": 0.0407575076678779
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Canada",
+      "usd_billions": 0.6597440000000001,
+      "share_pct": 0.0345568587253913
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Türkiye",
+      "usd_billions": 0.026064,
+      "share_pct": 0.0013652113028971
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Ireland",
+      "usd_billions": 0.020106,
+      "share_pct": 0.0010531360672211
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Denmark",
+      "usd_billions": 0.004617,
+      "share_pct": 0.0002418347370118
+    },
+    {
+      "country": "Chile",
+      "Reporting country": "Sweden",
+      "usd_billions": -0.232457,
+      "share_pct": -0.0121759102147625
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Spain",
+      "usd_billions": 2513.146649,
+      "share_pct": 55.845791300139105
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "United States",
+      "usd_billions": 1142.92,
+      "share_pct": 25.397352684592576
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "United Kingdom",
+      "usd_billions": 415.989,
+      "share_pct": 9.243883514078837
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Japan",
+      "usd_billions": 168.13481000000002,
+      "share_pct": 3.736201193545448
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "France",
+      "usd_billions": 102.326,
+      "share_pct": 2.2738332611238055
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Germany",
+      "usd_billions": 35.333999999999996,
+      "share_pct": 0.7851731177662425
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Brazil",
+      "usd_billions": 30.424158,
+      "share_pct": 0.6760692531916221
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Korea",
+      "usd_billions": 21.224708,
+      "share_pct": 0.4716440299439099
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Switzerland",
+      "usd_billions": 20.530714,
+      "share_pct": 0.4562224690481419
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Italy",
+      "usd_billions": 15.197094,
+      "share_pct": 0.3377016379964527
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Australia",
+      "usd_billions": 9.242883,
+      "share_pct": 0.2053903679815079
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Panama",
+      "usd_billions": 7.61684,
+      "share_pct": 0.1692573161919575
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Chinese Taipei",
+      "usd_billions": 6.513,
+      "share_pct": 0.1447283782196054
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Sweden",
+      "usd_billions": 5.544067,
+      "share_pct": 0.1231972709428578
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Portugal",
+      "usd_billions": 2.354679,
+      "share_pct": 0.0523244085517829
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Austria",
+      "usd_billions": 0.938198,
+      "share_pct": 0.0208481306600456
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Greece",
+      "usd_billions": 0.904863,
+      "share_pct": 0.0201073782436552
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Chile",
+      "usd_billions": 0.731042,
+      "share_pct": 0.0162448215984057
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Belgium",
+      "usd_billions": 0.532,
+      "share_pct": 0.0118218174747167
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Finland",
+      "usd_billions": 0.305,
+      "share_pct": 0.0067775457326853
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Denmark",
+      "usd_billions": 0.229373,
+      "share_pct": 0.0050970032699778
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Ireland",
+      "usd_billions": 0.014846,
+      "share_pct": 0.0003298998162211
+    },
+    {
+      "country": "Mexico",
+      "Reporting country": "Türkiye",
+      "usd_billions": 0.000144,
+      "share_pct": 3.199890444284229e-06
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Spain",
+      "usd_billions": 304.028148,
+      "share_pct": 69.17876624758652
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "United States",
+      "usd_billions": 55.79,
+      "share_pct": 12.694493566933982
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "France",
+      "usd_billions": 18.619,
+      "share_pct": 4.2365795971095865
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Japan",
+      "usd_billions": 17.8365,
+      "share_pct": 4.058529028618354
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "United Kingdom",
+      "usd_billions": 8.780000000000001,
+      "share_pct": 1.9978070177035376
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Germany",
+      "usd_billions": 7.4,
+      "share_pct": 1.6838009033036647
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Chile",
+      "usd_billions": 5.115402,
+      "share_pct": 1.1639619605893747
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Switzerland",
+      "usd_billions": 3.926567,
+      "share_pct": 0.8934536569570759
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Brazil",
+      "usd_billions": 3.901083,
+      "share_pct": 0.8876550107111583
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Panama",
+      "usd_billions": 3.644196,
+      "share_pct": 0.8292027725156218
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Chinese Taipei",
+      "usd_billions": 3.14,
+      "share_pct": 0.7144776805910146
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Canada",
+      "usd_billions": 2.244562,
+      "share_pct": 0.510729124746092
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Netherlands",
+      "usd_billions": 2.2073620000000003,
+      "share_pct": 0.502264612097052
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Australia",
+      "usd_billions": 1.002803,
+      "share_pct": 0.2281784590858952
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Portugal",
+      "usd_billions": 0.5912160000000001,
+      "share_pct": 0.134525680384808
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Belgium",
+      "usd_billions": 0.432,
+      "share_pct": 0.0982975662469166
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Sweden",
+      "usd_billions": 0.4250019999999999,
+      "share_pct": 0.0967052366899816
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Korea",
+      "usd_billions": 0.311182,
+      "share_pct": 0.0708065584718704
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Austria",
+      "usd_billions": 0.0839559999999999,
+      "share_pct": 0.0191034038699679
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Greece",
+      "usd_billions": 0.001426,
+      "share_pct": 0.0003244729848798
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Denmark",
+      "usd_billions": 0.001416,
+      "share_pct": 0.0003221975782537
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Türkiye",
+      "usd_billions": 4.2e-05,
+      "share_pct": 9.55670782956134e-06
+    },
+    {
+      "country": "Peru",
+      "Reporting country": "Mexico",
+      "usd_billions": 2.5e-05,
+      "share_pct": 5.688516565215084e-06
+    }
+  ]
+}

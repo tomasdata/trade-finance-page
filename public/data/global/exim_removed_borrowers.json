@@ -1,0 +1,113 @@
+{
+  "metadata": {
+    "source": "Export-Import Bank of the United States",
+    "source_url": "https://www.exim.gov/data-reports",
+    "dataset": "exim_removed_borrowers",
+    "description": "Borrowers excluidos de análisis principal (entidades offshore)",
+    "unit": "USD millions",
+    "frequency": "Aggregate 2007-2025",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2007-2025 (Fiscal Years)",
+    "generated_at": "2025-11-11T09:41:02.844798",
+    "total_records": 15,
+    "limitations": [
+      "Solo programas oficiales USA (no captura mercado comercial)",
+      "Representa 0.05-0.35% del financiamiento total BIS",
+      "Sesgo geográfico: 68% concentrado en México (USMCA/nearshoring)",
+      "CAGRs negativos 2007-2025: retiro gradual USA de LAC"
+    ],
+    "note": "Estos montos NO se suman al total LAC-4"
+  },
+  "data": [
+    {
+      "country_group": "Brazil",
+      "Primary Borrower": "EMBRAER NETHERLANDS FINANCE B.V.",
+      "approved_amount": 205520000,
+      "approved_usd_millions": 205.52
+    },
+    {
+      "country_group": "Brazil",
+      "Primary Borrower": "H.E. Rentals, Inc.",
+      "approved_amount": 3063060,
+      "approved_usd_millions": 3.063
+    },
+    {
+      "country_group": "Brazil",
+      "Primary Borrower": "Petrobras Netherlands B V",
+      "approved_amount": 308211360,
+      "approved_usd_millions": 308.211
+    },
+    {
+      "country_group": "Brazil",
+      "Primary Borrower": "SPC/Global Helicopters B.V.",
+      "approved_amount": 20603393,
+      "approved_usd_millions": 20.603
+    },
+    {
+      "country_group": "Brazil",
+      "Primary Borrower": "SPC/Lider Aircraft Leasing B.V.",
+      "approved_amount": 60894983,
+      "approved_usd_millions": 60.895
+    },
+    {
+      "country_group": "Brazil",
+      "Primary Borrower": "Spv/International Helicopter Leasing B.V",
+      "approved_amount": 18476023,
+      "approved_usd_millions": 18.476
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "Black Diamond Air, LLC",
+      "approved_amount": 3015482,
+      "approved_usd_millions": 3.015
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "Cambridge-Lee Holdings, Inc",
+      "approved_amount": 3400000,
+      "approved_usd_millions": 3.4
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "Cambridge-Lee Industries, Inc.",
+      "approved_amount": 9000000,
+      "approved_usd_millions": 9.0
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "Delta International, LLC",
+      "approved_amount": 360000,
+      "approved_usd_millions": 0.36
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "Manny Logistic, LLC",
+      "approved_amount": 735110,
+      "approved_usd_millions": 0.735
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "Rotor Leasing LLC",
+      "approved_amount": 10301690,
+      "approved_usd_millions": 10.302
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "Rotor XM, LLC",
+      "approved_amount": 10683000,
+      "approved_usd_millions": 10.683
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "TVPX Aircraft Solutions Inc.",
+      "approved_amount": 1096382,
+      "approved_usd_millions": 1.096
+    },
+    {
+      "country_group": "Mexico",
+      "Primary Borrower": "U.S. Seeds, Inc.",
+      "approved_amount": 490000,
+      "approved_usd_millions": 0.49
+    }
+  ]
+}

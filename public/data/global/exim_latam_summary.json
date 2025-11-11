@@ -1,0 +1,54 @@
+{
+  "metadata": {
+    "source": "Export-Import Bank of the United States",
+    "source_url": "https://www.exim.gov/data-reports",
+    "dataset": "exim_latam_summary",
+    "description": "Resumen agregado LAC-4: transacciones totales y montos aprobados/desembolsados",
+    "unit": "USD billions",
+    "frequency": "Aggregate 2007-2025",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2007-2025 (Fiscal Years)",
+    "generated_at": "2025-11-11T09:41:02.844298",
+    "total_records": 4,
+    "limitations": [
+      "Solo programas oficiales USA (no captura mercado comercial)",
+      "Representa 0.05-0.35% del financiamiento total BIS",
+      "Sesgo geográfico: 68% concentrado en México (USMCA/nearshoring)",
+      "CAGRs negativos 2007-2025: retiro gradual USA de LAC"
+    ]
+  },
+  "data": [
+    {
+      "country_group": "Brazil",
+      "fiscal_year_min": 2007,
+      "fiscal_year_max": 2025,
+      "transactions": 1127,
+      "approved_usd_billion": 4.51,
+      "disbursed_usd_billion": 3.948
+    },
+    {
+      "country_group": "Chile",
+      "fiscal_year_min": 2007,
+      "fiscal_year_max": 2025,
+      "transactions": 173,
+      "approved_usd_billion": 2.855,
+      "disbursed_usd_billion": 2.701
+    },
+    {
+      "country_group": "Mexico",
+      "fiscal_year_min": 2007,
+      "fiscal_year_max": 2025,
+      "transactions": 2830,
+      "approved_usd_billion": 17.325,
+      "disbursed_usd_billion": 15.568
+    },
+    {
+      "country_group": "Peru",
+      "fiscal_year_min": 2007,
+      "fiscal_year_max": 2025,
+      "transactions": 225,
+      "approved_usd_billion": 0.798,
+      "disbursed_usd_billion": 0.619
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "source": "Bank for International Settlements (BIS)",
+    "source_url": "https://www.bis.org/statistics/consstats.htm",
+    "dataset": "bis_concentration_latest",
+    "description": "Índices de concentración bancaria (CR3/CR5) al cierre 2024-Q4",
+    "unit": "USD billions and percentage",
+    "frequency": "Snapshot (2024-Q4)",
+    "coverage": "Brazil, Chile, Mexico, Peru (LAC-4)",
+    "period": "2024-Q4",
+    "methodology": "Consolidated Banking Statistics (CBS)",
+    "interpretation": "Mide oligopolio de principales bancos internacionales",
+    "generated_at": "2025-11-11T09:41:02.848528",
+    "total_records": 4,
+    "limitations": [
+      "CBS consolida subsidiarias (puede sobre-estimar exposición real)",
+      "NO desglosa Trade Finance específico vs. otros créditos",
+      "Gaps temporales: ~36 trimestres faltantes en serie 1983-2024",
+      "Reporting lag: datos Q4-2024 publicados en Q1-2025"
+    ]
+  },
+  "data": [
+    {
+      "country": "Brazil",
+      "total_usd_billions": 7681.597,
+      "top5_usd_billions": 7278.404,
+      "cr3_share_pct": 86.39,
+      "cr5_share_pct": 94.75,
+      "top5_share_pct": 94.75,
+      "quarter": "2024-Q4"
+    },
+    {
+      "country": "Chile",
+      "total_usd_billions": 1909.155,
+      "top5_usd_billions": 1722.841,
+      "cr3_share_pct": 79.49,
+      "cr5_share_pct": 90.24,
+      "top5_share_pct": 90.24,
+      "quarter": "2024-Q4"
+    },
+    {
+      "country": "Mexico",
+      "total_usd_billions": 4500.154,
+      "top5_usd_billions": 4342.516,
+      "cr3_share_pct": 90.49,
+      "cr5_share_pct": 96.5,
+      "top5_share_pct": 96.5,
+      "quarter": "2024-Q4"
+    },
+    {
+      "country": "Peru",
+      "total_usd_billions": 439.482,
+      "top5_usd_billions": 405.054,
+      "cr3_share_pct": 86.11,
+      "cr5_share_pct": 92.17,
+      "top5_share_pct": 92.17,
+      "quarter": "2024-Q4"
+    }
+  ]
+}
