@@ -38,6 +38,7 @@ import { GlobalInitiativeCard } from "@/components/global-initiative-card"
 import { LessonCard } from "@/components/lesson-card"
 import { GlobalPreviewCard } from "@/components/global-preview-card"
 import { FinancingGapAnalysis } from "@/components/financing-gap-analysis"
+import { CountryRadarComparison } from "@/components/country-radar-comparison"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -977,10 +978,7 @@ export default function Home() {
             </TabsList>
 
             <TabsContent value="overview" className="space-y-6">
-              <EmptyChartState
-                title="Comparación Regional de Uso de Instrumentos"
-                description="Análisis comparativo del uso de cartas de crédito, seguros de exportación y garantías entre LAC, Asia y otras regiones"
-              />
+              <CountryRadarComparison />
             </TabsContent>
 
             <TabsContent value="barriers" className="space-y-6">

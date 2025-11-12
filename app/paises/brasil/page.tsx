@@ -21,6 +21,7 @@ const NPLAnalysisChart = dynamic(() => import("@/components/brazil/npl-analysis-
 const IndexerDistributionChart = dynamic(() => import("@/components/brazil/indexer-distribution-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 const CurrencyDistributionChart = dynamic(() => import("@/components/brazil/currency-distribution-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 const InequalityAnalysisChart = dynamic(() => import("@/components/brazil/inequality-analysis-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const CrisisTimelineChart = dynamic(() => import("@/components/brazil/crisis-timeline-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 
 export default function BrasilPage() {
   const [activeTab, setActiveTab] = useState("overview")
@@ -357,7 +358,7 @@ export default function BrasilPage() {
               </div>
 
               <div className="space-y-8">
-                <TemporalEvolutionChart />
+                <CrisisTimelineChart />
 
                 <div className="grid md:grid-cols-2 gap-8">
                   <Card className="border-2">
