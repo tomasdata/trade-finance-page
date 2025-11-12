@@ -37,6 +37,7 @@ import { CountryDetailCard } from "@/components/country-detail-card"
 import { GlobalInitiativeCard } from "@/components/global-initiative-card"
 import { LessonCard } from "@/components/lesson-card"
 import { GlobalPreviewCard } from "@/components/global-preview-card"
+import { FinancingGapAnalysis } from "@/components/financing-gap-analysis"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
@@ -1372,8 +1373,21 @@ export default function Home() {
                 </TabsContent>
               </Tabs>
 
+              {/* The Cost of the Gap Section */}
+              <div className="mt-16">
+                <div className="mb-8 text-center">
+                  <Badge className="mb-3 bg-red-600">Análisis de Impacto</Badge>
+                  <h3 className="text-2xl md:text-3xl font-bold mb-2">El Costo de la Brecha</h3>
+                  <p className="text-muted-foreground max-w-3xl mx-auto">
+                    Cuantificando el impacto económico de la exclusión de PYMEs del financiamiento de comercio exterior
+                  </p>
+                </div>
+
+                <FinancingGapAnalysis />
+              </div>
+
               {/* Key Success Factors */}
-              <div>
+              <div className="mt-16">
                 <div className="mb-8 text-center">
                   <Badge className="mb-3 bg-amber-600">Factores Críticos de Éxito</Badge>
                   <h3 className="text-2xl md:text-3xl font-bold mb-2">Lecciones Aprendidas</h3>

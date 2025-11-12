@@ -14,6 +14,7 @@ import { Separator } from "@/components/ui/separator"
 const BankConcentrationChart = dynamic(() => import("@/components/chile/bank-concentration-chart").then(mod => ({ default: mod.BankConcentrationChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 const CurrencyCompositionChart = dynamic(() => import("@/components/chile/currency-composition-chart").then(mod => ({ default: mod.CurrencyCompositionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 const AnnualEvolutionChart = dynamic(() => import("@/components/chile/annual-evolution-chart").then(mod => ({ default: mod.AnnualEvolutionChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const HHIAnalysisChart = dynamic(() => import("@/components/chile/hhi-analysis-chart").then(mod => ({ default: mod.HHIAnalysisChart })), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 
 export default function ChilePage() {
   const [activeTab, setActiveTab] = useState("overview")
@@ -246,12 +247,14 @@ export default function ChilePage() {
                     <Separator />
 
                     <p>
-                      <strong className="text-foreground">Implicación:</strong> La alta concentración puede limitar 
-                      competitividad y acceso. Políticas de fomento deberían considerar líneas de garantía o fondos 
+                      <strong className="text-foreground">Implicación:</strong> La alta concentración puede limitar
+                      competitividad y acceso. Políticas de fomento deberían considerar líneas de garantía o fondos
                       de segundo piso para diversificar oferta.
                     </p>
                   </CardContent>
                 </Card>
+
+                <HHIAnalysisChart />
               </div>
             </TabsContent>
 

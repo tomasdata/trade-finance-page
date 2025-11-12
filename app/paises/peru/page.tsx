@@ -11,6 +11,7 @@ import { Separator } from "@/components/ui/separator"
 import { FirmSizeDistribution } from "@/components/peru/firm-size-distribution"
 import { BankConcentration } from "@/components/peru/bank-concentration"
 import { AnnualEvolution } from "@/components/peru/annual-evolution"
+import { InequalityAnalysisChart } from "@/components/peru/inequality-analysis-chart"
 
 export default function PeruPage() {
   const [activeTab, setActiveTab] = useState("overview")
@@ -226,12 +227,14 @@ export default function PeruPage() {
                     <Separator />
 
                     <p>
-                      <strong className="text-foreground">Recomendación:</strong> Implementar esquemas de garantía 
-                      parcial (ej. 50-70% cubierto por COFIDE o SEACE), líneas de factoring simplificado, y digitalización 
+                      <strong className="text-foreground">Recomendación:</strong> Implementar esquemas de garantía
+                      parcial (ej. 50-70% cubierto por COFIDE o SEACE), líneas de factoring simplificado, y digitalización
                       del proceso de LC para reducir costos operacionales.
                     </p>
                   </CardContent>
                 </Card>
+
+                <InequalityAnalysisChart />
               </div>
             </TabsContent>
 

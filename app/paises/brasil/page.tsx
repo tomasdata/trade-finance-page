@@ -20,6 +20,7 @@ const MaturityStructureChart = dynamic(() => import("@/components/brazil/maturit
 const NPLAnalysisChart = dynamic(() => import("@/components/brazil/npl-analysis-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 const IndexerDistributionChart = dynamic(() => import("@/components/brazil/indexer-distribution-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 const CurrencyDistributionChart = dynamic(() => import("@/components/brazil/currency-distribution-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
+const InequalityAnalysisChart = dynamic(() => import("@/components/brazil/inequality-analysis-chart"), { ssr: false, loading: () => <div className="h-96 flex items-center justify-center">Cargando...</div> })
 
 export default function BrasilPage() {
   const [activeTab, setActiveTab] = useState("overview")
@@ -267,12 +268,14 @@ export default function BrasilPage() {
                     <Separator />
 
                     <p>
-                      <strong className="text-foreground">Implicación Estratégica:</strong> Las políticas de fomento 
-                      al trade finance deben priorizar manufactura y agroindustria, donde Brasil tiene ventajas 
+                      <strong className="text-foreground">Implicación Estratégica:</strong> Las políticas de fomento
+                      al trade finance deben priorizar manufactura y agroindustria, donde Brasil tiene ventajas
                       competitivas. Instrumentos como el BNDES-Exim y PROEX están bien alineados con esta estructura sectorial.
                     </p>
                   </CardContent>
                 </Card>
+
+                <InequalityAnalysisChart />
               </div>
             </TabsContent>
 
